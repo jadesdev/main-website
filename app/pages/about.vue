@@ -493,19 +493,16 @@ function animateCounter(targetRef, finalValue, suffix = '') {
   }, 20);
 }
 
-// onMounted is a lifecycle hook that runs after the component's HTML is on the page
 onMounted(() => {
   const options = {
-    threshold: 0.5 // Trigger when 50% of the element is visible
+    threshold: 0.5
   };
 
   observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      // If the stats container is intersecting and hasn't been animated yet
       if (entry.isIntersecting && !statsContainer.value.classList.contains('animated')) {
-        statsContainer.value.classList.add('animated'); // Mark as animated
+        statsContainer.value.classList.add('animated');
 
-        // Start all animations
         animateCounter(projectsCompleted, 150);
         animateCounter(clientSatisfaction, 98, '%');
         animateCounter(yearsExperience, 5);
@@ -519,8 +516,6 @@ onMounted(() => {
   if (statsContainer.value) {
     observer.observe(statsContainer.value);
   }
-
-
 });
 
 onUnmounted(() => {
