@@ -361,31 +361,3 @@ const contactFaqs = ref([
 ]);
 
 </script>
-<style scoped>
-.success-message {
-  background-color: #10b981;
-}
-
-.error-message {
-  background-color: #ef4444;
-}
-
-.loading-spinner {
-  width: 20px;
-  height: 20px;
-  border: 2px solid #ffffff;
-  border-top: 2px solid transparent;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-</style>
