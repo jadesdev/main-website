@@ -395,3 +395,6 @@ body {
 .error-message {
     background-color: #ef4444;
 }
+button {
+    cursor: pointer;
+}
