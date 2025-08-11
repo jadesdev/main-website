@@ -217,6 +217,27 @@
         </div>
       </div>
     </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="bg-jade-600 rounded-2xl p-10 lg:p-16 text-center text-white relative overflow-hidden">
+          <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-white/10 rounded-full"></div>
+          <div class="absolute -top-10 -left-10 w-32 h-32 bg-white/10 rounded-full"></div>
+          <div class="relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Let's build your next big idea.</h2>
+            <p class="text-lg opacity-90 max-w-2xl mx-auto mb-8">
+              Ready to start? We are. Schedule a free, no-obligation call to discuss your project and see how
+              we can help.
+            </p>
+            <a href="/contact"
+              class="bg-white text-jade-900 hover:bg-gray-100 px-10 py-4 rounded-lg font-bold transition-all shadow-md text-md md:text-lg md:shadow-lg">
+              Book a Discovery Call
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -274,3 +295,43 @@ onUnmounted(() => {
 });
 
 </script>
+
+<style scoped>
+.glow-card {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.glow-card:hover::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 1.1rem;
+  /* slightly larger than card */
+  background: conic-gradient(from 180deg at 50% 50%, #10b981, #34d399, #6ee7b7, #34d399, #10b981);
+  filter: blur(10px);
+  z-index: -1;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section-fade-in {
+  /* opacity: 0; */
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section-fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
