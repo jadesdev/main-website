@@ -33,7 +33,7 @@
           </p>
         </div>
         <div class="grid lg:grid-cols-3 gap-8 mb-16">
-          <ServiceCard v-for="(service, index) in services" :key="service.title" :service="service">
+          <ServiceCard v-for="(service, index) in services" :key="service.title" :service="service" :is-popular="service.isPopular">
             <template #icon>
               <svg v-if="index === 0" class="w-8 h-8 text-jade-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
@@ -186,7 +186,7 @@
             estimate.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact"
+            <NuxtLink to="contact"
               class="bg-white text-jade-900 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all inline-flex items-center">
               <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -194,7 +194,7 @@
                 </path>
               </svg>
               Start Free Consultation
-            </a>
+            </NuxtLink>
             <a href="/portfolio"
               class="border-2 border-white hover:bg-white hover:text-jade-900 text-white px-8 py-4 rounded-full font-semibold transition-all">
               View Our Portfolio
@@ -232,14 +232,15 @@ const services = ref([
     description: 'Beautiful, intuitive interfaces combined with seamless development for the complete package.',
     features: ['User Research & Analysis', 'Wireframes & Prototypes', 'Visual Design & Dev', 'Usability Testing'],
     price: '$3,500',
-    link: '/services/ui-ux-design'
+    link: '/services/ui-ux-design',
+    isPopular: true
   },
   {
     title: 'E-commerce Solutions',
     description: 'Complete online stores with payment processing, inventory management, and analytics integration.',
     features: ['Payment Gateway Integration', 'Inventory Management', 'Order Management', 'Analytics & Reporting'],
     price: '$5,000',
-    link: '/services/ecommerce'
+    link: '/services/ecommerce-solutions'
   }
 ]);
 

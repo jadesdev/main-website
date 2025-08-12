@@ -1,0 +1,608 @@
+{
+  "web-development": {
+    "title": "Custom Web Development",
+    "slug": "web-development",
+    "description": "Transform your business with professional, custom-built websites that drive results. We create responsive, fast, and secure web solutions tailored to your unique needs.",
+    "heroTitle": "Custom",
+    "heroHighlight": "Web Development",
+    "heroDescription": "Transform your business with professional, custom-built websites that drive results. We create responsive, fast, and secure web solutions tailored to your unique needs.",
+    "keyBenefits": [
+      "100% Custom Design",
+      "Mobile Responsive",
+      "SEO Optimized",
+      "Fast Loading"
+    ],
+    "heroIcon": "code-bracket",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "Web Development",
+    "overviewDescription": "We combine cutting-edge technology with proven development practices to deliver websites that not only look amazing but perform exceptionally.",
+    "features": [
+      {
+        "icon": "device-phone-mobile",
+        "title": "Responsive Design",
+        "description": "Your website will look perfect on all devices - desktop, tablet, and mobile."
+      },
+      {
+        "icon": "bolt",
+        "title": "Lightning Fast",
+        "description": "Optimized for speed with loading times under 3 seconds guaranteed."
+      },
+      {
+        "icon": "shield-check",
+        "title": "Secure & Reliable",
+        "description": "Built with security best practices and reliable hosting solutions."
+      },
+      {
+        "icon": "magnifying-glass",
+        "title": "SEO Optimized",
+        "description": "Built for search engines to help you rank higher and attract more visitors."
+      },
+      {
+        "icon": "heart",
+        "title": "User-Centered Design",
+        "description": "Designed with your users in mind for maximum engagement and conversions."
+      },
+      {
+        "icon": "lifebuoy",
+        "title": "Ongoing Support",
+        "description": "We're here to help with updates, maintenance, and technical support."
+      }
+    ],
+    "technologiesTitle": "Technologies We",
+    "technologiesHighlight": "Master",
+    "technologiesDescription": "We use cutting-edge technologies and frameworks to build modern, scalable websites.",
+    "technologies": [
+      "HTML5 & CSS3",
+      "JavaScript ES6+",
+      "React.js",
+      "Vue.js",
+      "Next.js",
+      "Node.js",
+      "PHP",
+      "Python",
+      "MySQL",
+      "MongoDB"
+    ],
+    "processTitle": "Our Development",
+    "processHighlight": "Process",
+    "processDescription": "We follow a proven methodology to ensure your project is delivered on time and exceeds expectations.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Discovery & Planning",
+        "description": "We start by understanding your business goals, target audience, and project requirements. This phase includes competitor analysis, user research, and technical planning.",
+        "tags": [
+          "Requirements Gathering",
+          "User Research",
+          "Technical Planning"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "Design & Prototyping",
+        "description": "Our designers create wireframes and high-fidelity mockups that bring your vision to life. We iterate based on your feedback to perfect the design.",
+        "tags": ["Wireframing", "UI Design", "Prototyping"]
+      },
+      {
+        "step": 3,
+        "title": "Development & Integration",
+        "description": "Our developers build your website using modern technologies and best practices. We integrate all necessary features and ensure cross-browser compatibility.",
+        "tags": [
+          "Frontend Development",
+          "Backend Integration",
+          "Quality Assurance"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Testing & Launch",
+        "description": "We thoroughly test your website across devices and browsers, optimize for performance, and ensure everything works perfectly before launch.",
+        "tags": ["Cross-browser Testing", "Performance Optimization", "Go Live"]
+      }
+    ],
+    "packagesTitle": "Web Development",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Choose the perfect package for your needs. All packages include responsive design, SEO optimization, and 3 months of support.",
+    "packages": [
+      {
+        "name": "Starter Website",
+        "description": "Perfect for small businesses and personal brands",
+        "price": "$2,500",
+        "features": [
+          "Up to 5 pages",
+          "Responsive design",
+          "Basic SEO setup",
+          "Contact form integration",
+          "3 months support",
+          "2-3 weeks delivery"
+        ],
+        "contactParam": "starter",
+        "popular": false
+      },
+      {
+        "name": "Professional Website",
+        "description": "Ideal for growing businesses and e-commerce",
+        "price": "$5,500",
+        "features": [
+          "Up to 15 pages",
+          "Custom design & development",
+          "Content Management System",
+          "Advanced SEO optimization",
+          "Analytics integration",
+          "6 months support",
+          "4-6 weeks delivery"
+        ],
+        "contactParam": "professional",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Solution",
+        "description": "For large businesses and complex applications",
+        "price": "$12,000+",
+        "features": [
+          "Unlimited pages",
+          "Custom web application",
+          "Database integration",
+          "API development",
+          "Advanced security features",
+          "12 months support",
+          "8-12 weeks delivery"
+        ],
+        "contactParam": "enterprise",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "Recent",
+    "projectsHighlight": "Projects",
+    "projectsDescription": "See how we've helped businesses like yours succeed with custom web development.",
+    "featuredProjects": [
+      {
+        "image": "/images/project1.png",
+        "title": "Corporate Website Redesign",
+        "projectName": "TechCorp Website",
+        "description": "Complete redesign and development of a corporate website with CMS integration and improved user experience.",
+        "technologies": ["React", "Node.js"],
+        "link": "/portfolio/techcorp",
+        "gradient": "from-blue-400 to-blue-600",
+        "demoLink": "https://jadesdev.com.demo"
+      },
+      {
+        "title": "SaaS Platform Development",
+        "projectName": "StartupXYZ Platform",
+        "description": "Full-stack development of a SaaS platform with user management, billing integration, and real-time features.",
+        "technologies": ["Vue.js", "Python"],
+        "link": "/portfolio/startupxyz",
+        "gradient": "from-purple-400 to-purple-600"
+      }
+    ],
+    "faqTitle": "Frequently Asked",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our web development services.",
+    "faqs": [
+      {
+        "open": false,
+        "question": "What's included in the web development service?",
+        "answer": "Our web development service includes custom design, responsive development, SEO optimization, testing, deployment, and ongoing support. We also provide training on how to manage your website."
+      },
+      {
+        "open": false,
+        "question": "How long does web development take?",
+        "answer": "Timeline depends on the complexity of your project. Simple websites take 2-4 weeks, while complex web applications can take 8-16 weeks. We provide detailed timelines during our consultation."
+      },
+      {
+        "open": false,
+        "question": "Do I own the website after it's built?",
+        "answer": "Yes! You own all rights to your website including the code, design, and content. We provide you with all source files and documentation upon project completion."
+      },
+      {
+        "open": false,
+        "question": "Can you work with my existing hosting?",
+        "answer": "Absolutely! We can work with any hosting provider. We can also recommend optimal hosting solutions based on your requirements and help with migration if needed."
+      }
+    ],
+    "ctaTitle": "Ready to Build Your Website?",
+    "ctaDescription": "Let's discuss your project and create a website that drives real results for your business.",
+    "ctaButton": "Get Free Consultation",
+    "ctaPhone": "Call (555) 123-4567"
+  },
+
+  "ecommerce-solutions": {
+    "title": "E-commerce Development Solutions",
+    "slug": "ecommerce-solutions",
+    "description": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we've got you covered.",
+    "heroTitle": "E-commerce",
+    "heroHighlight": "Solutions",
+    "heroDescription": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we create complete digital storefronts.",
+    "keyBenefits": [
+      "Secure Payments",
+      "Inventory Management",
+      "Mobile Optimized",
+      "Analytics Ready"
+    ],
+    "heroIcon": "shopping-bag",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "E-commerce Solutions",
+    "overviewDescription": "We build e-commerce platforms that not only look great but are optimized for conversions, security, and scalability.",
+    "features": [
+      {
+        "icon": "shopping-cart",
+        "title": "Shopping Cart & Checkout",
+        "description": "Smooth, secure checkout process optimized for conversion and user experience."
+      },
+      {
+        "icon": "credit-card",
+        "title": "Payment Processing",
+        "description": "Secure payment integration with multiple gateways and cryptocurrency support."
+      },
+      {
+        "icon": "archive-box",
+        "title": "Inventory Management",
+        "description": "Advanced inventory tracking, stock alerts, and automated reordering features."
+      },
+      {
+        "icon": "chart-bar",
+        "title": "Analytics & Reporting",
+        "description": "Comprehensive sales analytics, customer insights, and performance metrics."
+      },
+      {
+        "icon": "device-phone-mobile",
+        "title": "Mobile Commerce",
+        "description": "Fully responsive design optimized for mobile shopping and mobile payments."
+      },
+      {
+        "icon": "magnifying-glass",
+        "title": "SEO & Marketing Tools",
+        "description": "Built-in SEO optimization and marketing tools to drive traffic and sales."
+      }
+    ],
+    "technologiesTitle": "E-commerce",
+    "technologiesHighlight": "Technologies",
+    "technologiesDescription": "We use proven e-commerce platforms and modern technologies to build scalable online stores.",
+    "technologies": [
+      "Shopify",
+      "WooCommerce",
+      "Magento",
+      "React",
+      "Next.js",
+      "Stripe",
+      "PayPal",
+      "Square",
+      "AWS",
+      "Node.js"
+    ],
+    "processTitle": "Our E-commerce",
+    "processHighlight": "Process",
+    "processDescription": "From concept to launch, we follow a systematic approach to build successful online stores.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Business Analysis",
+        "description": "We analyze your business model, target market, and competition to develop the optimal e-commerce strategy and platform selection.",
+        "tags": ["Market Research", "Platform Selection", "Strategy Planning"]
+      },
+      {
+        "step": 2,
+        "title": "Store Design & UX",
+        "description": "We design user-friendly interfaces focused on conversion optimization, with attention to product display and checkout flow.",
+        "tags": ["Store Design", "UX Optimization", "Conversion Focus"]
+      },
+      {
+        "step": 3,
+        "title": "Development & Integration",
+        "description": "We build your store with secure payment processing, inventory management, and integrate with your existing business systems.",
+        "tags": [
+          "E-commerce Development",
+          "Payment Integration",
+          "System Integration"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Testing & Launch",
+        "description": "Thorough testing of all store functions, payment processing, and performance optimization before going live.",
+        "tags": ["Quality Testing", "Performance Optimization", "Store Launch"]
+      }
+    ],
+    "packagesTitle": "E-commerce",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Complete e-commerce solutions from simple online stores to complex multi-vendor platforms.",
+    "packages": [
+      {
+        "name": "Starter Store",
+        "description": "Perfect for small businesses starting online",
+        "price": "$3,500",
+        "features": [
+          "Up to 50 products",
+          "Basic payment integration",
+          "Inventory management",
+          "Mobile responsive design",
+          "SEO optimization",
+          "3 months support",
+          "3-4 weeks delivery"
+        ],
+        "contactParam": "starter-store",
+        "popular": false
+      },
+      {
+        "name": "Professional Store",
+        "description": "Advanced features for growing businesses",
+        "price": "$7,500",
+        "features": [
+          "Unlimited products",
+          "Multiple payment gateways",
+          "Advanced inventory management",
+          "Customer accounts & wishlist",
+          "Email marketing integration",
+          "Analytics & reporting",
+          "6 months support",
+          "5-7 weeks delivery"
+        ],
+        "contactParam": "professional-store",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Platform",
+        "description": "Complex multi-vendor and B2B solutions",
+        "price": "$15,000+",
+        "features": [
+          "Multi-vendor marketplace",
+          "B2B wholesale features",
+          "Custom integrations",
+          "Advanced reporting",
+          "Multi-currency support",
+          "Custom development",
+          "12 months support",
+          "10-14 weeks delivery"
+        ],
+        "contactParam": "enterprise-store",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "E-commerce",
+    "projectsHighlight": "Success Stories",
+    "projectsDescription": "See how we've helped businesses increase online sales with powerful e-commerce solutions.",
+    "featuredProjects": [
+      {
+        "title": "Fashion E-commerce Store",
+        "projectName": "StyleHub Online",
+        "description": "Complete e-commerce solution for fashion retailer resulting in 200% increase in online sales and improved customer experience.",
+        "technologies": ["Shopify", "React"],
+        "link": "/portfolio/stylehub",
+        "gradient": "from-pink-400 to-pink-600"
+      },
+      {
+        "title": "B2B Wholesale Platform",
+        "projectName": "TradeConnect Platform",
+        "description": "Custom B2B e-commerce platform with advanced pricing, bulk ordering, and integration with existing ERP systems.",
+        "technologies": ["Magento", "PHP"],
+        "link": "/portfolio/tradeconnect",
+        "gradient": "from-orange-400 to-orange-600"
+      }
+    ],
+    "faqTitle": "E-commerce",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our e-commerce development services.",
+    "faqs": [
+      {
+        "question": "Which e-commerce platform is best for my business?",
+        "answer": "The best platform depends on your business size, budget, and requirements. We typically recommend Shopify for most businesses, WooCommerce for WordPress users, and Magento for large enterprises. We'll help you choose the right platform during consultation.",
+        "open": false
+      },
+      {
+        "question": "Can you migrate my existing store to a new platform?",
+        "answer": "Yes! We specialize in e-commerce migrations. We can transfer your products, customers, orders, and design to a new platform with minimal downtime and no data loss.",
+        "open": false
+      },
+      {
+        "question": "Do you provide payment gateway integration?",
+        "answer": "Absolutely! We integrate with all major payment gateways including Stripe, PayPal, Square, and many others. We also support cryptocurrency payments and buy-now-pay-later options.",
+        "open": false
+      },
+      {
+        "question": "Will my store be mobile-friendly?",
+        "answer": "Yes, all our e-commerce stores are fully responsive and optimized for mobile devices. With over 50% of e-commerce traffic coming from mobile, this is a critical feature we always include.",
+        "open": false
+      }
+    ],
+    "ctaTitle": "Ready to Launch Your Online Store?",
+    "ctaDescription": "Let's build an e-commerce solution that drives sales and grows your business online.",
+    "ctaButton": "Start E-commerce Project",
+    "ctaPhone": "Call (555) 123-4567"
+  },
+  "ui-ux-design": {
+    "title": "UI/UX Design & Development",
+    "slug": "ui-ux-design",
+    "description": "Create stunning user experiences with our comprehensive UI/UX design and development services. We combine beautiful interfaces with seamless functionality.",
+    "heroTitle": "UI/UX Design &",
+    "heroHighlight": "Development",
+    "heroDescription": "Create stunning user experiences with our comprehensive UI/UX design and development services. We combine beautiful interfaces with seamless functionality for maximum user engagement.",
+    "keyBenefits": [
+      "User-Centered Design",
+      "Interactive Prototypes",
+      "Conversion Optimized",
+      "Modern Aesthetics"
+    ],
+    "heroIcon": "code-bracket-solid",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "UI/UX Design",
+    "overviewDescription": "We create digital experiences that users love and businesses benefit from. Our design process is data-driven and user-focused.",
+    "features": [
+      {
+        "icon": "users",
+        "title": "User Research",
+        "description": "We conduct thorough user research to understand your audience and their needs."
+      },
+      {
+        "icon": "squares-2x2",
+        "title": "Wireframing & Prototyping",
+        "description": "Interactive prototypes that bring your ideas to life before development."
+      },
+      {
+        "icon": "paint-brush",
+        "title": "Visual Design",
+        "description": "Beautiful, modern designs that align with your brand and engage users."
+      },
+      {
+        "icon": "chart-bar",
+        "title": "Usability Testing",
+        "description": "We test designs with real users to ensure optimal usability and conversion."
+      },
+      {
+        "icon": "bolt",
+        "title": "Performance Focused",
+        "description": "Designs optimized for fast loading and smooth interactions."
+      },
+      {
+        "icon": "adjustments-horizontal",
+        "title": "Conversion Optimization",
+        "description": "Every design element is crafted to drive user action and business results."
+      }
+    ],
+    "technologiesTitle": "Design & Development",
+    "technologiesHighlight": "Tools",
+    "technologiesDescription": "We use industry-leading design tools and development frameworks to bring your vision to life.",
+    "technologies": [
+      "Figma",
+      "Adobe XD",
+      "Sketch",
+      "React",
+      "Vue.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "GSAP",
+      "TypeScript",
+      "Storybook"
+    ],
+    "processTitle": "Our Design",
+    "processHighlight": "Process",
+    "processDescription": "Our proven design process ensures we create user experiences that drive engagement and conversions.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Research & Discovery",
+        "description": "We analyze your users, competitors, and business goals to inform our design strategy. This includes user interviews, surveys, and market analysis.",
+        "tags": ["User Research", "Competitor Analysis", "Business Goals"]
+      },
+      {
+        "step": 2,
+        "title": "Information Architecture",
+        "description": "We organize and structure your content and features in a logical, user-friendly way through sitemaps and user flows.",
+        "tags": ["Sitemaps", "User Flows", "Content Strategy"]
+      },
+      {
+        "step": 3,
+        "title": "Design & Prototyping",
+        "description": "We create wireframes, mockups, and interactive prototypes that visualize the final product and test usability.",
+        "tags": ["Wireframes", "Visual Design", "Interactive Prototypes"]
+      },
+      {
+        "step": 4,
+        "title": "Development & Testing",
+        "description": "We build the design with clean, responsive code and conduct usability testing to ensure optimal user experience.",
+        "tags": ["Frontend Development", "Usability Testing", "Launch"]
+      }
+    ],
+    "packagesTitle": "UI/UX Design",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Complete design and development packages tailored to your project needs and budget.",
+    "packages": [
+      {
+        "name": "Design Consultation",
+        "description": "UX audit and design recommendations",
+        "price": "$1,500",
+        "features": [
+          "UX audit & analysis",
+          "Design recommendations",
+          "User journey mapping",
+          "Competitor analysis",
+          "Design system basics",
+          "2 weeks delivery"
+        ],
+        "contactParam": "consultation",
+        "popular": false
+      },
+      {
+        "name": "Complete Design & Development",
+        "description": "Full UI/UX design with development",
+        "price": "$4,500",
+        "features": [
+          "Complete UI/UX design",
+          "Interactive prototypes",
+          "Responsive development",
+          "Usability testing",
+          "Design system creation",
+          "6 months support",
+          "6-8 weeks delivery"
+        ],
+        "contactParam": "complete",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Design System",
+        "description": "Comprehensive design system & implementation",
+        "price": "$8,000+",
+        "features": [
+          "Complete design system",
+          "Component library",
+          "Style guide documentation",
+          "Multiple platform designs",
+          "Team training & handoff",
+          "12 months support",
+          "10-12 weeks delivery"
+        ],
+        "contactParam": "enterprise-design",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "Design",
+    "projectsHighlight": "Showcase",
+    "projectsDescription": "See how our UI/UX design expertise has transformed businesses and user experiences.",
+    "featuredProjects": [
+      {
+        "title": "E-commerce Platform Redesign",
+        "projectName": "ShopFlow Platform",
+        "description": "Complete redesign of an e-commerce platform resulting in 40% increase in conversion rates and improved user satisfaction.",
+        "technologies": ["Figma", "React"],
+        "link": "/portfolio/shopflow",
+        "gradient": "from-green-400 to-green-600"
+      },
+      {
+        "title": "Mobile App Design",
+        "projectName": "FinTech Mobile App",
+        "description": "User-centered design for a fintech mobile app with focus on security, usability, and modern aesthetics.",
+        "technologies": ["Sketch", "Flutter"],
+        "link": "/portfolio/fintech-app",
+        "gradient": "from-indigo-400 to-indigo-600"
+      }
+    ],
+    "faqTitle": "Design",
+    "faqHighlight": "FAQs",
+    "faqDescription": "Common questions about our UI/UX design and development services.",
+    "faqs": [
+      {
+        "open": false,
+        "question": "What's the difference between UI and UX design?",
+        "answer": "UX (User Experience) focuses on the overall feel and usability of the product, while UI (User Interface) focuses on the visual design and interactive elements. We provide both services integrated for the best results."
+      },
+      {
+        "open": false,
+        "question": "Do you provide design files and assets?",
+        "answer": "Yes! You receive all design files, assets, and documentation. We provide Figma files, exported assets, style guides, and component documentation."
+      },
+      {
+        "open": false,
+        "question": "Can you redesign my existing website or app?",
+        "answer": "Absolutely! We specialize in redesigning existing products to improve user experience, increase conversions, and modernize the visual design."
+      },
+      {
+        "open": false,
+        "question": "Do you conduct user testing?",
+        "answer": "Yes, usability testing is a key part of our process. We test designs with real users to identify issues and optimize for better user experience and conversion rates."
+      }
+    ],
+    "ctaTitle": "Ready to Improve Your User Experience?",
+    "ctaDescription": "Let's create a design that your users will love and that drives real business results.",
+    "ctaButton": "Start Design Project",
+    "ctaPhone": "Call (555) 123-4567"
+  }
+}
