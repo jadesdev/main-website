@@ -6,7 +6,8 @@ body {
 }
 
 .gradient-bg {
-    background: linear-gradient(135deg, #064e3b 0%, #047857 50%, #10b981 100%);
+    /* Uses the new blue variables */
+    background: linear-gradient(135deg, var(--color-jade-900) 0%, var(--color-jade-700) 50%, var(--color-jade-400) 100%);
 }
 
 .process-step {
@@ -30,7 +31,8 @@ body {
 }
 
 .featured-service {
-    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    /* Uses the new blue variables */
+    background: linear-gradient(135deg, var(--color-jade-400) 0%, var(--color-jade-600) 100%);
 }
 
 @keyframes fadeInUp {
@@ -84,7 +86,8 @@ body {
 
 .typing-animation {
     overflow: hidden;
-    border-right: 3px solid #10b981;
+    /* Uses the new blue variable */
+    border-right: 3px solid var(--color-jade-400);
     white-space: nowrap;
     animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -107,7 +110,8 @@ body {
     }
 
     50% {
-        border-color: #10b981;
+        /* Uses the new blue variable */
+        border-color: var(--color-jade-400);
     }
 }
 
@@ -121,7 +125,8 @@ body {
 .service-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
-    border-color: #10b981;
+    /* Uses the new blue variable */
+    border-color: var(--color-jade-400);
 }
 
 .feature-card {
@@ -139,7 +144,8 @@ body {
 
 .tech-badge:hover {
     transform: scale(1.05);
-    background-color: #10b981;
+    /* Uses the new blue variable */
+    background-color: var(--color-jade-400);
     color: white;
 }
 
@@ -180,7 +186,8 @@ body {
 .stat-counter {
     font-size: 3rem;
     font-weight: 700;
-    color: #10b981;
+    /* Uses the new blue variable */
+    color: var(--color-jade-400);
 }
 
 .timeline-item {
@@ -200,8 +207,10 @@ body {
 }
 
 .value-card:hover {
-    border-color: #10b981;
-    box-shadow: 0 10px 30px -5px rgba(16, 185, 129, 0.2);
+    /* Uses the new blue variable */
+    border-color: var(--color-jade-400);
+    /* Updated RGBA to match the new blue */
+    box-shadow: 0 10px 30px -5px rgba(84, 182, 228, 0.2);
 }
 
 
@@ -216,7 +225,8 @@ body {
 .portfolio-card:hover {
     transform: translateY(-12px);
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    border-color: #10b981;
+    /* Uses the new blue variable */
+    border-color: var(--color-jade-400);
 }
 
 .portfolio-card .overlay {
@@ -225,7 +235,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(16, 185, 129, 0.9), rgba(53, 146, 117, 0.9));
+    /* Updated RGBA values for the new blue gradient */
+    background: linear-gradient(135deg, rgba(84, 182, 228, 0.9), rgba(45, 122, 185, 0.9));
     opacity: 0;
     transition: all 0.4s ease;
     display: flex;
@@ -243,7 +254,8 @@ body {
 }
 
 .filter-btn.active {
-    background: #10b981;
+    /* Uses the new blue variable */
+    background: var(--color-jade-400);
     color: white;
     transform: translateY(-2px);
 }
@@ -289,8 +301,10 @@ body {
 
 .contact-card:hover {
     transform: translateY(-5px);
-    border-color: #10b981;
-    box-shadow: 0 20px 40px -10px rgba(16, 185, 129, 0.2);
+    /* Uses the new blue variable */
+    border-color: var(--color-jade-400);
+    /* Updated RGBA to match the new blue */
+    box-shadow: 0 20px 40px -10px rgba(84, 182, 228, 0.2);
 }
 
 .form-input {
@@ -299,8 +313,10 @@ body {
 }
 
 .form-input:focus {
-    border-color: #10b981;
-    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+    /* Uses the new blue variable */
+    border-color: var(--color-jade-400);
+    /* Updated RGBA to match the new blue */
+    box-shadow: 0 0 0 3px rgba(84, 182, 228, 0.1);
     outline: none;
 }
 
@@ -354,7 +370,8 @@ body {
 }
 
 .map-container {
-    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    /* Uses the new blue variables */
+    background: linear-gradient(135deg, var(--color-jade-400) 0%, var(--color-jade-600) 100%);
     border-radius: 1rem;
     padding: 2rem;
     color: white;
@@ -390,11 +407,13 @@ body {
 }
 
 .success-message {
-    background-color: #10b981;
+    /* Uses the new blue variable */
+    background-color: var(--color-jade-400);
 }
 
 .error-message {
     background-color: #ef4444;
+    /* Error red is universal, kept as is */
 }
 
 button {
@@ -412,21 +431,14 @@ button {
     inset: -1px;
     border-radius: 1.1rem;
     /* slightly larger than card */
-    background: conic-gradient(from 180deg at 50% 50%, #10b981, #34d399, #6ee7b7, #34d399, #10b981);
+    /* Uses the new blue variables */
+    background: conic-gradient(from 180deg at 50% 50%, var(--color-jade-400), var(--color-jade-300), var(--color-jade-200), var(--color-jade-300), var(--color-jade-400));
     filter: blur(10px);
     z-index: -1;
     animation: spin 3s linear infinite;
 }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
+/* @keyframes spin is already defined above, no need to repeat */
 
 .section-fade-in {
     /* opacity: 0; */
@@ -440,21 +452,12 @@ button {
 }
 
 .hero-bg-pattern {
-    background-image: radial-gradient(#064e3b 1px, transparent 1px);
+    /* Uses the new blue variable */
+    background-image: radial-gradient(var(--color-jade-900) 1px, transparent 1px);
     background-size: 20px 20px;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+/* @keyframes fadeIn is already defined above, no need to repeat */
 
 .faq-answer {
     animation: fadeIn 0.3s ease-in-out;

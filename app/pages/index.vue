@@ -25,7 +25,7 @@
             </div>
           </div>
           <div class="relative hidden lg:block">
-            <img src="https://placehold.co/800x600/059669/FFFFFF?text=Project+Mockup" alt="Modern web application dashboard mockup"
+            <img src="https://placehold.co/800x600/3c9cd5/FFFFFF?text=Random+Image" alt="Modern web application dashboard mockup"
               class="rounded-2xl shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
             <div class="absolute -bottom-8 -left-8 bg-white p-4 rounded-2xl shadow-2xl">
               <div class="flex items-center">
@@ -230,10 +230,10 @@
               Ready to start? We are. Schedule a free, no-obligation call to discuss your project and see how
               we can help.
             </p>
-            <a href="/contact"
+            <NuxtLink to="/contact"
               class="bg-white text-jade-900 hover:bg-gray-100 px-10 py-4 rounded-lg font-bold transition-all shadow-md text-md md:text-lg md:shadow-lg">
               Book a Discovery Call
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>

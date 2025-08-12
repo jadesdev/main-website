@@ -3,21 +3,28 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    --color-jade-50: #f0fdfa;
-    --color-jade-100: #ccfbf1;
-    --color-jade-200: #bbf7d0;
-    --color-jade-300: #86efac;
-    --color-jade-400: #4ade80;
-    --color-jade-500: #10b981;
-    --color-jade-600: #059669;
-    --color-jade-700: #047857;
-    --color-jade-800: #166534;
-    --color-jade-900: #064e3b;
+    --color-jade-50: #f2faff;
+    --color-jade-100: #e0f4ff;
+    --color-jade-200: #b9e5ff;
+    --color-jade-300: #85d0ff;
+    --color-jade-400: #49b6ff;
+    --color-jade-500: #1f9aff;
+    --color-jade-600: #0a7cd4;
+    --color-jade-700: #0965aa;
+    --color-jade-800: #084f85;
+    --color-jade-900: #063d66;
+
     --color-jade: var(--color-jade-500);
-    
+
     --animation-marquee: marquee 30s linear infinite;
 }
+
 @keyframes marquee {
-    from { transform: 'translateX(0%)'; }
-    to { transform: 'translateX(-100%)'; }
+    from {
+        transform: 'translateX(0%)';
+    }
+
+    to {
+        transform: 'translateX(-100%)';
+    }
 }
