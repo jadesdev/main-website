@@ -1,0 +1,42 @@
+{
+  "contactFaqs": [
+    {
+      "question": "How quickly can you start my project?",
+      "answer": "Most projects can begin within 1-2 weeks of signing the contract. Rush projects may be accommodated based on our current workload and project complexity.",
+      "open": false
+    },
+    {
+      "question": "Do you offer payment plans?",
+      "answer": "Yes! We offer flexible payment plans typically split into 50% upfront and 50% upon completion. For larger projects, we can arrange milestone-based payments.",
+      "open": false
+    },
+    {
+      "question": "Will I own the code and design?",
+      "answer": "Absolutely! Upon final payment, you receive full ownership of all code, designs, and assets created for your project. We also provide complete documentation.",
+      "open": false
+    },
+    {
+      "question": "What if I need changes after launch?",
+      "answer": "We provide 30 days of free minor adjustments after launch. For larger changes or ongoing support, we offer maintenance packages starting at $200/month.",
+      "open": false
+    }
+  ],
+  "services": [
+    {
+      "question": "How long does a typical web development project take?",
+      "answer": "Project timelines vary based on complexity. A simple website typically takes 2-4 weeks, while complex web applications can take 8-16 weeks."
+    },
+    {
+      "question": "Do you provide ongoing maintenance and support?",
+      "answer": "Yes! We offer comprehensive maintenance packages that include security updates, performance monitoring, content updates, and technical support."
+    },
+    {
+      "question": "Can you work with our existing hosting provider?",
+      "answer": "Absolutely! We can work with any hosting provider and can also recommend optimal solutions."
+    },
+    {
+      "question": "What technologies do you use for development?",
+      "answer": "We use modern technologies including React, Vue.js, Next.js, and Node.js. We select the best technology stack for your specific project requirements."
+    }
+  ]
+}

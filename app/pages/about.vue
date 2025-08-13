@@ -5,7 +5,7 @@
       <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto text-center text-white">
           <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-up">
-            About <span class="text-jade-500">JadesDev</span>
+            About <span class="text-jade-500">{{SITE_NAME}}</span>
           </h1>
           <p class="text-xl md:text-2xl mb-8 opacity-90 animate-fade-up" style="animation-delay: 0.2s">
             We're passionate developers and designers committed to creating exceptional digital experiences that
@@ -29,7 +29,7 @@
               <h2 class="text-4xl font-bold mb-6 text-gray-800">Our <span class="text-jade-600">Story</span>
               </h2>
               <p class="text-lg text-gray-600 mb-6">
-                Founded in 2020, JadesDev emerged from a simple belief: every business deserves a powerful
+                Founded in 2020, {{SITE_NAME}} emerged from a simple belief: every business deserves a powerful
                 digital presence that reflects their unique value and drives real results.
               </p>
               <p class="text-lg text-gray-600 mb-6">
@@ -201,7 +201,7 @@
         <div class="text-center mb-16">
           <h2 class="text-4xl font-bold mb-4 text-gray-800">Our <span class="text-jade-600">Journey</span></h2>
           <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-            Key milestones that have shaped JadesDev into the company we are today.
+            Key milestones that have shaped {{SITE_NAME}} into the company we are today.
           </p>
         </div>
 
@@ -215,7 +215,7 @@
               </div>
               <div class="ml-6 bg-white p-6 rounded-xl shadow-md flex-1">
                 <h3 class="text-xl font-bold mb-2 text-gray-800">Company Founded</h3>
-                <p class="text-gray-600">JadesDev was established with a mission to help businesses succeed
+                <p class="text-gray-600">{{SITE_NAME}} was established with a mission to help businesses succeed
                   online through exceptional web development services.</p>
               </div>
             </div>
@@ -293,7 +293,7 @@
     <section class="py-20">
       <div class="container mx-auto px-6">
         <div class="text-center mb-16">
-          <h2 class="text-4xl font-bold mb-4 text-gray-800">Why Choose <span class="text-jade-600">JadesDev</span>
+          <h2 class="text-4xl font-bold mb-4 text-gray-800">Why Choose <span class="text-jade-600">{{SITE_NAME}}</span>
           </h2>
           <p class="text-xl text-gray-600 max-w-2xl mx-auto">
             We're more than just developers – we're your partners in digital success.
@@ -437,19 +437,15 @@
             Let's discuss your project and discover how our team can help bring your vision to life.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact"
+            <NuxtLink to="/contact"
               class="bg-white text-jade-900 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all inline-flex items-center justify-center">
-              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
-                </path>
-              </svg>
+              <Icon name=""></Icon>
               Get In Touch
-            </a>
-            <a href="/services"
+            </NuxtLink>
+            <NuxtLink to="/services"
               class="border-2 border-white hover:bg-white hover:text-jade-900 text-white px-8 py-4 rounded-full font-semibold transition-all">
               View Our Services
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -459,14 +455,16 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import { SITE_URL, SITE_NAME } from '~/constants/site';
 
+const route = useRoute()
 // --- SEO Metadata ---
 useSeoMeta({
-  title: 'About Us | JadesDev - Our Story, Values, and Team',
-  description: 'Learn about JadesDev, a passionate team of developers and designers committed to creating exceptional digital experiences that drive your business forward.',
-  ogTitle: 'About JadesDev | Our Story, Values, and Team',
-  ogDescription: 'Meet the team behind JadesDev and discover our commitment to innovation, collaboration, and quality in web development.',
-  ogUrl: 'https://jadesdev.com/about',
+  title: `About Us | ${SITE_NAME} - Our Story, Values, and Team`,
+  description: `Learn about ${SITE_NAME}, a passionate team of developers and designers committed to creating exceptional digital experiences that drive your business forward.`,
+  ogTitle: `About ${SITE_NAME} | Our Story, Values, and Team`,
+  ogDescription: `Meet the team behind ${SITE_NAME} and discover our commitment to innovation, collaboration, and quality in web development.`,
+  ogUrl: `${SITE_URL}${route.fullPath}`
 });
 
 // --- Stat Counter Logic ---

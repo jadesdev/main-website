@@ -21,7 +21,11 @@ defineProps({
         <div class="border-t pt-6">
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
                 <div class="order-1 sm:order-2 flex text-yellow-400 mb-2 sm:mb-0">
-                    ⭐⭐⭐⭐⭐
+                    <Icon name="tabler:star-filled" class="text-yellow-400 text-lg"></Icon>
+                    <Icon name="tabler:star-filled" class="text-yellow-400 text-lg"></Icon>
+                    <Icon name="tabler:star-filled" class="text-yellow-400 text-lg"></Icon>
+                    <Icon name="tabler:star-filled" class="text-yellow-400 text-lg"></Icon>
+                    <Icon name="tabler:star-filled" class="text-yellow-400 text-lg"></Icon>
                 </div>
                 <div class="order-2 sm:order-1 flex items-center">
                     <div class="w-12 h-12 bg-jade-500 rounded-full flex items-center justify-center text-white font-bold mr-4">

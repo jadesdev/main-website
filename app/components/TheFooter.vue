@@ -4,14 +4,14 @@
       <div class="grid md:grid-cols-4 gap-8">
         <!-- Brand Section -->
         <div>
-          <div class="text-2xl font-bold mb-4">
-            Jades<span class="text-jade-500">Dev</span>
+          <div class="text-2xl font-bold mb-2">
+            <img src="/logo.png" class="h-18" alt="">
           </div>
           <p class="text-gray-400 mb-4">
             Creating exceptional web experiences that drive business growth and user engagement.
           </p>
           <div class="flex space-x-4">
-            <a v-for="social in socialLinks" :key="social.name" :href="social.url" class="text-gray-400 hover:text-jade-500 transition-colors"
+            <a v-for="social in SOCIAL_LINKS" :key="social.name" :href="social.url" class="text-gray-400 hover:text-jade-500 transition-colors"
               :aria-label="social.name" target="_blank" rel="noopener noreferrer">
               <Icon :name="social.icon" class="w-6 h-6" />
             </a>
@@ -46,7 +46,7 @@
         <div>
           <h3 class="text-lg font-semibold mb-4">Contact</h3>
           <ul class="space-y-2 text-gray-400">
-            <li v-for="contact in contactInfo" :key="contact">
+            <li v-for="contact in FOOTER_CONTACT" :key="contact">
               {{ contact }}
             </li>
           </ul>
@@ -54,7 +54,7 @@
       </div>
 
       <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-        <p>&copy; {{ currentYear }} JadesDev. All rights reserved.</p>
+        <p>&copy; {{ currentYear }} {{ SITE_NAME }}. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -62,34 +62,11 @@
 
 <script setup>
 import { computed } from 'vue'
+import { SITE_NAME, FOOTER_CONTACT, SOCIAL_LINKS } from '~/constants/site'
 
-// Current year for copyright
 const currentYear = computed(() => new Date().getFullYear())
 
-// Social media links data
-const socialLinks = [
-  {
-    name: 'Facebook',
-    url: '#',
-    icon: 'simple-icons:facebook'
-  },
-  {
-    name: 'Twitter',
-    url: '#',
-    icon: 'simple-icons:twitter'
-  },
-  {
-    name: 'Instagram',
-    url: '#',
-    icon: 'simple-icons:instagram'
-  },
-  {
-    name: 'LinkedIn',
-    url: '#',
-    icon: 'simple-icons:linkedin'
-  }
-]
-
+// TODO: get from service list
 // Services data
 const services = [
   { name: 'Web Development', path: '#service/web-development' },
@@ -102,15 +79,8 @@ const services = [
 const companyLinks = [
   { name: 'About Us', path: '/about' },
   { name: 'Portfolio', path: '/portfolio' },
-  { name: 'Blog', path: '#' },
-  { name: 'Careers', path: '#' }
+  // { name: 'Blog', path: '#' },
+  { name: 'Careers', path: 'careers' }
 ]
 
-// Contact information
-const contactInfo = [
-  'hello@jadesdev.com',
-  '+1 (555) 123-4567',
-  'Remote Team',
-  'Global Reach'
-]
 </script>

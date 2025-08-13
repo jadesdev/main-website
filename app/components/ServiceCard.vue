@@ -21,7 +21,7 @@ defineProps({
     </div>
 
     <div class="w-16 h-16 rounded-full flex items-center justify-center mb-6" :class="isPopular ? 'bg-white/90' : 'bg-jade-100'">
-      <slot name="icon"></slot>
+      <Icon :name="service.icon"> </Icon>
     </div>
 
     <h3 class="text-2xl font-bold mb-4" :class="isPopular ? 'text-white' : 'text-gray-800'">

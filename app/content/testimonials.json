@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "quote": "JadesDev transformed our vision into a stunning e-commerce platform. The attention to detail and user experience is exceptional. Sales increased by 300% in the first quarter!",
+    "name": "Sarah Mitchell",
+    "title": "CEO, LuxeShop",
+    "initials": "SM",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "quote": "The team delivered exactly what we envisioned and more. Their technical expertise and project management skills are outstanding. The web app they built has streamlined our operations.",
+    "name": "Michael Rodriguez",
+    "title": "Founder, TaskFlow Pro",
+    "initials": "MR",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "quote": "Our new website has completely transformed our business. Online orders increased by 400% and customer feedback has been incredible. Thank you JadesDev!",
+    "name": "Jennifer Chen",
+    "title": "Owner, RestaurantPro",
+    "initials": "JC",
+    "rating": 5,
+    "featured": true
+  }
+]

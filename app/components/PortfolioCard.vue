@@ -11,7 +11,7 @@ defineProps({
 <template>
 	<div class="portfolio-card bg-white rounded-2xl shadow-lg">
 		<div class="relative h-64 rounded-t-2xl overflow-hidden">
-			<img v-if="project.image" :src="project.image" :alt="project.title" class="w-full h-full object-cover" />
+			<img v-if="project.image" :src="project.image" :alt="project.title" class="w-full h-full object-cover" loading="lazy" />
 			<div v-else class="h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-2xl">
 				{{ project.title }}
 			</div>
@@ -35,10 +35,6 @@ defineProps({
 			<h3 class="text-xl font-bold mb-2 text-gray-800">{{ project.title }}</h3>
 			<p class="text-gray-600 mb-4">{{ project.description }}</p>
 			<div class="flex flex-wrap gap-2 mb-4">
-				<span v-if="project.tags" v-for="tag in project.tags" :key="tag"
-					class="bg-jade-100 text-jade-700 px-3 py-1 rounded-full text-sm font-semibold">
-					{{ tag }}
-				</span>
 				<span v-if="project.technologies" v-for="technology in project.technologies" :key="technology"
 					class="bg-jade-100 text-jade-700 px-3 py-1 rounded-full text-sm">
 					{{ technology }}
