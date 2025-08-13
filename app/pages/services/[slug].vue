@@ -51,7 +51,7 @@
                 </div>
               </div>
               <div class="absolute -top-4 -right-4 w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center">
-                <Icon :name="`heroicons:${service.heroIcon}`" class="w-8 h-8 text-white text-3xl" />
+                <Icon :name="`${service.heroIcon}`" class="w-8 h-8 text-white text-3xl" />
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             <div v-for="feature in service.features" :key="feature.title" class="feature-card bg-white p-6 rounded-xl shadow-lg">
               <div class="w-12 h-12 bg-jade-100 rounded-lg flex items-center justify-center mb-4">
-                <Icon :name="`heroicons:${feature.icon}`" class="w-6 h-6 text-jade-600 text-xl" />
+                <Icon :name="`${feature.icon}`" class="w-6 h-6 text-jade-600 text-xl" />
               </div>
               <h3 class="text-lg font-semibold mb-2 text-gray-800">{{ feature.title }}</h3>
               <p class="text-gray-600 text-sm">{{ feature.description }}</p>
@@ -245,16 +245,13 @@
 </template>
 
 <script setup>
+import { SITE_NAME, SITE_URL } from '~/constants/site'
 import servicesData from '~/content/services-data.json'
 
-// Get the route parameter
 const route = useRoute()
 const slug = route.params.slug
-console.log(slug)
-
-// Find the service data
 const service = computed(() => {
-  const serviceData = servicesData[slug]
+  const serviceData = servicesData.find(s => s.slug === slug);
   if (!serviceData) {
     throw createError({
       statusCode: 404,
@@ -263,39 +260,23 @@ const service = computed(() => {
   }
   return serviceData
 })
-
+if (!service) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Service not found'
+  })
+}
 
 // SEO Meta
 useSeoMeta({
-  title: () => `${service.value.title} | JadesDev Services`,
+  title: () => `${service.value.title} | ${SITE_NAME} Services`,
   description: () => service.value.description,
-  ogTitle: () => `${service.value.title} | JadesDev Services`,
+  ogTitle: () => `${service.value.title} | ${SITE_NAME} Services`,
   ogDescription: () => service.value.description,
-  ogUrl: () => `https://jadesdev.com/services/${service.value.slug}`,
+  ogUrl: () => `${SITE_URL}/services/${service.value.slug}`,
   ogType: 'website',
   twitterCard: 'summary_large_image',
-  twitterTitle: () => `${service.value.title} | JadesDev Services`,
+  twitterTitle: () => `${service.value.title} | ${SITE_NAME} Services`,
   twitterDescription: () => service.value.description,
 })
-
-// Structured Data for SEO
-// useSchemaOrg([
-//   defineService({
-//     name: () => service.value.title,
-//     description: () => service.value.description,
-//     provider: {
-//       name: 'JadesDev',
-//       url: 'https://jadesdev.com'
-//     },
-//     areaServed: 'Worldwide',
-//     hasOfferCatalog: {
-//       name: () => `${service.value.title} Packages`,
-//       itemListElement: () => service.value.packages.map(pkg => ({
-//         name: pkg.name,
-//         description: pkg.description,
-//         price: pkg.price
-//       }))
-//     }
-//   })
-// ])
 </script>

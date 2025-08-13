@@ -1,5 +1,210 @@
-{
-  "web-development": {
+[
+  {
+    "title": "E-commerce Development Solutions",
+    "slug": "ecommerce-solutions",
+    "description": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we've got you covered.",
+    "heroTitle": "E-commerce",
+    "heroHighlight": "Solutions",
+    "heroDescription": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we create complete digital storefronts.",
+    "keyBenefits": [
+      "Secure Payments",
+      "Inventory Management",
+      "Mobile Optimized",
+      "Analytics Ready"
+    ],
+    "isPopular": false,
+    "type": "main",
+    "heroIcon": "heroicons:shopping-bag",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "E-commerce Solutions",
+    "overviewDescription": "We build e-commerce platforms that not only look great but are optimized for conversions, security, and scalability.",
+    "features": [
+      {
+        "icon": "heroicons:shopping-cart",
+        "title": "Shopping Cart & Checkout",
+        "description": "Smooth, secure checkout process optimized for conversion and user experience."
+      },
+      {
+        "icon": "heroicons:credit-card",
+        "title": "Payment Processing",
+        "description": "Secure payment integration with multiple gateways and cryptocurrency support."
+      },
+      {
+        "icon": "heroicons:archive-box",
+        "title": "Inventory Management",
+        "description": "Advanced inventory tracking, stock alerts, and automated reordering features."
+      },
+      {
+        "icon": "heroicons:chart-bar",
+        "title": "Analytics & Reporting",
+        "description": "Comprehensive sales analytics, customer insights, and performance metrics."
+      },
+      {
+        "icon": "heroicons:device-phone-mobile",
+        "title": "Mobile Commerce",
+        "description": "Fully responsive design optimized for mobile shopping and mobile payments."
+      },
+      {
+        "icon": "heroicons:magnifying-glass",
+        "title": "SEO & Marketing Tools",
+        "description": "Built-in SEO optimization and marketing tools to drive traffic and sales."
+      }
+    ],
+    "technologiesTitle": "E-commerce",
+    "technologiesHighlight": "Technologies",
+    "technologiesDescription": "We use proven e-commerce platforms and modern technologies to build scalable online stores.",
+    "technologies": [
+      "Shopify",
+      "WooCommerce",
+      "Magento",
+      "React",
+      "Next.js",
+      "Stripe",
+      "PayPal",
+      "Square",
+      "AWS",
+      "Node.js"
+    ],
+    "processTitle": "Our E-commerce",
+    "processHighlight": "Process",
+    "processDescription": "From concept to launch, we follow a systematic approach to build successful online stores.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Business Analysis",
+        "description": "We analyze your business model, target market, and competition to develop the optimal e-commerce strategy and platform selection.",
+        "tags": ["Market Research", "Platform Selection", "Strategy Planning"]
+      },
+      {
+        "step": 2,
+        "title": "Store Design & UX",
+        "description": "We design user-friendly interfaces focused on conversion optimization, with attention to product display and checkout flow.",
+        "tags": ["Store Design", "UX Optimization", "Conversion Focus"]
+      },
+      {
+        "step": 3,
+        "title": "Development & Integration",
+        "description": "We build your store with secure payment processing, inventory management, and integrate with your existing business systems.",
+        "tags": [
+          "E-commerce Development",
+          "Payment Integration",
+          "System Integration"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Testing & Launch",
+        "description": "Thorough testing of all store functions, payment processing, and performance optimization before going live.",
+        "tags": ["Quality Testing", "Performance Optimization", "Store Launch"]
+      }
+    ],
+    "packagesTitle": "E-commerce",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Complete e-commerce solutions from simple online stores to complex multi-vendor platforms.",
+    "packages": [
+      {
+        "name": "Starter Store",
+        "description": "Perfect for small businesses starting online",
+        "price": "$3,500",
+        "features": [
+          "Up to 50 products",
+          "Basic payment integration",
+          "Inventory management",
+          "Mobile responsive design",
+          "SEO optimization",
+          "3 months support",
+          "3-4 weeks delivery"
+        ],
+        "contactParam": "starter-store",
+        "popular": false
+      },
+      {
+        "name": "Professional Store",
+        "description": "Advanced features for growing businesses",
+        "price": "$7,500",
+        "features": [
+          "Unlimited products",
+          "Multiple payment gateways",
+          "Advanced inventory management",
+          "Customer accounts & wishlist",
+          "Email marketing integration",
+          "Analytics & reporting",
+          "6 months support",
+          "5-7 weeks delivery"
+        ],
+        "contactParam": "professional-store",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Platform",
+        "description": "Complex multi-vendor and B2B solutions",
+        "price": "$15,000+",
+        "features": [
+          "Multi-vendor marketplace",
+          "B2B wholesale features",
+          "Custom integrations",
+          "Advanced reporting",
+          "Multi-currency support",
+          "Custom development",
+          "12 months support",
+          "10-14 weeks delivery"
+        ],
+        "contactParam": "enterprise-store",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "E-commerce",
+    "projectsHighlight": "Success Stories",
+    "projectsDescription": "See how we've helped businesses increase online sales with powerful e-commerce solutions.",
+    "featuredProjects": [
+      {
+        "title": "Fashion E-commerce Store",
+        "projectName": "StyleHub Online",
+        "description": "Complete e-commerce solution for fashion retailer resulting in 200% increase in online sales and improved customer experience.",
+        "technologies": ["Shopify", "React"],
+        "link": "/portfolio/stylehub",
+        "gradient": "from-pink-400 to-pink-600"
+      },
+      {
+        "title": "B2B Wholesale Platform",
+        "projectName": "TradeConnect Platform",
+        "description": "Custom B2B e-commerce platform with advanced pricing, bulk ordering, and integration with existing ERP systems.",
+        "technologies": ["Magento", "PHP"],
+        "link": "/portfolio/tradeconnect",
+        "gradient": "from-orange-400 to-orange-600"
+      }
+    ],
+    "faqTitle": "E-commerce",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our e-commerce development services.",
+    "faqs": [
+      {
+        "question": "Which e-commerce platform is best for my business?",
+        "answer": "The best platform depends on your business size, budget, and requirements. We typically recommend Shopify for most businesses, WooCommerce for WordPress users, and Magento for large enterprises. We'll help you choose the right platform during consultation.",
+        "open": false
+      },
+      {
+        "question": "Can you migrate my existing store to a new platform?",
+        "answer": "Yes! We specialize in e-commerce migrations. We can transfer your products, customers, orders, and design to a new platform with minimal downtime and no data loss.",
+        "open": false
+      },
+      {
+        "question": "Do you provide payment gateway integration?",
+        "answer": "Absolutely! We integrate with all major payment gateways including Stripe, PayPal, Square, and many others. We also support cryptocurrency payments and buy-now-pay-later options.",
+        "open": false
+      },
+      {
+        "question": "Will my store be mobile-friendly?",
+        "answer": "Yes, all our e-commerce stores are fully responsive and optimized for mobile devices. With over 50% of e-commerce traffic coming from mobile, this is a critical feature we always include.",
+        "open": false
+      }
+    ],
+    "ctaTitle": "Ready to Launch Your Online Store?",
+    "ctaDescription": "Let's build an e-commerce solution that drives sales and grows your business online.",
+    "ctaButton": "Start E-commerce Project",
+    "ctaPhone": "Call (555) 123-4567"
+  },
+  {
     "title": "Custom Web Development",
     "slug": "web-development",
     "description": "Transform your business with professional, custom-built websites that drive results. We create responsive, fast, and secure web solutions tailored to your unique needs.",
@@ -12,38 +217,40 @@
       "SEO Optimized",
       "Fast Loading"
     ],
-    "heroIcon": "code-bracket",
+    "isPopular": true,
+    "type": "main",
+    "heroIcon": "heroicons:code-bracket",
     "overviewTitle": "Why Choose Our",
     "overviewHighlight": "Web Development",
     "overviewDescription": "We combine cutting-edge technology with proven development practices to deliver websites that not only look amazing but perform exceptionally.",
     "features": [
       {
-        "icon": "device-phone-mobile",
+        "icon": "heroicons:device-phone-mobile",
         "title": "Responsive Design",
         "description": "Your website will look perfect on all devices - desktop, tablet, and mobile."
       },
       {
-        "icon": "bolt",
+        "icon": "heroicons:bolt",
         "title": "Lightning Fast",
         "description": "Optimized for speed with loading times under 3 seconds guaranteed."
       },
       {
-        "icon": "shield-check",
+        "icon": "heroicons:shield-check",
         "title": "Secure & Reliable",
         "description": "Built with security best practices and reliable hosting solutions."
       },
       {
-        "icon": "magnifying-glass",
+        "icon": "heroicons:magnifying-glass",
         "title": "SEO Optimized",
         "description": "Built for search engines to help you rank higher and attract more visitors."
       },
       {
-        "icon": "heart",
+        "icon": "heroicons:heart",
         "title": "User-Centered Design",
         "description": "Designed with your users in mind for maximum engagement and conversions."
       },
       {
-        "icon": "lifebuoy",
+        "icon": "heroicons:lifebuoy",
         "title": "Ongoing Support",
         "description": "We're here to help with updates, maintenance, and technical support."
       }
@@ -205,211 +412,7 @@
     "ctaButton": "Get Free Consultation",
     "ctaPhone": "Call (555) 123-4567"
   },
-
-  "ecommerce-solutions": {
-    "title": "E-commerce Development Solutions",
-    "slug": "ecommerce-solutions",
-    "description": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we've got you covered.",
-    "heroTitle": "E-commerce",
-    "heroHighlight": "Solutions",
-    "heroDescription": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we create complete digital storefronts.",
-    "keyBenefits": [
-      "Secure Payments",
-      "Inventory Management",
-      "Mobile Optimized",
-      "Analytics Ready"
-    ],
-    "heroIcon": "shopping-bag",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "E-commerce Solutions",
-    "overviewDescription": "We build e-commerce platforms that not only look great but are optimized for conversions, security, and scalability.",
-    "features": [
-      {
-        "icon": "shopping-cart",
-        "title": "Shopping Cart & Checkout",
-        "description": "Smooth, secure checkout process optimized for conversion and user experience."
-      },
-      {
-        "icon": "credit-card",
-        "title": "Payment Processing",
-        "description": "Secure payment integration with multiple gateways and cryptocurrency support."
-      },
-      {
-        "icon": "archive-box",
-        "title": "Inventory Management",
-        "description": "Advanced inventory tracking, stock alerts, and automated reordering features."
-      },
-      {
-        "icon": "chart-bar",
-        "title": "Analytics & Reporting",
-        "description": "Comprehensive sales analytics, customer insights, and performance metrics."
-      },
-      {
-        "icon": "device-phone-mobile",
-        "title": "Mobile Commerce",
-        "description": "Fully responsive design optimized for mobile shopping and mobile payments."
-      },
-      {
-        "icon": "magnifying-glass",
-        "title": "SEO & Marketing Tools",
-        "description": "Built-in SEO optimization and marketing tools to drive traffic and sales."
-      }
-    ],
-    "technologiesTitle": "E-commerce",
-    "technologiesHighlight": "Technologies",
-    "technologiesDescription": "We use proven e-commerce platforms and modern technologies to build scalable online stores.",
-    "technologies": [
-      "Shopify",
-      "WooCommerce",
-      "Magento",
-      "React",
-      "Next.js",
-      "Stripe",
-      "PayPal",
-      "Square",
-      "AWS",
-      "Node.js"
-    ],
-    "processTitle": "Our E-commerce",
-    "processHighlight": "Process",
-    "processDescription": "From concept to launch, we follow a systematic approach to build successful online stores.",
-    "processSteps": [
-      {
-        "step": 1,
-        "title": "Business Analysis",
-        "description": "We analyze your business model, target market, and competition to develop the optimal e-commerce strategy and platform selection.",
-        "tags": ["Market Research", "Platform Selection", "Strategy Planning"]
-      },
-      {
-        "step": 2,
-        "title": "Store Design & UX",
-        "description": "We design user-friendly interfaces focused on conversion optimization, with attention to product display and checkout flow.",
-        "tags": ["Store Design", "UX Optimization", "Conversion Focus"]
-      },
-      {
-        "step": 3,
-        "title": "Development & Integration",
-        "description": "We build your store with secure payment processing, inventory management, and integrate with your existing business systems.",
-        "tags": [
-          "E-commerce Development",
-          "Payment Integration",
-          "System Integration"
-        ]
-      },
-      {
-        "step": 4,
-        "title": "Testing & Launch",
-        "description": "Thorough testing of all store functions, payment processing, and performance optimization before going live.",
-        "tags": ["Quality Testing", "Performance Optimization", "Store Launch"]
-      }
-    ],
-    "packagesTitle": "E-commerce",
-    "packagesHighlight": "Packages",
-    "packagesDescription": "Complete e-commerce solutions from simple online stores to complex multi-vendor platforms.",
-    "packages": [
-      {
-        "name": "Starter Store",
-        "description": "Perfect for small businesses starting online",
-        "price": "$3,500",
-        "features": [
-          "Up to 50 products",
-          "Basic payment integration",
-          "Inventory management",
-          "Mobile responsive design",
-          "SEO optimization",
-          "3 months support",
-          "3-4 weeks delivery"
-        ],
-        "contactParam": "starter-store",
-        "popular": false
-      },
-      {
-        "name": "Professional Store",
-        "description": "Advanced features for growing businesses",
-        "price": "$7,500",
-        "features": [
-          "Unlimited products",
-          "Multiple payment gateways",
-          "Advanced inventory management",
-          "Customer accounts & wishlist",
-          "Email marketing integration",
-          "Analytics & reporting",
-          "6 months support",
-          "5-7 weeks delivery"
-        ],
-        "contactParam": "professional-store",
-        "popular": true
-      },
-      {
-        "name": "Enterprise Platform",
-        "description": "Complex multi-vendor and B2B solutions",
-        "price": "$15,000+",
-        "features": [
-          "Multi-vendor marketplace",
-          "B2B wholesale features",
-          "Custom integrations",
-          "Advanced reporting",
-          "Multi-currency support",
-          "Custom development",
-          "12 months support",
-          "10-14 weeks delivery"
-        ],
-        "contactParam": "enterprise-store",
-        "popular": false
-      }
-    ],
-    "projectsTitle": "E-commerce",
-    "projectsHighlight": "Success Stories",
-    "projectsDescription": "See how we've helped businesses increase online sales with powerful e-commerce solutions.",
-    "featuredProjects": [
-      {
-        "title": "Fashion E-commerce Store",
-        "projectName": "StyleHub Online",
-        "description": "Complete e-commerce solution for fashion retailer resulting in 200% increase in online sales and improved customer experience.",
-        "technologies": ["Shopify", "React"],
-        "link": "/portfolio/stylehub",
-        "gradient": "from-pink-400 to-pink-600"
-      },
-      {
-        "title": "B2B Wholesale Platform",
-        "projectName": "TradeConnect Platform",
-        "description": "Custom B2B e-commerce platform with advanced pricing, bulk ordering, and integration with existing ERP systems.",
-        "technologies": ["Magento", "PHP"],
-        "link": "/portfolio/tradeconnect",
-        "gradient": "from-orange-400 to-orange-600"
-      }
-    ],
-    "faqTitle": "E-commerce",
-    "faqHighlight": "Questions",
-    "faqDescription": "Common questions about our e-commerce development services.",
-    "faqs": [
-      {
-        "question": "Which e-commerce platform is best for my business?",
-        "answer": "The best platform depends on your business size, budget, and requirements. We typically recommend Shopify for most businesses, WooCommerce for WordPress users, and Magento for large enterprises. We'll help you choose the right platform during consultation.",
-        "open": false
-      },
-      {
-        "question": "Can you migrate my existing store to a new platform?",
-        "answer": "Yes! We specialize in e-commerce migrations. We can transfer your products, customers, orders, and design to a new platform with minimal downtime and no data loss.",
-        "open": false
-      },
-      {
-        "question": "Do you provide payment gateway integration?",
-        "answer": "Absolutely! We integrate with all major payment gateways including Stripe, PayPal, Square, and many others. We also support cryptocurrency payments and buy-now-pay-later options.",
-        "open": false
-      },
-      {
-        "question": "Will my store be mobile-friendly?",
-        "answer": "Yes, all our e-commerce stores are fully responsive and optimized for mobile devices. With over 50% of e-commerce traffic coming from mobile, this is a critical feature we always include.",
-        "open": false
-      }
-    ],
-    "ctaTitle": "Ready to Launch Your Online Store?",
-    "ctaDescription": "Let's build an e-commerce solution that drives sales and grows your business online.",
-    "ctaButton": "Start E-commerce Project",
-    "ctaPhone": "Call (555) 123-4567"
-  },
-  "ui-ux-design": {
+  {
     "title": "UI/UX Design & Development",
     "slug": "ui-ux-design",
     "description": "Create stunning user experiences with our comprehensive UI/UX design and development services. We combine beautiful interfaces with seamless functionality.",
@@ -422,38 +425,40 @@
       "Conversion Optimized",
       "Modern Aesthetics"
     ],
-    "heroIcon": "code-bracket-solid",
+    "isPopular": false,
+    "type": "main",
+    "heroIcon": "heroicons:code-bracket-solid",
     "overviewTitle": "Why Choose Our",
     "overviewHighlight": "UI/UX Design",
     "overviewDescription": "We create digital experiences that users love and businesses benefit from. Our design process is data-driven and user-focused.",
     "features": [
       {
-        "icon": "users",
+        "icon": "heroicons:users",
         "title": "User Research",
         "description": "We conduct thorough user research to understand your audience and their needs."
       },
       {
-        "icon": "squares-2x2",
+        "icon": "heroicons:squares-2x2",
         "title": "Wireframing & Prototyping",
         "description": "Interactive prototypes that bring your ideas to life before development."
       },
       {
-        "icon": "paint-brush",
+        "icon": "heroicons:paint-brush",
         "title": "Visual Design",
         "description": "Beautiful, modern designs that align with your brand and engage users."
       },
       {
-        "icon": "chart-bar",
+        "icon": "heroicons:chart-bar",
         "title": "Usability Testing",
         "description": "We test designs with real users to ensure optimal usability and conversion."
       },
       {
-        "icon": "bolt",
+        "icon": "heroicons:bolt",
         "title": "Performance Focused",
         "description": "Designs optimized for fast loading and smooth interactions."
       },
       {
-        "icon": "adjustments-horizontal",
+        "icon": "heroicons:adjustments-horizontal",
         "title": "Conversion Optimization",
         "description": "Every design element is crafted to drive user action and business results."
       }
@@ -604,5 +609,810 @@
     "ctaDescription": "Let's create a design that your users will love and that drives real business results.",
     "ctaButton": "Start Design Project",
     "ctaPhone": "Call (555) 123-4567"
+  },
+
+  {
+    "title": "Performance Optimization",
+    "slug": "performance-optimization",
+    "description": "Speed up your website and improve search rankings with our comprehensive performance optimization services. We make your site lightning fast for better user experience and SEO.",
+    "heroTitle": "Performance",
+    "heroHighlight": "Optimization",
+    "heroDescription": "Speed up your website and improve search rankings with our comprehensive performance optimization services. We make your site lightning fast for better user experience and conversions.",
+    "keyBenefits": [
+      "3x Faster Loading",
+      "Better SEO Rankings",
+      "Improved Conversions",
+      "Mobile Optimized"
+    ],
+    "isPopular": false,
+    "type": "others",
+    "heroIcon": "heroicons:bolt",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "Performance Services",
+    "overviewDescription": "We use advanced optimization techniques to dramatically improve your website's speed, resulting in better user experience and higher search rankings.",
+    "features": [
+      {
+        "icon": "heroicons:rocket-launch",
+        "title": "Speed Optimization",
+        "description": "Compress images, minify code, and optimize assets to achieve sub-3 second load times."
+      },
+      {
+        "icon": "heroicons:magnifying-glass",
+        "title": "SEO Performance",
+        "description": "Improve Core Web Vitals and technical SEO factors that impact search rankings."
+      },
+      {
+        "icon": "heroicons:device-phone-mobile",
+        "title": "Mobile Performance",
+        "description": "Optimize specifically for mobile devices where speed is even more critical."
+      },
+      {
+        "icon": "heroicons:chart-bar-square",
+        "title": "Performance Monitoring",
+        "description": "Continuous monitoring and alerts to maintain optimal performance over time."
+      },
+      {
+        "icon": "heroicons:cloud",
+        "title": "CDN Integration",
+        "description": "Global content delivery network setup for worldwide fast loading times."
+      },
+      {
+        "icon": "heroicons:cog-6-tooth",
+        "title": "Database Optimization",
+        "description": "Optimize database queries and caching for maximum backend performance."
+      }
+    ],
+    "technologiesTitle": "Optimization",
+    "technologiesHighlight": "Technologies",
+    "technologiesDescription": "We use cutting-edge tools and techniques to maximize your website's performance.",
+    "technologies": [
+      "Google PageSpeed",
+      "GTmetrix",
+      "WebP Images",
+      "Cloudflare CDN",
+      "Redis Cache",
+      "Gzip Compression",
+      "Lazy Loading",
+      "Critical CSS",
+      "Service Workers",
+      "HTTP/2"
+    ],
+    "processTitle": "Our Optimization",
+    "processHighlight": "Process",
+    "processDescription": "We follow a systematic approach to identify and fix performance bottlenecks for maximum impact.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Performance Audit",
+        "description": "We conduct comprehensive performance testing using industry-standard tools to identify all speed bottlenecks and optimization opportunities.",
+        "tags": ["Speed Analysis", "Core Web Vitals", "Performance Testing"]
+      },
+      {
+        "step": 2,
+        "title": "Optimization Strategy",
+        "description": "Based on audit results, we create a prioritized optimization plan focusing on changes that will have the biggest impact on performance.",
+        "tags": ["Strategy Planning", "Priority Matrix", "Impact Analysis"]
+      },
+      {
+        "step": 3,
+        "title": "Implementation",
+        "description": "We implement all optimizations including code minification, image compression, caching setup, and CDN configuration.",
+        "tags": ["Code Optimization", "Asset Compression", "Caching Setup"]
+      },
+      {
+        "step": 4,
+        "title": "Testing & Monitoring",
+        "description": "Thorough testing to ensure all optimizations work correctly, followed by ongoing monitoring to maintain peak performance.",
+        "tags": ["Performance Testing", "Monitoring Setup", "Maintenance"]
+      }
+    ],
+    "packagesTitle": "Performance",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Choose the optimization package that matches your website's needs and performance goals.",
+    "packages": [
+      {
+        "name": "Speed Boost",
+        "description": "Essential optimizations for immediate improvement",
+        "price": "$1,200",
+        "features": [
+          "Performance audit & report",
+          "Image optimization",
+          "Code minification",
+          "Basic caching setup",
+          "Mobile optimization",
+          "3 months monitoring",
+          "1-2 weeks delivery"
+        ],
+        "contactParam": "speed-boost",
+        "popular": false
+      },
+      {
+        "name": "Performance Pro",
+        "description": "Comprehensive optimization for maximum speed",
+        "price": "$2,800",
+        "features": [
+          "Complete performance overhaul",
+          "CDN setup & configuration",
+          "Advanced caching strategies",
+          "Database optimization",
+          "Core Web Vitals optimization",
+          "6 months monitoring",
+          "3-4 weeks delivery"
+        ],
+        "contactParam": "performance-pro",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Performance",
+        "description": "Custom optimization for high-traffic websites",
+        "price": "$5,500+",
+        "features": [
+          "Custom performance solutions",
+          "Server-level optimizations",
+          "Advanced monitoring dashboard",
+          "Performance budget setup",
+          "Team training & documentation",
+          "12 months support",
+          "6-8 weeks delivery"
+        ],
+        "contactParam": "enterprise-performance",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "Performance",
+    "projectsHighlight": "Success Stories",
+    "projectsDescription": "See how we've dramatically improved website performance for businesses of all sizes.",
+    "featuredProjects": [
+      {
+        "title": "E-commerce Speed Optimization",
+        "projectName": "RetailMax Performance",
+        "description": "Reduced loading time from 8 seconds to 2.1 seconds, resulting in 45% increase in conversions and better search rankings.",
+        "technologies": ["CDN", "WebP"],
+        "link": "/portfolio/retailmax",
+        "gradient": "from-yellow-400 to-yellow-600"
+      },
+      {
+        "title": "Corporate Website Optimization",
+        "projectName": "TechCorp Speed Up",
+        "description": "Improved Core Web Vitals scores by 80% and achieved 95+ PageSpeed scores across all pages.",
+        "technologies": ["Caching", "Optimization"],
+        "link": "/portfolio/techcorp-speed",
+        "gradient": "from-red-400 to-red-600"
+      }
+    ],
+    "faqTitle": "Performance",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our website performance optimization services.",
+    "faqs": [
+      {
+        "question": "How much faster will my website be?",
+        "answer": "Results vary by website, but we typically achieve 50-80% improvement in loading times. Most optimized sites load in under 3 seconds, with many achieving sub-2 second load times.",
+        "open": false
+      },
+      {
+        "question": "Will optimization affect my website's functionality?",
+        "answer": "No, we ensure all functionality remains intact. We thoroughly test every optimization to make sure your website works perfectly while being much faster.",
+        "open": false
+      },
+      {
+        "question": "Do you provide ongoing performance monitoring?",
+        "answer": "Yes! All packages include performance monitoring. We'll alert you if performance degrades and provide regular reports on your website's speed metrics.",
+        "open": false
+      },
+      {
+        "question": "How does website speed affect SEO?",
+        "answer": "Page speed is a direct Google ranking factor. Faster websites rank higher in search results and provide better user experience, leading to lower bounce rates and higher conversions.",
+        "open": false
+      }
+    ],
+    "ctaTitle": "Ready to Speed Up Your Website?",
+    "ctaDescription": "Let's make your website lightning fast and improve your search rankings.",
+    "ctaButton": "Start Optimization",
+    "ctaPhone": "Call (555) 123-4567"
+  },
+  {
+    "title": "Security & Maintenance",
+    "slug": "security-maintenance",
+    "description": "Keep your website secure and up-to-date with our comprehensive maintenance packages. Protect your business with proactive security measures and regular updates.",
+    "heroTitle": "Security &",
+    "heroHighlight": "Maintenance",
+    "heroDescription": "Keep your website secure and up-to-date with our comprehensive maintenance packages. Protect your business with proactive security measures, regular updates, and 24/7 monitoring.",
+    "keyBenefits": [
+      "24/7 Security Monitoring",
+      "Regular Updates",
+      "Backup Protection",
+      "Malware Prevention"
+    ],
+    "isPopular": false,
+    "type": "others",
+    "heroIcon": "heroicons:shield-check",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "Security Services",
+    "overviewDescription": "We provide comprehensive security and maintenance services to keep your website safe, updated, and performing optimally at all times.",
+    "features": [
+      {
+        "icon": "heroicons:shield-exclamation",
+        "title": "Security Monitoring",
+        "description": "24/7 monitoring for threats, malware, and suspicious activity with instant alerts."
+      },
+      {
+        "icon": "heroicons:arrow-path",
+        "title": "Regular Updates",
+        "description": "Keep your CMS, plugins, and security patches up-to-date automatically."
+      },
+      {
+        "icon": "heroicons:cloud-arrow-up",
+        "title": "Automated Backups",
+        "description": "Daily automated backups with easy restore options to protect your data."
+      },
+      {
+        "icon": "heroicons:bug-ant",
+        "title": "Malware Removal",
+        "description": "Fast malware detection and removal with website cleaning services."
+      },
+      {
+        "icon": "heroicons:wrench-screwdriver",
+        "title": "Technical Support",
+        "description": "Priority technical support for any issues or maintenance needs."
+      },
+      {
+        "icon": "heroicons:chart-pie",
+        "title": "Performance Reports",
+        "description": "Monthly reports on security status, uptime, and performance metrics."
+      }
+    ],
+    "technologiesTitle": "Security",
+    "technologiesHighlight": "Technologies",
+    "technologiesDescription": "We use enterprise-grade security tools and technologies to protect your website.",
+    "technologies": [
+      "Web Application Firewall",
+      "SSL Certificates",
+      "Malware Scanning",
+      "DDoS Protection",
+      "Two-Factor Auth",
+      "Security Headers",
+      "Vulnerability Scanning",
+      "Intrusion Detection",
+      "Backup Solutions",
+      "Monitoring Tools"
+    ],
+    "processTitle": "Our Security",
+    "processHighlight": "Process",
+    "processDescription": "We follow industry best practices to establish and maintain comprehensive website security.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Security Assessment",
+        "description": "We conduct a thorough security audit to identify vulnerabilities, assess current protection levels, and create a security roadmap.",
+        "tags": ["Security Audit", "Vulnerability Scan", "Risk Assessment"]
+      },
+      {
+        "step": 2,
+        "title": "Security Implementation",
+        "description": "We implement firewall protection, SSL certificates, security plugins, and establish monitoring systems for comprehensive protection.",
+        "tags": ["Firewall Setup", "SSL Installation", "Security Configuration"]
+      },
+      {
+        "step": 3,
+        "title": "Monitoring Setup",
+        "description": "We configure 24/7 monitoring systems, set up automated backups, and establish alert systems for immediate threat detection.",
+        "tags": ["24/7 Monitoring", "Backup Configuration", "Alert Systems"]
+      },
+      {
+        "step": 4,
+        "title": "Ongoing Maintenance",
+        "description": "Regular updates, security patches, performance optimization, and monthly reports to keep your website secure and optimized.",
+        "tags": ["Regular Updates", "Security Patches", "Monthly Reports"]
+      }
+    ],
+    "packagesTitle": "Security",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Comprehensive security and maintenance packages to protect and maintain your website.",
+    "packages": [
+      {
+        "name": "Basic Protection",
+        "description": "Essential security for small websites",
+        "price": "$149/month",
+        "features": [
+          "Basic security monitoring",
+          "Weekly backups",
+          "Plugin updates",
+          "SSL certificate management",
+          "Basic malware scanning",
+          "Monthly security report",
+          "Email support"
+        ],
+        "contactParam": "basic-security",
+        "popular": false
+      },
+      {
+        "name": "Professional Security",
+        "description": "Advanced protection for business websites",
+        "price": "$299/month",
+        "features": [
+          "24/7 security monitoring",
+          "Daily automated backups",
+          "Real-time malware scanning",
+          "Firewall protection",
+          "Priority support",
+          "Performance optimization",
+          "Monthly detailed reports"
+        ],
+        "contactParam": "professional-security",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Security",
+        "description": "Maximum security for high-value websites",
+        "price": "$599/month",
+        "features": [
+          "Advanced threat protection",
+          "Multiple backup locations",
+          "Dedicated security expert",
+          "Custom security rules",
+          "Incident response service",
+          "Compliance assistance",
+          "24/7 phone support"
+        ],
+        "contactParam": "enterprise-security",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "Security",
+    "projectsHighlight": "Success Stories",
+    "projectsDescription": "See how we've protected businesses from security threats and maintained their online presence.",
+    "featuredProjects": [
+      {
+        "title": "E-commerce Security Overhaul",
+        "projectName": "ShopSecure Protection",
+        "description": "Implemented comprehensive security measures for an e-commerce site, preventing 99.9% of malicious attacks and ensuring PCI compliance.",
+        "technologies": ["WAF", "SSL"],
+        "link": "/portfolio/shopsecure",
+        "gradient": "from-emerald-400 to-emerald-600"
+      },
+      {
+        "title": "Corporate Website Security",
+        "projectName": "CorpShield Maintenance",
+        "description": "24/7 security monitoring and maintenance for a corporate website with 99.99% uptime and zero security incidents.",
+        "technologies": ["Monitoring", "Backup"],
+        "link": "/portfolio/corpshield",
+        "gradient": "from-cyan-400 to-cyan-600"
+      }
+    ],
+    "faqTitle": "Security",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our website security and maintenance services.",
+    "faqs": [
+      {
+        "question": "What happens if my website gets hacked?",
+        "answer": "We provide immediate incident response, malware removal, and website restoration from clean backups. Our team works quickly to minimize downtime and restore your website to full functionality.",
+        "open": false
+      },
+      {
+        "question": "How often do you perform backups?",
+        "answer": "Backup frequency depends on your package - from weekly for basic plans to daily for professional plans. All backups are stored securely off-site with easy restoration options.",
+        "open": false
+      },
+      {
+        "question": "Do you provide security certificates?",
+        "answer": "Yes! We manage SSL certificate installation, renewal, and monitoring to ensure your website always has valid security certificates and encrypted connections.",
+        "open": false
+      },
+      {
+        "question": "Can you help with compliance requirements?",
+        "answer": "Absolutely! We help with various compliance requirements including GDPR, PCI DSS, and HIPAA depending on your industry needs and provide documentation for audits.",
+        "open": false
+      }
+    ],
+    "ctaTitle": "Ready to Secure Your Website?",
+    "ctaDescription": "Protect your business with our comprehensive security and maintenance services.",
+    "ctaButton": "Start Protection",
+    "ctaPhone": "Call (555) 123-4567"
+  },
+  {
+    "title": "SEO & Analytics",
+    "slug": "seo-analytics",
+    "description": "Improve your search rankings and track your website's performance with our comprehensive SEO and analytics services. Drive more organic traffic and measure success.",
+    "heroTitle": "SEO &",
+    "heroHighlight": "Analytics",
+    "heroDescription": "Improve your search rankings and track your website's performance with our comprehensive SEO and analytics services. Drive more organic traffic, increase visibility, and measure success.",
+    "keyBenefits": [
+      "Higher Search Rankings",
+      "ROI Tracking",
+      "Increased Organic Traffic",
+      "Detailed Analytics"
+    ],
+    "isPopular": false,
+    "type": "others",
+    "heroIcon": "heroicons:chart-bar-square",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "SEO Services",
+    "overviewDescription": "We combine proven SEO strategies with advanced analytics to improve your search visibility and provide actionable insights for business growth.",
+    "features": [
+      {
+        "icon": "heroicons:magnifying-glass",
+        "title": "Keyword Research",
+        "description": "Comprehensive keyword research to target the most valuable search terms for your business."
+      },
+      {
+        "icon": "heroicons:document-text",
+        "title": "Content Optimization",
+        "description": "Optimize your content for search engines while maintaining quality and user engagement."
+      },
+      {
+        "icon": "heroicons:link",
+        "title": "Link Building",
+        "description": "Build high-quality backlinks to improve domain authority and search rankings."
+      },
+      {
+        "icon": "heroicons:chart-pie",
+        "title": "Analytics Setup",
+        "description": "Comprehensive analytics setup to track traffic, conversions, and user behavior."
+      },
+      {
+        "icon": "heroicons:device-phone-mobile",
+        "title": "Local SEO",
+        "description": "Optimize for local search to attract customers in your geographic area."
+      },
+      {
+        "icon": "heroicons:document-chart-bar",
+        "title": "Regular Reporting",
+        "description": "Detailed monthly reports showing progress, rankings, and actionable insights."
+      }
+    ],
+    "technologiesTitle": "SEO & Analytics",
+    "technologiesHighlight": "Tools",
+    "technologiesDescription": "We use industry-leading SEO and analytics tools to maximize your online visibility and track performance.",
+    "technologies": [
+      "Google Analytics",
+      "Google Search Console",
+      "SEMrush",
+      "Ahrefs",
+      "Screaming Frog",
+      "GTM",
+      "Schema Markup",
+      "Yoast SEO",
+      "Hotjar",
+      "Google My Business"
+    ],
+    "processTitle": "Our SEO",
+    "processHighlight": "Process",
+    "processDescription": "We follow a data-driven approach to improve your search rankings and track meaningful metrics.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "SEO Audit & Strategy",
+        "description": "We conduct comprehensive SEO audit, competitor analysis, and keyword research to develop a customized SEO strategy for your business goals.",
+        "tags": ["SEO Audit", "Keyword Research", "Strategy Development"]
+      },
+      {
+        "step": 2,
+        "title": "Technical Optimization",
+        "description": "We optimize your website's technical foundation including site structure, page speed, mobile-friendliness, and schema markup.",
+        "tags": ["Technical SEO", "Site Structure", "Performance Optimization"]
+      },
+      {
+        "step": 3,
+        "title": "Content & Link Building",
+        "description": "We optimize existing content, create new SEO content, and build high-quality backlinks to improve your search authority.",
+        "tags": ["Content Optimization", "Link Building", "Authority Building"]
+      },
+      {
+        "step": 4,
+        "title": "Monitoring & Reporting",
+        "description": "We set up comprehensive analytics tracking and provide regular reports on rankings, traffic growth, and conversion improvements.",
+        "tags": ["Analytics Setup", "Ranking Monitoring", "Performance Reports"]
+      }
+    ],
+    "packagesTitle": "SEO",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Comprehensive SEO and analytics packages to improve your search visibility and track performance.",
+    "packages": [
+      {
+        "name": "SEO Starter",
+        "description": "Essential SEO foundation for small businesses",
+        "price": "$899/month",
+        "features": [
+          "SEO audit & strategy",
+          "Keyword research (25 keywords)",
+          "On-page optimization",
+          "Technical SEO basics",
+          "Google Analytics setup",
+          "Monthly progress report",
+          "3-month minimum"
+        ],
+        "contactParam": "seo-starter",
+        "popular": false
+      },
+      {
+        "name": "SEO Professional",
+        "description": "Comprehensive SEO for growing businesses",
+        "price": "$1,899/month",
+        "features": [
+          "Everything in Starter",
+          "Advanced keyword targeting (100 keywords)",
+          "Content creation (4 articles/month)",
+          "Link building campaign",
+          "Local SEO optimization",
+          "Conversion tracking setup",
+          "Bi-weekly reports"
+        ],
+        "contactParam": "seo-professional",
+        "popular": true
+      },
+      {
+        "name": "Enterprise SEO",
+        "description": "Advanced SEO for large websites and companies",
+        "price": "$3,499/month",
+        "features": [
+          "Everything in Professional",
+          "Unlimited keyword targeting",
+          "Advanced technical SEO",
+          "Dedicated SEO specialist",
+          "Custom analytics dashboard",
+          "Competitor monitoring",
+          "Weekly strategy calls"
+        ],
+        "contactParam": "enterprise-seo",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "SEO",
+    "projectsHighlight": "Success Stories",
+    "projectsDescription": "See how we've helped businesses dramatically improve their search rankings and organic traffic.",
+    "featuredProjects": [
+      {
+        "title": "Local Business SEO Success",
+        "projectName": "LocalPro Visibility",
+        "description": "Increased organic traffic by 300% and achieved first page rankings for 85% of target keywords within 6 months.",
+        "technologies": ["Local SEO", "Content"],
+        "link": "/portfolio/localpro",
+        "gradient": "from-violet-400 to-violet-600"
+      },
+      {
+        "title": "E-commerce SEO Growth",
+        "projectName": "ShopRank Success",
+        "description": "Improved search visibility for 500+ product pages, resulting in 250% increase in organic revenue and better SERP positions.",
+        "technologies": ["Technical SEO", "Analytics"],
+        "link": "/portfolio/shoprank",
+        "gradient": "from-rose-400 to-rose-600"
+      }
+    ],
+    "faqTitle": "SEO",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our SEO and analytics services.",
+    "faqs": [
+      {
+        "question": "How long does it take to see SEO results?",
+        "answer": "SEO is a long-term strategy. You'll typically see initial improvements in 3-4 months, with significant results in 6-12 months. Timeline depends on competition and current website status.",
+        "open": false
+      },
+      {
+        "question": "Do you guarantee specific rankings?",
+        "answer": "While we can't guarantee specific rankings due to search engine algorithm changes, we do guarantee improved visibility, increased organic traffic, and better search performance overall.",
+        "open": false
+      },
+      {
+        "question": "What's included in your SEO reports?",
+        "answer": "Our reports include ranking improvements, organic traffic growth, conversion data, competitive analysis, and specific recommendations for continued improvement.",
+        "open": false
+      },
+      {
+        "question": "Do you handle local SEO?",
+        "answer": "Yes! We optimize Google My Business profiles, local citations, review management, and location-based keyword targeting to help you dominate local search results.",
+        "open": false
+      }
+    ],
+    "ctaTitle": "Ready to Dominate Search Results?",
+    "ctaDescription": "Let's improve your search rankings and drive more qualified traffic to your website.",
+    "ctaButton": "Start SEO Campaign",
+    "ctaPhone": "Call (555) 123-4567"
+  },
+
+  {
+    "title": "Mobile App Development",
+    "slug": "mobile-app-development",
+    "description": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
+    "heroTitle": "Mobile App",
+    "heroHighlight": "Development",
+    "heroDescription": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
+    "keyBenefits": [
+      "Cross-Platform Apps",
+      "Native Performance",
+      "App Store Ready",
+      "Push Notifications"
+    ],
+    "isPopular": false,
+    "type": "others",
+    "heroIcon": "heroicons:device-phone-mobile",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "Mobile Development",
+    "overviewDescription": "We create mobile apps that deliver exceptional user experiences while seamlessly integrating with your existing web presence and business systems.",
+    "features": [
+      {
+        "icon": "heroicons:device-phone-mobile",
+        "title": "Cross-Platform Development",
+        "description": "Build once, deploy everywhere. Our apps work seamlessly on both iOS and Android."
+      },
+      {
+        "icon": "heroicons:bolt",
+        "title": "Native Performance",
+        "description": "Optimized performance that feels native on each platform with smooth animations."
+      },
+      {
+        "icon": "heroicons:bell",
+        "title": "Push Notifications",
+        "description": "Engage users with targeted push notifications and real-time updates."
+      },
+      {
+        "icon": "heroicons:cloud",
+        "title": "Cloud Integration",
+        "description": "Seamless integration with cloud services and your existing web applications."
+      },
+      {
+        "icon": "heroicons:shield-check",
+        "title": "Secure & Compliant",
+        "description": "Built with security best practices and compliance requirements in mind."
+      },
+      {
+        "icon": "heroicons:chart-bar",
+        "title": "Analytics Integration",
+        "description": "Built-in analytics to track user behavior and app performance metrics."
+      }
+    ],
+    "technologiesTitle": "Mobile Development",
+    "technologiesHighlight": "Technologies",
+    "technologiesDescription": "We use cutting-edge mobile development frameworks and technologies to create high-performance apps.",
+    "technologies": [
+      "React Native",
+      "Flutter",
+      "Swift",
+      "Kotlin",
+      "Firebase",
+      "Redux",
+      "Expo",
+      "GraphQL",
+      "REST APIs",
+      "Push Notifications"
+    ],
+    "processTitle": "Our Mobile App",
+    "processHighlight": "Process",
+    "processDescription": "From concept to app store launch, we follow a proven process to deliver successful mobile applications.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Discovery & Planning",
+        "description": "We analyze your requirements, define app features, create user stories, and plan the technical architecture for your mobile application.",
+        "tags": ["Requirements Analysis", "User Stories", "Technical Planning"]
+      },
+      {
+        "step": 2,
+        "title": "UI/UX Design",
+        "description": "We design intuitive, platform-specific interfaces that provide excellent user experience while following iOS and Android design guidelines.",
+        "tags": ["Mobile UI Design", "UX Optimization", "Platform Guidelines"]
+      },
+      {
+        "step": 3,
+        "title": "Development & Testing",
+        "description": "We develop your app using modern frameworks, implement features, and conduct thorough testing on multiple devices and platforms.",
+        "tags": [
+          "Cross-Platform Development",
+          "Feature Implementation",
+          "Device Testing"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Deployment & Launch",
+        "description": "We handle app store submission, optimization for app store search, and provide post-launch support and maintenance.",
+        "tags": ["App Store Submission", "ASO Optimization", "Launch Support"]
+      }
+    ],
+    "packagesTitle": "Mobile App",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Complete mobile app development packages from simple apps to complex enterprise solutions.",
+    "packages": [
+      {
+        "name": "Simple Mobile App",
+        "description": "Basic app with core features",
+        "price": "$8,500",
+        "features": [
+          "Up to 5 core screens",
+          "Basic user authentication",
+          "Simple database integration",
+          "Push notifications",
+          "iOS & Android versions",
+          "App store submission",
+          "3 months support",
+          "8-10 weeks delivery"
+        ],
+        "contactParam": "simple-app",
+        "popular": false
+      },
+      {
+        "name": "Professional Mobile App",
+        "description": "Advanced features and integrations",
+        "price": "$18,500",
+        "features": [
+          "Complex user interface",
+          "Advanced user management",
+          "API integrations",
+          "Offline functionality",
+          "In-app purchases",
+          "Analytics integration",
+          "6 months support",
+          "12-16 weeks delivery"
+        ],
+        "contactParam": "professional-app",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Mobile Solution",
+        "description": "Custom enterprise mobile applications",
+        "price": "$35,000+",
+        "features": [
+          "Custom native features",
+          "Enterprise integrations",
+          "Advanced security",
+          "Multi-platform deployment",
+          "Custom backend development",
+          "Dedicated project team",
+          "12 months support",
+          "20-24 weeks delivery"
+        ],
+        "contactParam": "enterprise-app",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "Mobile App",
+    "projectsHighlight": "Portfolio",
+    "projectsDescription": "See the mobile applications we've developed for businesses across different industries.",
+    "featuredProjects": [
+      {
+        "title": "Fitness Tracking App",
+        "projectName": "FitTracker Pro",
+        "description": "Cross-platform fitness app with workout tracking, social features, and wearable device integration. Achieved 4.8 star rating.",
+        "technologies": ["React Native", "Firebase"],
+        "link": "/portfolio/fittracker",
+        "gradient": "from-teal-400 to-teal-600"
+      },
+      {
+        "title": "E-commerce Mobile App",
+        "projectName": "ShopMobile App",
+        "description": "Native shopping app with AR product preview, secure payments, and personalized recommendations. 200% increase in mobile conversions.",
+        "technologies": ["Flutter", "AR"],
+        "link": "/portfolio/shopmobile",
+        "gradient": "from-amber-400 to-amber-600"
+      }
+    ],
+    "faqTitle": "Mobile App",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our mobile app development services.",
+    "faqs": [
+      {
+        "question": "How long does it take to build a mobile app?",
+        "answer": "The timeline varies based on complexity. A simple app can take 8-12 weeks, while a more complex enterprise solution can take 20 weeks or more. We'll provide a detailed timeline after the initial discovery phase.",
+        "open": false
+      },
+      {
+        "question": "Do you build for both iOS and Android?",
+        "answer": "Yes! We specialize in cross-platform development using technologies like React Native and Flutter, which allows us to build for both iOS and Android from a single codebase, saving you time and money.",
+        "open": false
+      },
+      {
+        "question": "Will you help me publish the app on the App Store and Google Play?",
+        "answer": "Absolutely. Our service includes the entire deployment process, from preparing the app listings to navigating the submission and review process for both the Apple App Store and Google Play Store.",
+        "open": false
+      },
+      {
+        "question": "What kind of support do you offer after the app is launched?",
+        "answer": "We offer post-launch support and maintenance packages to ensure your app remains up-to-date, secure, and compatible with new OS versions. The duration of included support depends on the package you choose.",
+        "open": false
+      }
+    ],
+    "ctaTitle": "Ready to Build Your App?",
+    "ctaDescription": "Let's turn your vision into a high-performance mobile application that engages your users.",
+    "ctaButton": "Start Your App Project",
+    "ctaPhone": "Call (555) 123-4567"
   }
-}
+]
