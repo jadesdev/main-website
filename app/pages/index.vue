@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="relative hidden lg:block">
-          <img src="https://placehold.co/800x600/3c9cd5/FFFFFF?text=Random+Image" alt="Modern web application dashboard mockup"
+          <img src="/images/hero-bg.png" alt="Modern web application dashboard mockup"
             class="rounded-2xl shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
           <div class="absolute -bottom-8 -left-8 bg-white p-4 rounded-2xl shadow-2xl">
             <div class="flex items-center">

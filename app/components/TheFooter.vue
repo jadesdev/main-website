@@ -23,8 +23,8 @@
           <h3 class="text-lg font-semibold mb-4">Services</h3>
           <ul class="space-y-2 text-gray-400">
             <li v-for="service in services" :key="service.path">
-              <NuxtLink :to="service.path" class="hover:text-jade-500 transition-colors">
-                {{ service.name }}
+              <NuxtLink :to="`/services/${service.slug}`" class="hover:text-jade-500 transition-colors">
+                {{ service.shortTitle }}
               </NuxtLink>
             </li>
           </ul>
@@ -63,24 +63,17 @@
 <script setup>
 import { computed } from 'vue'
 import { SITE_NAME, FOOTER_CONTACT, SOCIAL_LINKS } from '~/constants/site'
+import servicesData from '~/content/services-data.json'
 
 const currentYear = computed(() => new Date().getFullYear())
-
-// TODO: get from service list
-// Services data
-const services = [
-  { name: 'Web Development', path: '#service/web-development' },
-  { name: 'UI/UX Design', path: '#service/ui-ux-design' },
-  { name: 'E-commerce', path: '#service/ecommerce' },
-  { name: 'Mobile Apps', path: '#service/mobile-apps' }
-]
+const services = (servicesData.filter(service => service.type == "main"))
 
 // Company links data
 const companyLinks = [
   { name: 'About Us', path: '/about' },
   { name: 'Portfolio', path: '/portfolio' },
   // { name: 'Blog', path: '#' },
-  { name: 'Careers', path: 'careers' }
+  { name: 'Careers', path: '/careers' }
 ]
 
 </script>

@@ -1,6 +1,7 @@
 [
   {
     "title": "E-commerce Development Solutions",
+    "shortTitle": "Ecommerce",
     "slug": "ecommerce-solutions",
     "description": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we've got you covered.",
     "heroTitle": "E-commerce",
@@ -188,6 +189,7 @@
   },
   {
     "title": "Custom Web Development",
+    "shortTitle": "Web Development",
     "slug": "web-development",
     "description": "Transform your business with professional, custom-built websites that drive results. We create responsive, fast, and secure web solutions tailored to your unique needs.",
     "heroTitle": "Custom",
@@ -376,6 +378,7 @@
   },
   {
     "title": "UI/UX Design & Development",
+    "shortTitle": "UI/UX Design",
     "slug": "ui-ux-design",
     "description": "Create stunning user experiences with our comprehensive UI/UX design and development services. We combine beautiful interfaces with seamless functionality.",
     "heroTitle": "UI/UX Design &",
@@ -557,6 +560,7 @@
 
   {
     "title": "Performance Optimization",
+    "shortTitle": "Performance Optimization",
     "slug": "performance-optimization",
     "description": "Speed up your website and improve search rankings with our comprehensive performance optimization services. We make your site lightning fast for better user experience and SEO.",
     "heroTitle": "Performance",
@@ -738,6 +742,7 @@
   },
   {
     "title": "Security & Maintenance",
+    "shortTitle": "Security & Maintenance",
     "slug": "security-maintenance",
     "description": "Keep your website secure and up-to-date with our comprehensive maintenance packages. Protect your business with proactive security measures and regular updates.",
     "heroTitle": "Security &",
@@ -919,6 +924,7 @@
   },
   {
     "title": "SEO & Analytics",
+    "shortTitle": "SEO & Analytics",
     "slug": "seo-analytics",
     "description": "Improve your search rankings and track your website's performance with our comprehensive SEO and analytics services. Drive more organic traffic and measure success.",
     "heroTitle": "SEO &",
@@ -1101,6 +1107,7 @@
 
   {
     "title": "Mobile App Development",
+    "shortTitle": "App Development",
     "slug": "mobile-app-development",
     "description": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
     "heroTitle": "Mobile App",
