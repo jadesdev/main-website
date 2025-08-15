@@ -1,155 +1,148 @@
 [
   {
     "title": "Mobile App Development",
-    "shortTitle": "App Development",
+    "shortTitle": "Mobile App Dev",
     "slug": "mobile-app-development",
-    "description": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
-    "heroTitle": "Mobile App",
-    "heroHighlight": "Development",
-    "heroDescription": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
+    "description": "We build engaging and high-performance mobile apps for iOS and Android that connect you with your customers and open new revenue streams for your business.",
+    "heroTitle": "Mobile Apps That",
+    "heroHighlight": "Engage & Convert",
+    "heroDescription": "Create a direct channel to your customers. We design, develop, and deploy beautiful, intuitive mobile apps for iOS and Android that build loyalty and drive business growth.",
     "keyBenefits": [
-      "Cross-Platform Apps",
-      "Native Performance",
-      "App Store Ready",
-      "Push Notifications"
+      "iOS & Android Reach",
+      "Native-Feel Performance",
+      "Seamless App Store Launch",
+      "Direct User Engagement"
     ],
     "isPopular": false,
     "type": "main",
     "heroIcon": "heroicons:device-phone-mobile",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "Mobile Development",
-    "overviewDescription": "We create mobile apps that deliver exceptional user experiences while seamlessly integrating with your existing web presence and business systems.",
+    "overviewTitle": "Connect Directly With",
+    "overviewHighlight": "Your Customers",
+    "overviewDescription": "A mobile app is the ultimate tool for building a loyal community. We create exceptional user experiences that integrate seamlessly with your business, providing a powerful platform for engagement and growth.",
     "features": [
       {
         "icon": "heroicons:device-phone-mobile",
         "title": "Cross-Platform Development",
-        "description": "Build once, deploy everywhere. Our apps work seamlessly on both iOS and Android."
+        "description": "Build once, deploy everywhere. We use modern frameworks to create apps that run smoothly on both iOS and Android from a single codebase."
       },
       {
         "icon": "heroicons:bolt",
-        "title": "Native Performance",
-        "description": "Optimized performance that feels native on each platform with smooth animations."
+        "title": "High-Performance Experience",
+        "description": "Your app will feel fast, fluid, and responsive, with smooth animations and performance that feels native to each platform."
       },
       {
         "icon": "heroicons:bell",
-        "title": "Push Notifications",
-        "description": "Engage users with targeted push notifications and real-time updates."
+        "title": "Push Notification Strategy",
+        "description": "Engage and retain users with a smart push notification system for targeted updates, promotions, and real-time alerts."
       },
       {
-        "icon": "heroicons:cloud",
-        "title": "Cloud Integration",
-        "description": "Seamless integration with cloud services and your existing web applications."
+        "icon": "heroicons:server-stack",
+        "title": "Seamless Backend Integration",
+        "description": "We ensure your app integrates perfectly with your existing website, database, or any third-party APIs for real-time data sync."
       },
       {
         "icon": "heroicons:shield-check",
-        "title": "Secure & Compliant",
-        "description": "Built with security best practices and compliance requirements in mind."
+        "title": "Secure & Scalable",
+        "description": "We build your app on a secure and scalable architecture, ready to handle your user growth and future feature additions."
       },
       {
         "icon": "heroicons:chart-bar",
-        "title": "Analytics Integration",
-        "description": "Built-in analytics to track user behavior and app performance metrics."
+        "title": "User Analytics",
+        "description": "Understand your users with built-in analytics to track engagement, user behavior, and key performance metrics."
       }
     ],
-    "technologiesTitle": "Mobile Development",
+    "technologiesTitle": "Mobile",
     "technologiesHighlight": "Technologies",
-    "technologiesDescription": "We use cutting-edge mobile development frameworks and technologies to create high-performance apps.",
+    "technologiesDescription": "We use cutting-edge frameworks to build high-performance mobile applications for a global audience.",
     "technologies": [
       "React Native",
       "Flutter",
-      "Swift",
-      "Kotlin",
+      "Swift (Native iOS)",
+      "Kotlin (Native Android)",
       "Firebase",
-      "Redux",
+      "Node.js",
       "Expo",
       "GraphQL",
       "REST APIs",
       "Push Notifications"
     ],
-    "processTitle": "Our Mobile App",
-    "processHighlight": "Process",
-    "processDescription": "From concept to app store launch, we follow a proven process to deliver successful mobile applications.",
+    "processTitle": "Your Blueprint for a",
+    "processHighlight": "Successful App",
+    "processDescription": "From a simple idea to a successful launch on the app stores, we follow a proven process to ensure your project's success.",
     "processSteps": [
       {
         "step": 1,
-        "title": "Discovery & Planning",
-        "description": "We analyze your requirements, define app features, create user stories, and plan the technical architecture for your mobile application.",
-        "tags": ["Requirements Analysis", "User Stories", "Technical Planning"]
+        "title": "Discovery & Strategy",
+        "description": "We analyze your requirements, define key features, map out user journeys, and plan the technical architecture for your app.",
+        "tags": ["App Strategy", "User Stories", "Technical Planning"]
       },
       {
         "step": 2,
         "title": "UI/UX Design",
-        "description": "We design intuitive, platform-specific interfaces that provide excellent user experience while following iOS and Android design guidelines.",
-        "tags": ["Mobile UI Design", "UX Optimization", "Platform Guidelines"]
+        "description": "We design an intuitive, beautiful interface that provides an excellent user experience, following strict iOS and Android design guidelines.",
+        "tags": ["Mobile UI/UX", "Prototyping", "Platform Guidelines"]
       },
       {
         "step": 3,
         "title": "Development & Testing",
-        "description": "We develop your app using modern frameworks, implement features, and conduct thorough testing on multiple devices and platforms.",
-        "tags": [
-          "Cross-Platform Development",
-          "Feature Implementation",
-          "Device Testing"
-        ]
+        "description": "Our developers build your app with clean code and conduct rigorous testing on multiple devices to ensure a bug-free experience.",
+        "tags": ["Cross-Platform Dev", "API Integration", "Device Testing"]
       },
       {
         "step": 4,
         "title": "Deployment & Launch",
-        "description": "We handle app store submission, optimization for app store search, and provide post-launch support and maintenance.",
-        "tags": ["App Store Submission", "ASO Optimization", "Launch Support"]
+        "description": "We handle the entire submission process for both the Apple App Store and Google Play Store, ensuring a smooth launch.",
+        "tags": ["App Store Submission", "ASO", "Launch Support"]
       }
     ],
     "packagesTitle": "Mobile App",
     "packagesHighlight": "Packages",
-    "packagesDescription": "Complete mobile app development packages from simple apps to complex enterprise solutions.",
+    "packagesDescription": "Choose a package that aligns with your mobile strategy, from a simple MVP to a full-featured enterprise solution.",
     "packages": [
       {
-        "name": "Simple Mobile App",
-        "description": "Basic app with core features",
-        "price": "$8,500",
+        "name": "MVP App",
+        "description": "Launch your idea with a Minimum Viable Product that includes core features.",
+        "price": "From ₦6,000,000",
         "features": [
           "Up to 5 core screens",
           "Basic user authentication",
-          "Simple database integration",
-          "Push notifications",
+          "Simple backend integration",
           "iOS & Android versions",
-          "App store submission",
-          "3 months support",
-          "8-10 weeks delivery"
+          "App store submission assistance",
+          "3 months of post-launch support",
+          "Typical delivery: 8-10 weeks"
         ],
-        "contactParam": "simple-app",
+        "contactParam": "mvp-app",
         "popular": false
       },
       {
-        "name": "Professional Mobile App",
-        "description": "Advanced features and integrations",
-        "price": "$18,500",
+        "name": "Professional App",
+        "description": "A full-featured application with advanced functionality and custom design.",
+        "price": "From ₦12,000,000",
         "features": [
-          "Complex user interface",
+          "Up to 12 core screens & flows",
           "Advanced user management",
-          "API integrations",
-          "Offline functionality",
-          "In-app purchases",
-          "Analytics integration",
-          "6 months support",
-          "12-16 weeks delivery"
+          "Third-party API integrations",
+          "Push notifications & in-app messaging",
+          "Analytics dashboard",
+          "6 months of post-launch support",
+          "Typical delivery: 12-16 weeks"
         ],
         "contactParam": "professional-app",
         "popular": true
       },
       {
-        "name": "Enterprise Mobile Solution",
-        "description": "Custom enterprise mobile applications",
-        "price": "$35,000+",
+        "name": "Enterprise Solution",
+        "description": "A complex, custom-built mobile platform for large-scale business operations.",
+        "price": "From ₦25,000,000",
         "features": [
-          "Custom native features",
-          "Enterprise integrations",
-          "Advanced security",
-          "Multi-platform deployment",
-          "Custom backend development",
+          "Custom native feature development",
+          "Enterprise system integrations (ERP, CRM)",
+          "Advanced security & compliance",
+          "Offline functionality and data sync",
           "Dedicated project team",
-          "12 months support",
-          "20-24 weeks delivery"
+          "12 months of dedicated support",
+          "Timeline varies by project scope"
         ],
         "contactParam": "enterprise-app",
         "popular": false
@@ -157,187 +150,532 @@
     ],
     "projectsTitle": "Mobile App",
     "projectsHighlight": "Portfolio",
-    "projectsDescription": "See the mobile applications we've developed for businesses across different industries.",
+    "projectsDescription": "See the powerful mobile applications we've developed for businesses across different industries.",
     "faqTitle": "Mobile App",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our mobile app development services.",
     "faqs": [
       {
         "question": "How long does it take to build a mobile app?",
-        "answer": "The timeline varies based on complexity. A simple app can take 8-12 weeks, while a more complex enterprise solution can take 20 weeks or more. We'll provide a detailed timeline after the initial discovery phase.",
-        "open": false
+        "answer": "The timeline varies based on complexity. A simple MVP app can take 8-12 weeks, while a more complex enterprise solution can take 20 weeks or more. We'll provide a detailed timeline after our initial discovery phase."
       },
       {
         "question": "Do you build for both iOS and Android?",
-        "answer": "Yes! We specialize in cross-platform development using technologies like React Native and Flutter, which allows us to build for both iOS and Android from a single codebase, saving you time and money.",
-        "open": false
+        "answer": "Yes. We specialize in cross-platform development using technologies like React Native and Flutter. This allows us to build for both iOS and Android from a single codebase, saving you time and money."
       },
       {
-        "question": "Will you help me publish the app on the App Store and Google Play?",
-        "answer": "Absolutely. Our service includes the entire deployment process, from preparing the app listings to navigating the submission and review process for both the Apple App Store and Google Play Store.",
-        "open": false
+        "question": "Will you help publish my app?",
+        "answer": "Absolutely. Our service includes the entire deployment process, from preparing the app listings to navigating the submission and review process for both the Apple App Store and Google Play Store."
       },
       {
-        "question": "What kind of support do you offer after the app is launched?",
-        "answer": "We offer post-launch support and maintenance packages to ensure your app remains up-to-date, secure, and compatible with new OS versions. The duration of included support depends on the package you choose.",
-        "open": false
+        "question": "What kind of support do you offer after launch?",
+        "answer": "We offer post-launch support and maintenance packages to ensure your app remains up-to-date, secure, and compatible with new OS versions. The duration of included support depends on the package you choose."
       }
     ],
-    "ctaTitle": "Ready to Build Your App?",
-    "ctaDescription": "Let's turn your vision into a high-performance mobile application that engages your users.",
-    "ctaButton": "Start Your App Project",
-    "ctaPhone": "Call 803-5852-702"
+    "ctaTitle": "Ready to Build Your Mobile App?",
+    "ctaDescription": "Let's turn your idea into a high-performance mobile application that your users will love. Schedule your free consultation today.",
+    "ctaButton": "I Need a Mobile App"
   },
   {
-    "title": "E-commerce Development Solutions",
-    "shortTitle": "Ecommerce",
-    "slug": "ecommerce-solutions",
-    "description": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we've got you covered.",
-    "heroTitle": "E-commerce",
-    "heroHighlight": "Solutions",
-    "heroDescription": "Build powerful online stores that drive sales with our comprehensive e-commerce development services. From payment processing to inventory management, we create complete digital storefronts.",
+    "title": "Web Design & Software Development",
+    "shortTitle": "Web & Software Dev",
+    "slug": "software-development",
+    "description": "We design and develop bespoke websites, web applications, and custom software that solve your unique business challenges and create exceptional user experiences.",
+    "heroTitle": "Custom Websites &",
+    "heroHighlight": "Software Solutions",
+    "heroDescription": "We are your dedicated technical partner, crafting high-performance websites and custom software applications that drive growth, automate processes, and set you apart from the competition.",
     "keyBenefits": [
-      "Secure Payments",
-      "Inventory Management",
-      "Mobile Optimized",
-      "Analytics Ready"
+      "Bespoke Solutions",
+      "Scalable Architecture",
+      "Mobile-First Design",
+      "Secure & Reliable"
     ],
-    "isPopular": false,
-    "type": "others",
-    "heroIcon": "heroicons:shopping-bag",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "E-commerce Solutions",
-    "overviewDescription": "We build e-commerce platforms that not only look great but are optimized for conversions, security, and scalability.",
+    "isPopular": true,
+    "type": "main",
+    "heroIcon": "heroicons:code-bracket-square",
+    "overviewTitle": "Digital Solutions That",
+    "overviewHighlight": "Drive Your Business",
+    "overviewDescription": "We go beyond just building websites. We engineer digital solutions. By combining cutting-edge technology with user-centric design, we deliver platforms that are not only beautiful but are also powerful business tools.",
     "features": [
       {
-        "icon": "heroicons:shopping-cart",
-        "title": "Shopping Cart & Checkout",
-        "description": "Smooth, secure checkout process optimized for conversion and user experience."
-      },
-      {
-        "icon": "heroicons:credit-card",
-        "title": "Payment Processing",
-        "description": "Secure payment integration with multiple gateways and cryptocurrency support."
-      },
-      {
-        "icon": "heroicons:archive-box",
-        "title": "Inventory Management",
-        "description": "Advanced inventory tracking, stock alerts, and automated reordering features."
-      },
-      {
-        "icon": "heroicons:chart-bar",
-        "title": "Analytics & Reporting",
-        "description": "Comprehensive sales analytics, customer insights, and performance metrics."
+        "icon": "heroicons:paint-brush",
+        "title": "Bespoke UI/UX Design",
+        "description": "Every project begins with a custom design, tailored to your brand and optimized for an intuitive user experience."
       },
       {
         "icon": "heroicons:device-phone-mobile",
-        "title": "Mobile Commerce",
-        "description": "Fully responsive design optimized for mobile shopping and mobile payments."
+        "title": "Responsive Web Design",
+        "description": "Your website or application will look and function perfectly on all devices—from desktops to smartphones."
       },
       {
-        "icon": "heroicons:magnifying-glass",
-        "title": "SEO & Marketing Tools",
-        "description": "Built-in SEO optimization and marketing tools to drive traffic and sales."
+        "icon": "heroicons:bolt",
+        "title": "Performance Optimization",
+        "description": "We build for speed. Your digital platform will be optimized for lightning-fast load times and a smooth user journey."
+      },
+      {
+        "icon": "heroicons:cog-6-tooth",
+        "title": "Custom Feature Development",
+        "description": "Need a specific feature? We have the expertise to build any custom functionality your project requires."
+      },
+      {
+        "icon": "heroicons:circle-stack",
+        "title": "API Development & Integration",
+        "description": "We build and integrate custom APIs to connect your software with third-party services and streamline your data flow."
+      },
+      {
+        "icon": "heroicons:cloud-arrow-up",
+        "title": "Scalable Architecture",
+        "description": "We build your solution on a robust, scalable foundation that is ready to grow with your business."
       }
     ],
-    "technologiesTitle": "E-commerce",
-    "technologiesHighlight": "Technologies",
-    "technologiesDescription": "We use proven e-commerce platforms and modern technologies to build scalable online stores.",
+    "technologiesTitle": "Technologies We",
+    "technologiesHighlight": "Master",
+    "technologiesDescription": "We use a modern, robust technology stack to build scalable and secure digital solutions.",
     "technologies": [
-      "Shopify",
-      "WooCommerce",
-      "Magento",
-      "React",
+      "Laravel",
+      "Node.js",
+      "React.js",
+      "Vue.js",
       "Next.js",
-      "Stripe",
-      "PayPal",
-      "Square",
+      "TypeScript",
+      "PHP",
+      "Python",
+      "MySQL",
+      "MongoDB",
       "AWS",
-      "Node.js"
+      "Docker"
     ],
-    "processTitle": "Our E-commerce",
-    "processHighlight": "Process",
-    "processDescription": "From concept to launch, we follow a systematic approach to build successful online stores.",
+    "processTitle": "Your Blueprint for",
+    "processHighlight": "Success",
+    "processDescription": "Our transparent, four-step process ensures your project is a masterpiece, delivered on time and engineered for success.",
     "processSteps": [
       {
         "step": 1,
-        "title": "Business Analysis",
-        "description": "We analyze your business model, target market, and competition to develop the optimal e-commerce strategy and platform selection.",
-        "tags": ["Market Research", "Platform Selection", "Strategy Planning"]
+        "title": "Discovery & Strategy",
+        "description": "We dive deep into your business goals, target audience, and technical requirements to create a comprehensive project roadmap.",
+        "tags": ["Goal Alignment", "User Research", "Technical Planning"]
       },
       {
         "step": 2,
-        "title": "Store Design & UX",
-        "description": "We design user-friendly interfaces focused on conversion optimization, with attention to product display and checkout flow.",
-        "tags": ["Store Design", "UX Optimization", "Conversion Focus"]
+        "title": "UI/UX Design",
+        "description": "Our design team creates wireframes and high-fidelity, interactive prototypes that bring your vision to life for your review and approval.",
+        "tags": ["Wireframing", "Visual Design", "Prototyping"]
       },
       {
         "step": 3,
         "title": "Development & Integration",
-        "description": "We build your store with secure payment processing, inventory management, and integrate with your existing business systems.",
+        "description": "Our developers write clean, efficient code to build your website or application, integrating all necessary features and APIs.",
         "tags": [
-          "E-commerce Development",
-          "Payment Integration",
-          "System Integration"
+          "Frontend & Backend Dev",
+          "API Integration",
+          "Quality Assurance"
         ]
       },
       {
         "step": 4,
-        "title": "Testing & Launch",
-        "description": "Thorough testing of all store functions, payment processing, and performance optimization before going live.",
-        "tags": ["Quality Testing", "Performance Optimization", "Store Launch"]
+        "title": "Launch & Grow",
+        "description": "We conduct rigorous testing before deploying your project. After launch, we provide support to ensure your continued success.",
+        "tags": ["Testing", "Deployment", "Ongoing Support"]
+      }
+    ],
+    "packagesTitle": "Project",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Choose a package that aligns with your business goals. All packages include custom design, mobile optimization, and our dedicated support.",
+    "packages": [
+      {
+        "name": "Professional Website",
+        "description": "A stunning, custom-built website for businesses and brands ready to make an impact.",
+        "price": "From ₦3,500,000",
+        "features": [
+          "Up to 15 custom-designed pages",
+          "Content Management System (CMS)",
+          "Advanced SEO & Performance Setup",
+          "Analytics Integration",
+          "3 months of post-launch support",
+          "Typical delivery: 4-6 weeks"
+        ],
+        "contactParam": "professional-website",
+        "popular": true
+      },
+      {
+        "name": "Custom Web Application",
+        "description": "For complex projects requiring custom functionality, databases, and user accounts.",
+        "price": "From ₦7,500,000",
+        "features": [
+          "Unlimited pages & features",
+          "Bespoke application development",
+          "Secure database integration",
+          "Custom API development",
+          "Advanced security protocols",
+          "6 months of post-launch support",
+          "Typical delivery: 8-12 weeks"
+        ],
+        "contactParam": "web-application",
+        "popular": false
+      },
+      {
+        "name": "Enterprise Software Solution",
+        "description": "A complete software solution designed to automate and scale your business operations.",
+        "price": "From ₦15,000,000",
+        "features": [
+          "Full-scope software engineering",
+          "Third-party system integrations",
+          "Cloud architecture planning",
+          "Dedicated project team & manager",
+          "Ongoing technical partnership",
+          "12 months of dedicated support",
+          "Timeline varies by project scope"
+        ],
+        "contactParam": "enterprise-solution",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "Our",
+    "projectsHighlight": "Work",
+    "projectsDescription": "See how we've helped businesses like yours succeed with powerful digital solutions.",
+    "faqTitle": "Frequently Asked",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our development process and partnership.",
+    "faqs": [
+      {
+        "question": "What's included in this service?",
+        "answer": "Our service is comprehensive. It includes a custom strategy, complete UI/UX design, full-stack development, rigorous testing, deployment, and a period of post-launch support. We handle everything to bring your digital project to life."
+      },
+      {
+        "question": "Do I own the project after it's built?",
+        "answer": "Yes, absolutely. Upon final payment, you own all rights to the code, design, and intellectual property. We provide you with all source files and documentation for your records."
+      },
+      {
+        "question": "Can you integrate with my existing business tools?",
+        "answer": "Yes. We specialize in system integrations. Whether it's a CRM, payment gateway, or any other third-party software with an API, we can seamlessly connect it to your new platform."
+      },
+      {
+        "question": "How do you handle project management and communication?",
+        "answer": "We use a dedicated project management tool (like Jira or Trello) to keep everything organized and transparent. You'll have direct communication with your project manager and receive regular updates to ensure you're always informed."
+      }
+    ],
+    "ctaTitle": "Have a Vision? Let's Build It.",
+    "ctaDescription": "Your vision deserves expert execution. Let's schedule a free consultation to map out your project and provide a clear, no-obligation estimate.",
+    "ctaButton": "Start Your Project"
+  },
+  {
+    "title": "UI/UX Design",
+    "shortTitle": "UI/UX Design",
+    "slug": "ui-ux-design",
+    "description": "We create beautiful, intuitive, and user-centric digital experiences that captivate your audience, improve conversions, and build a strong brand identity.",
+    "heroTitle": "Design That Delights",
+    "heroHighlight": "& Converts",
+    "heroDescription": "Go beyond aesthetics with a user-centric design process. We craft seamless user experiences (UX) and beautiful user interfaces (UI) that make your product a joy to use.",
+    "keyBenefits": [
+      "User-Centric Approach",
+      "Conversion-Focused Design",
+      "Enhanced User Engagement",
+      "Strong Brand Consistency"
+    ],
+    "isPopular": false,
+    "type": "main",
+    "heroIcon": "heroicons:swatch",
+    "overviewTitle": "Where Great Design",
+    "overviewHighlight": "Meets Business Goals",
+    "overviewDescription": "We believe that world-class design is a business multiplier. Our design process is data-driven and user-focused, ensuring the final product not only looks stunning but is also intuitive, accessible, and optimized to achieve your strategic objectives.",
+    "features": [
+      {
+        "icon": "heroicons:users",
+        "title": "In-depth User Research",
+        "description": "We start by understanding your audience's needs, behaviors, and pain points to inform every design decision."
+      },
+      {
+        "icon": "heroicons:map",
+        "title": "User Journey & Flow Mapping",
+        "description": "We map out the ideal user path through your product to create a logical, intuitive, and seamless experience."
+      },
+      {
+        "icon": "heroicons:squares-plus",
+        "title": "Wireframing & Prototyping",
+        "description": "We create interactive wireframes and high-fidelity prototypes to test and refine the user experience before development."
+      },
+      {
+        "icon": "heroicons:paint-brush",
+        "title": "Stunning Visual & UI Design",
+        "description": "Our team designs beautiful, modern interfaces that align with your brand identity and captivate your users."
+      },
+      {
+        "icon": "heroicons:check-badge",
+        "title": "Usability Testing",
+        "description": "We test our designs with real users to identify and fix usability issues, ensuring the final product is easy to use."
+      },
+      {
+        "icon": "heroicons:book-open",
+        "title": "Comprehensive Design Systems",
+        "description": "For larger projects, we create a complete design system with reusable components to ensure brand consistency at scale."
+      }
+    ],
+    "technologiesTitle": "Our Design",
+    "technologiesHighlight": "Toolkit",
+    "technologiesDescription": "We use industry-leading design and prototyping tools to bring your vision to life with precision and creativity.",
+    "technologies": [
+      "Figma",
+      "Adobe XD",
+      "Sketch",
+      "Miro",
+      "Photoshop",
+      "Illustrator",
+      "InVision",
+      "Framer",
+      "Storybook",
+      "Zeplin"
+    ],
+    "processTitle": "Our Human-Centered",
+    "processHighlight": "Design Process",
+    "processDescription": "Our proven design process ensures we create user experiences that are not only beautiful but also effective and data-driven.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Research & Discovery",
+        "description": "We analyze your users, competitors, and business goals to build a solid foundation for our design strategy.",
+        "tags": ["User Research", "Competitor Analysis", "Strategy"]
+      },
+      {
+        "step": 2,
+        "title": "Structure & Wireframe",
+        "description": "We organize your content and features logically and create low-fidelity wireframes to map out the core structure.",
+        "tags": ["Sitemaps", "User Flows", "Wireframing"]
+      },
+      {
+        "step": 3,
+        "title": "Design & Prototype",
+        "description": "We craft the visual design and build high-fidelity, interactive prototypes that allow you to see and feel the final product.",
+        "tags": ["Visual Design", "Prototyping", "Feedback"]
+      },
+      {
+        "step": 4,
+        "title": "Test & Handoff",
+        "description": "We conduct usability testing with real users and prepare a comprehensive set of design files and assets for a seamless handoff to the development team.",
+        "tags": ["Usability Testing", "Design System", "Dev Handoff"]
+      }
+    ],
+    "packagesTitle": "UI/UX Design",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Choose a design package that aligns with your project's needs, from a simple audit to a complete product design.",
+    "packages": [
+      {
+        "name": "UX Audit & Strategy",
+        "description": "An expert review of your existing product to identify usability issues and strategic improvements.",
+        "price": "From ₦750,000",
+        "features": [
+          "Comprehensive UX audit",
+          "User journey mapping",
+          "Competitor analysis report",
+          "Actionable recommendations",
+          "Typical delivery: 1-2 weeks"
+        ],
+        "contactParam": "ux-audit",
+        "popular": false
+      },
+      {
+        "name": "Complete UI/UX Design",
+        "description": "A full design service for a new website or mobile app, from concept to final prototype.",
+        "price": "From ₦2,500,000",
+        "features": [
+          "User research & discovery",
+          "Wireframing & user flows",
+          "High-fidelity visual design",
+          "Interactive prototyping",
+          "Design assets for development",
+          "Typical delivery: 3-5 weeks"
+        ],
+        "contactParam": "complete-design",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Design System",
+        "description": "A comprehensive design system to ensure brand consistency across all your digital products.",
+        "price": "From ₦5,000,000",
+        "features": [
+          "Complete component library",
+          "Style guide & documentation",
+          "Designs for multiple platforms",
+          "Team training & implementation support",
+          "Typical delivery: 6-8 weeks"
+        ],
+        "contactParam": "enterprise-design-system",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "Design",
+    "projectsHighlight": "Showcase",
+    "projectsDescription": "See how our user-centric design approach has transformed digital experiences for our clients.",
+    "faqTitle": "Design",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our UI/UX design services and process.",
+    "faqs": [
+      {
+        "question": "What's the difference between UI and UX?",
+        "answer": "UX (User Experience) is the overall feeling a user has while interacting with your product—is it easy and logical? UI (User Interface) is the visual part—the look of the screens, buttons, and other elements. We masterfully combine both for a world-class result."
+      },
+      {
+        "question": "Can you redesign my existing website or app?",
+        "answer": "Absolutely. We specialize in redesigning existing digital products to improve user experience, increase conversion rates, and modernize the visual interface to better reflect your brand."
+      },
+      {
+        "question": "What will I receive at the end of the project?",
+        "answer": "You will receive a complete set of design assets ready for development. This typically includes the source design files (e.g., Figma), all visual assets, a style guide for fonts and colors, and an interactive prototype."
+      },
+      {
+        "question": "Do you also handle the development of the design?",
+        "answer": "This service is focused purely on design. However, our development team can seamlessly take the final design and bring it to life as part of our 'Web & Software Development' service. We ensure a perfect translation from design to code."
+      }
+    ],
+    "ctaTitle": "Ready to Create an Amazing User Experience?",
+    "ctaDescription": "Let's work together to create a design that your users will love and that will drive real business results. Schedule your free consultation today.",
+    "ctaButton": "I Need a Professional Design"
+  },
+  {
+    "title": "E-commerce Solutions",
+    "shortTitle": "E-commerce",
+    "slug": "ecommerce-solutions",
+    "description": "We build powerful, secure, and scalable e-commerce platforms that convert visitors into loyal customers and drive your online sales growth.",
+    "heroTitle": "E-commerce Platforms That",
+    "heroHighlight": "Drive Sales",
+    "heroDescription": "Transform your business with a world-class online store. We engineer end-to-end e-commerce solutions, from seamless payment processing to robust inventory management, designed to scale with your ambition.",
+    "keyBenefits": [
+      "Conversion-Focused Design",
+      "Secure Payment Gateways",
+      "Scalable Inventory Systems",
+      "Mobile-Ready Storefront"
+    ],
+    "isPopular": true,
+    "type": "others",
+    "heroIcon": "heroicons:shopping-bag",
+    "overviewTitle": "Your Partner in",
+    "overviewHighlight": "Digital Commerce",
+    "overviewDescription": "An online store is more than a website—it's your digital headquarters. We build e-commerce platforms that are not only visually stunning but are also optimized for high conversion rates, ironclad security, and a seamless customer experience.",
+    "features": [
+      {
+        "icon": "heroicons:shopping-cart",
+        "title": "Optimized Shopping Cart & Checkout",
+        "description": "We design a smooth, intuitive, and secure checkout process proven to reduce cart abandonment and increase conversions."
+      },
+      {
+        "icon": "heroicons:credit-card",
+        "title": "Secure Payment Integration",
+        "description": "We integrate with Nigeria's leading payment gateways (like Paystack & Flutterwave) and international options for secure, reliable transactions."
+      },
+      {
+        "icon": "heroicons:archive-box",
+        "title": "Advanced Inventory Management",
+        "description": "Take full control of your business with advanced inventory tracking, stock alerts, and powerful management tools."
+      },
+      {
+        "icon": "heroicons:chart-bar",
+        "title": "Sales Analytics & Reporting",
+        "description": "Gain actionable insights into your sales, customers, and store performance with a comprehensive analytics dashboard."
+      },
+      {
+        "icon": "heroicons:device-phone-mobile",
+        "title": "Mobile Commerce Ready",
+        "description": "Your online store will be fully responsive and optimized for a flawless shopping experience on any mobile device."
+      },
+      {
+        "icon": "heroicons:rocket-launch",
+        "title": "Marketing & SEO Tools",
+        "description": "We equip your store with built-in SEO features and marketing tools to help you attract more customers from day one."
+      }
+    ],
+    "technologiesTitle": "E-commerce",
+    "technologiesHighlight": "Platforms & Tools",
+    "technologiesDescription": "We leverage industry-leading platforms and modern technologies to build powerful and scalable online stores.",
+    "technologies": [
+      "Shopify",
+      "WordPress",
+      "WooCommerce",
+      "Magento",
+      "Paystack",
+      "Flutterwave",
+      "Stripe",
+      "React",
+      "Next.js",
+      "Node.js",
+      "AWS"
+    ],
+    "processTitle": "Your Blueprint for a",
+    "processHighlight": "Successful Store",
+    "processDescription": "We follow a systematic, data-driven approach to build high-performing e-commerce platforms that deliver results.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Discovery & Strategy",
+        "description": "We analyze your business model, target audience, and product catalog to define the optimal e-commerce strategy and platform.",
+        "tags": ["Market Research", "Platform Selection", "Strategy"]
+      },
+      {
+        "step": 2,
+        "title": "Store Design & UX",
+        "description": "We design a beautiful, user-friendly storefront focused on showcasing your products and maximizing conversion rates.",
+        "tags": ["Conversion Design", "UX Optimization", "Prototyping"]
+      },
+      {
+        "step": 3,
+        "title": "Development & Integration",
+        "description": "We build your online store, integrate secure payment gateways, set up inventory systems, and connect to your business tools.",
+        "tags": ["Store Development", "Payment Integration", "System Setup"]
+      },
+      {
+        "step": 4,
+        "title": "Launch & Grow",
+        "description": "We rigorously test every function of your store before a successful launch, and provide support to help you scale.",
+        "tags": ["Quality Testing", "Store Launch", "Ongoing Support"]
       }
     ],
     "packagesTitle": "E-commerce",
     "packagesHighlight": "Packages",
-    "packagesDescription": "Complete e-commerce solutions from simple online stores to complex multi-vendor platforms.",
+    "packagesDescription": "Choose the perfect solution to launch or scale your online business. Every package is built to drive sales.",
     "packages": [
       {
         "name": "Starter Store",
-        "description": "Perfect for small businesses starting online",
-        "price": "$3,500",
+        "description": "Perfect for new businesses and brands launching their first online store.",
+        "price": "From ₦2,500,000",
         "features": [
-          "Up to 50 products",
-          "Basic payment integration",
-          "Inventory management",
-          "Mobile responsive design",
-          "SEO optimization",
-          "3 months support",
-          "3-4 weeks delivery"
+          "Up to 100 products",
+          "Secure payment gateway integration",
+          "Inventory management system",
+          "Mobile-responsive design",
+          "Basic SEO setup",
+          "3 months of post-launch support",
+          "Typical delivery: 3-5 weeks"
         ],
         "contactParam": "starter-store",
         "popular": false
       },
       {
         "name": "Professional Store",
-        "description": "Advanced features for growing businesses",
-        "price": "$7,500",
+        "description": "Advanced features and custom design for growing businesses ready to scale.",
+        "price": "From ₦5,500,000",
         "features": [
           "Unlimited products",
-          "Multiple payment gateways",
-          "Advanced inventory management",
-          "Customer accounts & wishlist",
+          "Multiple payment options",
+          "Advanced inventory & shipping",
+          "Customer accounts & wishlists",
           "Email marketing integration",
-          "Analytics & reporting",
-          "6 months support",
-          "5-7 weeks delivery"
+          "Detailed analytics & reporting",
+          "6 months of post-launch support",
+          "Typical delivery: 6-8 weeks"
         ],
         "contactParam": "professional-store",
         "popular": true
       },
       {
         "name": "Enterprise Platform",
-        "description": "Complex multi-vendor and B2B solutions",
-        "price": "$15,000+",
+        "description": "For complex solutions like multi-vendor marketplaces, B2B, or custom platforms.",
+        "price": "From ₦15,000,000",
         "features": [
-          "Multi-vendor marketplace",
-          "B2B wholesale features",
-          "Custom integrations",
-          "Advanced reporting",
-          "Multi-currency support",
-          "Custom development",
-          "12 months support",
-          "10-14 weeks delivery"
+          "Multi-vendor marketplace functionality",
+          "B2B & wholesale features",
+          "Custom third-party integrations",
+          "Advanced multi-currency support",
+          "Bespoke feature development",
+          "12 months of dedicated support",
+          "Timeline varies by project scope"
         ],
         "contactParam": "enterprise-store",
         "popular": false
@@ -345,551 +683,352 @@
     ],
     "projectsTitle": "E-commerce",
     "projectsHighlight": "Success Stories",
-    "projectsDescription": "See how we've helped businesses increase online sales with powerful e-commerce solutions.",
+    "projectsDescription": "See how we've helped businesses like yours build thriving online stores that drive revenue.",
     "faqTitle": "E-commerce",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our e-commerce development services.",
     "faqs": [
       {
         "question": "Which e-commerce platform is best for my business?",
-        "answer": "The best platform depends on your business size, budget, and requirements. We typically recommend Shopify for most businesses, WooCommerce for WordPress users, and Magento for large enterprises. We'll help you choose the right platform during consultation.",
-        "open": false
+        "answer": "The best platform depends on your specific needs. We often recommend Shopify for speed to market, WooCommerce for its deep integration with WordPress, and custom solutions for unique business models. We'll help you make the right choice during our consultation."
       },
       {
         "question": "Can you migrate my existing store to a new platform?",
-        "answer": "Yes! We specialize in e-commerce migrations. We can transfer your products, customers, orders, and design to a new platform with minimal downtime and no data loss.",
-        "open": false
+        "answer": "Yes, we specialize in seamless e-commerce migrations. We can carefully transfer your products, customers, and order history to a new, more powerful platform with minimal downtime."
       },
       {
-        "question": "Do you provide payment gateway integration?",
-        "answer": "Absolutely! We integrate with all major payment gateways including Stripe, PayPal, Square, and many others. We also support cryptocurrency payments and buy-now-pay-later options.",
-        "open": false
+        "question": "Are the payment systems secure?",
+        "answer": "Absolutely. Security is our top priority. We integrate with trusted, PCI-compliant payment gateways like Paystack, Flutterwave, and Stripe to ensure every transaction is encrypted and secure."
       },
       {
-        "question": "Will my store be mobile-friendly?",
-        "answer": "Yes, all our e-commerce stores are fully responsive and optimized for mobile devices. With over 50% of e-commerce traffic coming from mobile, this is a critical feature we always include.",
-        "open": false
+        "question": "Can the platform grow with my business?",
+        "answer": "Yes. We build every e-commerce solution with scalability in mind. Whether you're using a platform like Shopify or a custom-built solution, it will be engineered to handle your future growth in traffic, products, and sales."
       }
     ],
-    "ctaTitle": "Ready to Launch Your Online Store?",
-    "ctaDescription": "Let's build an e-commerce solution that drives sales and grows your business online.",
-    "ctaButton": "Start E-commerce Project",
-    "ctaPhone": "Call 803-5852-702"
+    "ctaTitle": "Ready to Start Selling Online?",
+    "ctaDescription": "Let's build a powerful e-commerce platform that drives sales and grows your business. Schedule your free consultation today.",
+    "ctaButton": "I Need an E-commerce Store"
   },
   {
-    "title": "Custom Web Development",
-    "shortTitle": "Web Development",
-    "slug": "web-development",
-    "description": "Transform your business with professional, custom-built websites that drive results. We create responsive, fast, and secure web solutions tailored to your unique needs.",
-    "heroTitle": "Custom",
-    "heroHighlight": "Web Development",
-    "heroDescription": "Transform your business with professional, custom-built websites that drive results. We create responsive, fast, and secure web solutions tailored to your unique needs.",
+    "title": "Digital Marketing",
+    "shortTitle": "Digital Marketing",
+    "slug": "digital-marketing",
+    "description": "We help you connect with your target audience, drive qualified traffic, and increase your revenue with data-driven digital marketing strategies, centered on a powerful SEO foundation.",
+    "heroTitle": "Marketing That Delivers",
+    "heroHighlight": "Measurable Results",
+    "heroDescription": "Having a great website is the first step. Getting it in front of the right customers is the next. We craft data-driven digital marketing campaigns that increase your visibility, attract qualified leads, and grow your business.",
     "keyBenefits": [
-      "100% Custom Design",
-      "Mobile Responsive",
-      "SEO Optimized",
-      "Fast Loading"
+      "Increased Organic Traffic",
+      "Higher Search Rankings",
+      "Qualified Lead Generation",
+      "Data-Driven Strategy"
     ],
     "isPopular": true,
-    "type": "main",
-    "heroIcon": "heroicons:code-bracket",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "Web Development",
-    "overviewDescription": "We combine cutting-edge technology with proven development practices to deliver websites that not only look amazing but perform exceptionally.",
+    "type": "others",
+    "heroIcon": "heroicons:chart-bar-square",
+    "overviewTitle": "Your Strategic",
+    "overviewHighlight": "Growth Partner",
+    "overviewDescription": "We're more than just marketers; we're your partners in growth. We combine proven SEO strategies with in-depth analytics to improve your search engine visibility and provide actionable insights that help you dominate your market.",
     "features": [
       {
-        "icon": "heroicons:device-phone-mobile",
-        "title": "Responsive Design",
-        "description": "Your website will look perfect on all devices - desktop, tablet, and mobile."
+        "icon": "heroicons:magnifying-glass-circle",
+        "title": "Strategic Keyword Research",
+        "description": "We identify and target the high-value keywords your ideal customers are searching for right now."
       },
       {
-        "icon": "heroicons:bolt",
-        "title": "Lightning Fast",
-        "description": "Optimized for speed with loading times under 3 seconds guaranteed."
+        "icon": "heroicons:wrench-screwdriver",
+        "title": "Technical SEO Optimization",
+        "description": "We fix the foundational issues that hold your site back, ensuring it's perfectly optimized for search engine crawlers."
       },
       {
-        "icon": "heroicons:shield-check",
-        "title": "Secure & Reliable",
-        "description": "Built with security best practices and reliable hosting solutions."
+        "icon": "heroicons:document-text",
+        "title": "High-Quality Content Strategy",
+        "description": "We help you create and optimize content that not only ranks well but also provides real value to your audience."
       },
       {
-        "icon": "heroicons:magnifying-glass",
-        "title": "SEO Optimized",
-        "description": "Built for search engines to help you rank higher and attract more visitors."
+        "icon": "heroicons:link",
+        "title": "Authoritative Link Building",
+        "description": "We build high-quality, relevant backlinks to your site to increase its authority and improve its ranking power."
       },
       {
-        "icon": "heroicons:heart",
-        "title": "User-Centered Design",
-        "description": "Designed with your users in mind for maximum engagement and conversions."
+        "icon": "heroicons:map-pin",
+        "title": "Local SEO Dominance",
+        "description": "For businesses serving specific areas, we optimize your presence to attract local customers and dominate map searches."
       },
       {
-        "icon": "heroicons:lifebuoy",
-        "title": "Ongoing Support",
-        "description": "We're here to help with updates, maintenance, and technical support."
+        "icon": "heroicons:presentation-chart-line",
+        "title": "Transparent Reporting",
+        "description": "We provide clear, detailed monthly reports that show you exactly how our efforts are translating into measurable growth."
       }
     ],
-    "technologiesTitle": "Technologies We",
-    "technologiesHighlight": "Master",
-    "technologiesDescription": "We use cutting-edge technologies and frameworks to build modern, scalable websites.",
-    "technologies": [
-      "HTML5 & CSS3",
-      "JavaScript ES6+",
-      "React.js",
-      "Vue.js",
-      "Next.js",
-      "Node.js",
-      "PHP",
-      "Python",
-      "MySQL",
-      "MongoDB"
-    ],
-    "processTitle": "Our Development",
-    "processHighlight": "Process",
-    "processDescription": "We follow a proven methodology to ensure your project is delivered on time and exceeds expectations.",
-    "processSteps": [
-      {
-        "step": 1,
-        "title": "Discovery & Planning",
-        "description": "We start by understanding your business goals, target audience, and project requirements. This phase includes competitor analysis, user research, and technical planning.",
-        "tags": [
-          "Requirements Gathering",
-          "User Research",
-          "Technical Planning"
-        ]
-      },
-      {
-        "step": 2,
-        "title": "Design & Prototyping",
-        "description": "Our designers create wireframes and high-fidelity mockups that bring your vision to life. We iterate based on your feedback to perfect the design.",
-        "tags": ["Wireframing", "UI Design", "Prototyping"]
-      },
-      {
-        "step": 3,
-        "title": "Development & Integration",
-        "description": "Our developers build your website using modern technologies and best practices. We integrate all necessary features and ensure cross-browser compatibility.",
-        "tags": [
-          "Frontend Development",
-          "Backend Integration",
-          "Quality Assurance"
-        ]
-      },
-      {
-        "step": 4,
-        "title": "Testing & Launch",
-        "description": "We thoroughly test your website across devices and browsers, optimize for performance, and ensure everything works perfectly before launch.",
-        "tags": ["Cross-browser Testing", "Performance Optimization", "Go Live"]
-      }
-    ],
-    "packagesTitle": "Web Development",
-    "packagesHighlight": "Packages",
-    "packagesDescription": "Choose the perfect package for your needs. All packages include responsive design, SEO optimization, and 3 months of support.",
-    "packages": [
-      {
-        "name": "Starter Website",
-        "description": "Perfect for small businesses and personal brands",
-        "price": "$2,500",
-        "features": [
-          "Up to 5 pages",
-          "Responsive design",
-          "Basic SEO setup",
-          "Contact form integration",
-          "3 months support",
-          "2-3 weeks delivery"
-        ],
-        "contactParam": "starter",
-        "popular": false
-      },
-      {
-        "name": "Professional Website",
-        "description": "Ideal for growing businesses and e-commerce",
-        "price": "$5,500",
-        "features": [
-          "Up to 15 pages",
-          "Custom design & development",
-          "Content Management System",
-          "Advanced SEO optimization",
-          "Analytics integration",
-          "6 months support",
-          "4-6 weeks delivery"
-        ],
-        "contactParam": "professional",
-        "popular": true
-      },
-      {
-        "name": "Enterprise Solution",
-        "description": "For large businesses and complex applications",
-        "price": "$12,000+",
-        "features": [
-          "Unlimited pages",
-          "Custom web application",
-          "Database integration",
-          "API development",
-          "Advanced security features",
-          "12 months support",
-          "8-12 weeks delivery"
-        ],
-        "contactParam": "enterprise",
-        "popular": false
-      }
-    ],
-    "projectsTitle": "Recent",
-    "projectsHighlight": "Projects",
-    "projectsDescription": "See how we've helped businesses like yours succeed with custom web development.",
-    "faqTitle": "Frequently Asked",
-    "faqHighlight": "Questions",
-    "faqDescription": "Common questions about our web development services.",
-    "faqs": [
-      {
-        "open": false,
-        "question": "What's included in the web development service?",
-        "answer": "Our web development service includes custom design, responsive development, SEO optimization, testing, deployment, and ongoing support. We also provide training on how to manage your website."
-      },
-      {
-        "open": false,
-        "question": "How long does web development take?",
-        "answer": "Timeline depends on the complexity of your project. Simple websites take 2-4 weeks, while complex web applications can take 8-16 weeks. We provide detailed timelines during our consultation."
-      },
-      {
-        "open": false,
-        "question": "Do I own the website after it's built?",
-        "answer": "Yes! You own all rights to your website including the code, design, and content. We provide you with all source files and documentation upon project completion."
-      },
-      {
-        "open": false,
-        "question": "Can you work with my existing hosting?",
-        "answer": "Absolutely! We can work with any hosting provider. We can also recommend optimal hosting solutions based on your requirements and help with migration if needed."
-      }
-    ],
-    "ctaTitle": "Ready to Build Your Website?",
-    "ctaDescription": "Let's discuss your project and create a website that drives real results for your business.",
-    "ctaButton": "Get Free Consultation",
-    "ctaPhone": "Call 803-5852-702"
-  },
-  {
-    "title": "UI/UX Design & Development",
-    "shortTitle": "UI/UX Design",
-    "slug": "ui-ux-design",
-    "description": "Create stunning user experiences with our comprehensive UI/UX design and development services. We combine beautiful interfaces with seamless functionality.",
-    "heroTitle": "UI/UX Design &",
-    "heroHighlight": "Development",
-    "heroDescription": "Create stunning user experiences with our comprehensive UI/UX design and development services. We combine beautiful interfaces with seamless functionality for maximum user engagement.",
-    "keyBenefits": [
-      "User-Centered Design",
-      "Interactive Prototypes",
-      "Conversion Optimized",
-      "Modern Aesthetics"
-    ],
-    "isPopular": false,
-    "type": "main",
-    "heroIcon": "heroicons:code-bracket-solid",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "UI/UX Design",
-    "overviewDescription": "We create digital experiences that users love and businesses benefit from. Our design process is data-driven and user-focused.",
-    "features": [
-      {
-        "icon": "heroicons:users",
-        "title": "User Research",
-        "description": "We conduct thorough user research to understand your audience and their needs."
-      },
-      {
-        "icon": "heroicons:squares-2x2",
-        "title": "Wireframing & Prototyping",
-        "description": "Interactive prototypes that bring your ideas to life before development."
-      },
-      {
-        "icon": "heroicons:paint-brush",
-        "title": "Visual Design",
-        "description": "Beautiful, modern designs that align with your brand and engage users."
-      },
-      {
-        "icon": "heroicons:chart-bar",
-        "title": "Usability Testing",
-        "description": "We test designs with real users to ensure optimal usability and conversion."
-      },
-      {
-        "icon": "heroicons:bolt",
-        "title": "Performance Focused",
-        "description": "Designs optimized for fast loading and smooth interactions."
-      },
-      {
-        "icon": "heroicons:adjustments-horizontal",
-        "title": "Conversion Optimization",
-        "description": "Every design element is crafted to drive user action and business results."
-      }
-    ],
-    "technologiesTitle": "Design & Development",
+    "technologiesTitle": "Marketing & Analytics",
     "technologiesHighlight": "Tools",
-    "technologiesDescription": "We use industry-leading design tools and development frameworks to bring your vision to life.",
+    "technologiesDescription": "We use a suite of industry-leading tools to analyze data, track performance, and gain a competitive edge for your business.",
     "technologies": [
-      "Figma",
-      "Adobe XD",
-      "Sketch",
-      "React",
-      "Vue.js",
-      "Tailwind CSS",
-      "Framer Motion",
-      "GSAP",
-      "TypeScript",
-      "Storybook"
+      "Google Analytics",
+      "Google Search Console",
+      "SEMrush",
+      "Ahrefs",
+      "Moz",
+      "Screaming Frog",
+      "Google Tag Manager",
+      "Hotjar",
+      "Google My Business",
+      "Yoast SEO"
     ],
-    "processTitle": "Our Design",
-    "processHighlight": "Process",
-    "processDescription": "Our proven design process ensures we create user experiences that drive engagement and conversions.",
+    "processTitle": "Our Data-Driven",
+    "processHighlight": "Marketing Process",
+    "processDescription": "We follow a systematic, data-driven approach to consistently improve your search rankings and deliver a positive ROI.",
     "processSteps": [
       {
         "step": 1,
-        "title": "Research & Discovery",
-        "description": "We analyze your users, competitors, and business goals to inform our design strategy. This includes user interviews, surveys, and market analysis.",
-        "tags": ["User Research", "Competitor Analysis", "Business Goals"]
+        "title": "Audit & Strategy",
+        "description": "We conduct a comprehensive audit of your digital presence, research competitors, and build a custom strategy tailored to your goals.",
+        "tags": ["SEO Audit", "Keyword Research", "Strategy"]
       },
       {
         "step": 2,
-        "title": "Information Architecture",
-        "description": "We organize and structure your content and features in a logical, user-friendly way through sitemaps and user flows.",
-        "tags": ["Sitemaps", "User Flows", "Content Strategy"]
+        "title": "On-Page & Technical SEO",
+        "description": "We optimize your website's technical foundation, site structure, and on-page content to align with search engine best practices.",
+        "tags": ["Technical SEO", "Content Optimization", "Performance"]
       },
       {
         "step": 3,
-        "title": "Design & Prototyping",
-        "description": "We create wireframes, mockups, and interactive prototypes that visualize the final product and test usability.",
-        "tags": ["Wireframes", "Visual Design", "Interactive Prototypes"]
+        "title": "Off-Page SEO & Authority",
+        "description": "We execute a strategic link-building campaign and optimize your off-page signals to build your website's authority and trust.",
+        "tags": ["Link Building", "Local SEO", "Content Marketing"]
       },
       {
         "step": 4,
-        "title": "Development & Testing",
-        "description": "We build the design with clean, responsive code and conduct usability testing to ensure optimal user experience.",
-        "tags": ["Frontend Development", "Usability Testing", "Launch"]
+        "title": "Analyze & Report",
+        "description": "We continuously monitor performance, analyze the data, and provide you with transparent monthly reports that track our progress.",
+        "tags": ["Analytics", "Rank Tracking", "Reporting"]
       }
     ],
-    "packagesTitle": "UI/UX Design",
+    "packagesTitle": "Digital Marketing",
     "packagesHighlight": "Packages",
-    "packagesDescription": "Complete design and development packages tailored to your project needs and budget.",
+    "packagesDescription": "Choose a monthly package designed to deliver consistent growth and a significant return on your investment.",
     "packages": [
       {
-        "name": "Design Consultation",
-        "description": "UX audit and design recommendations",
-        "price": "$1,500",
+        "name": "Growth Starter",
+        "description": "The essential SEO foundation for small businesses ready to grow their online presence.",
+        "price": "From ₦350,000 / month",
         "features": [
-          "UX audit & analysis",
-          "Design recommendations",
-          "User journey mapping",
-          "Competitor analysis",
-          "Design system basics",
-          "2 weeks delivery"
+          "Digital presence audit & strategy",
+          "Targeting up to 25 keywords",
+          "On-page & technical optimization",
+          "Local SEO setup",
+          "Google Analytics & Search Console setup",
+          "Monthly progress report",
+          "Minimum 3-month commitment"
         ],
-        "contactParam": "consultation",
+        "contactParam": "marketing-starter",
         "popular": false
       },
       {
-        "name": "Complete Design & Development",
-        "description": "Full UI/UX design with development",
-        "price": "$4,500",
+        "name": "Growth Professional",
+        "description": "A comprehensive strategy for growing businesses aiming for a competitive edge.",
+        "price": "From ₦750,000 / month",
         "features": [
-          "Complete UI/UX design",
-          "Interactive prototypes",
-          "Responsive development",
-          "Usability testing",
-          "Design system creation",
-          "6 months support",
-          "6-8 weeks delivery"
+          "Everything in Starter+",
+          "Targeting up to 100 keywords",
+          "Ongoing content strategy & optimization",
+          "Strategic link building campaign",
+          "Conversion rate optimization suggestions",
+          "Detailed monthly performance review call",
+          "Minimum 3-month commitment"
         ],
-        "contactParam": "complete",
+        "contactParam": "marketing-professional",
         "popular": true
       },
       {
-        "name": "Enterprise Design System",
-        "description": "Comprehensive design system & implementation",
-        "price": "$8,000+",
+        "name": "Enterprise Dominance",
+        "description": "An aggressive, custom strategy for large businesses aiming to dominate their market.",
+        "price": "From ₦1,500,000 / month",
         "features": [
-          "Complete design system",
-          "Component library",
-          "Style guide documentation",
-          "Multiple platform designs",
-          "Team training & handoff",
-          "12 months support",
-          "10-12 weeks delivery"
+          "Everything in Professional+",
+          "Unlimited keyword targeting",
+          "Advanced technical SEO & site audits",
+          "Comprehensive content creation",
+          "Dedicated marketing strategist",
+          "Custom analytics dashboard",
+          "Weekly progress calls"
         ],
-        "contactParam": "enterprise-design",
+        "contactParam": "marketing-enterprise",
         "popular": false
       }
     ],
-    "projectsTitle": "Design",
-    "projectsHighlight": "Showcase",
-    "projectsDescription": "See how our UI/UX design expertise has transformed businesses and user experiences.",
-    "faqTitle": "Design",
-    "faqHighlight": "FAQs",
-    "faqDescription": "Common questions about our UI/UX design and development services.",
+    "projectsTitle": "Marketing",
+    "projectsHighlight": "Success Stories",
+    "projectsDescription": "See how our data-driven strategies have helped businesses dramatically improve their search rankings and organic traffic.",
+    "faqTitle": "Marketing",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our digital marketing and SEO services.",
     "faqs": [
       {
-        "open": false,
-        "question": "What's the difference between UI and UX design?",
-        "answer": "UX (User Experience) focuses on the overall feel and usability of the product, while UI (User Interface) focuses on the visual design and interactive elements. We provide both services integrated for the best results."
+        "question": "How long does it take to see results from SEO?",
+        "answer": "SEO is a long-term investment. While you may see some initial improvements in as little as 3 months, it typically takes 6-12 months to see significant, lasting results. The exact timeline depends on your industry, competition, and the current state of your website."
       },
       {
-        "open": false,
-        "question": "Do you provide design files and assets?",
-        "answer": "Yes! You receive all design files, assets, and documentation. We provide Figma files, exported assets, style guides, and component documentation."
+        "question": "Can you guarantee a #1 ranking on Google?",
+        "answer": "No ethical SEO agency can guarantee a #1 ranking. Google's algorithm is complex and constantly changing. However, we do guarantee that we will execute a professional, data-driven strategy using industry best practices to significantly improve your search visibility, organic traffic, and rankings."
       },
       {
-        "open": false,
-        "question": "Can you redesign my existing website or app?",
-        "answer": "Absolutely! We specialize in redesigning existing products to improve user experience, increase conversions, and modernize the visual design."
+        "question": "What's included in the monthly reports?",
+        "answer": "Our reports are transparent and easy to understand. They include key metrics like organic traffic growth, keyword ranking improvements, backlink acquisition, and key conversions. We focus on the data that matters most to your bottom line."
       },
       {
-        "open": false,
-        "question": "Do you conduct user testing?",
-        "answer": "Yes, usability testing is a key part of our process. We test designs with real users to identify issues and optimize for better user experience and conversion rates."
+        "question": "Do you offer other marketing services like social media or paid ads?",
+        "answer": "Our core focus is on building a powerful SEO foundation, which provides the best long-term ROI. While we don't include social media management or paid ads in these packages, we can provide strategic advice and may offer these services to existing clients on a case-by-case basis."
       }
     ],
-    "ctaTitle": "Ready to Improve Your User Experience?",
-    "ctaDescription": "Let's create a design that your users will love and that drives real business results.",
-    "ctaButton": "Start Design Project",
-    "ctaPhone": "Call 803-5852-702"
+    "ctaTitle": "Ready to Dominate the Search Results?",
+    "ctaDescription": "Let's create a powerful digital marketing strategy that drives qualified traffic to your website and delivers a real return on investment.",
+    "ctaButton": "I Need to Grow My Business"
   },
   {
     "title": "Performance Optimization",
-    "shortTitle": "Performance Optimization",
+    "shortTitle": "Performance",
     "slug": "performance-optimization",
-    "description": "Speed up your website and improve search rankings with our comprehensive performance optimization services. We make your site lightning fast for better user experience and SEO.",
-    "heroTitle": "Performance",
-    "heroHighlight": "Optimization",
-    "heroDescription": "Speed up your website and improve search rankings with our comprehensive performance optimization services. We make your site lightning fast for better user experience and conversions.",
+    "description": "We make your website lightning-fast to improve user experience, boost conversion rates, and achieve higher search engine rankings. Speed is a feature, and we build it in.",
+    "heroTitle": "Unlock Your Website's",
+    "heroHighlight": "True Speed",
+    "heroDescription": "A slow website costs you customers and search rankings. Our comprehensive performance optimization service will dramatically accelerate your site, leading to a better user experience and a stronger bottom line.",
     "keyBenefits": [
-      "3x Faster Loading",
-      "Better SEO Rankings",
-      "Improved Conversions",
-      "Mobile Optimized"
+      "Faster Load Times",
+      "Improved SEO Rankings",
+      "Higher Conversion Rates",
+      "Enhanced User Experience"
     ],
     "isPopular": false,
     "type": "others",
     "heroIcon": "heroicons:bolt",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "Performance Services",
-    "overviewDescription": "We use advanced optimization techniques to dramatically improve your website's speed, resulting in better user experience and higher search rankings.",
+    "overviewTitle": "Why Speed is a",
+    "overviewHighlight": "Business Multiplier",
+    "overviewDescription": "In today's digital landscape, speed is non-negotiable. We use advanced optimization techniques to improve your site's performance, focusing on key metrics like Core Web Vitals that directly impact your search engine ranking and user engagement.",
     "features": [
       {
         "icon": "heroicons:rocket-launch",
-        "title": "Speed Optimization",
-        "description": "Compress images, minify code, and optimize assets to achieve sub-3 second load times."
+        "title": "Advanced Asset Optimization",
+        "description": "We compress images, minify code (CSS/JS), and optimize asset delivery to drastically reduce page load times."
       },
       {
-        "icon": "heroicons:magnifying-glass",
-        "title": "SEO Performance",
-        "description": "Improve Core Web Vitals and technical SEO factors that impact search rankings."
+        "icon": "heroicons:magnifying-glass-plus",
+        "title": "Core Web Vitals Improvement",
+        "description": "We focus on the key metrics Google uses to measure page experience, directly improving your SEO potential."
       },
       {
-        "icon": "heroicons:device-phone-mobile",
-        "title": "Mobile Performance",
-        "description": "Optimize specifically for mobile devices where speed is even more critical."
+        "icon": "heroicons:cloud-arrow-up",
+        "title": "CDN & Caching Strategy",
+        "description": "We implement a robust caching policy and configure a Content Delivery Network (CDN) for lightning-fast global delivery."
+      },
+      {
+        "icon": "heroicons:server-stack",
+        "title": "Backend & Database Tuning",
+        "description": "We optimize server response times and database queries to ensure your site's backend is as fast as its frontend."
+      },
+      {
+        "icon": "heroicons:code-bracket",
+        "title": "Third-Party Script Analysis",
+        "description": "We analyze and defer non-critical third-party scripts that can slow down your site's rendering and performance."
       },
       {
         "icon": "heroicons:chart-bar-square",
-        "title": "Performance Monitoring",
-        "description": "Continuous monitoring and alerts to maintain optimal performance over time."
-      },
-      {
-        "icon": "heroicons:cloud",
-        "title": "CDN Integration",
-        "description": "Global content delivery network setup for worldwide fast loading times."
-      },
-      {
-        "icon": "heroicons:cog-6-tooth",
-        "title": "Database Optimization",
-        "description": "Optimize database queries and caching for maximum backend performance."
+        "title": "Continuous Monitoring",
+        "description": "After optimization, we provide ongoing monitoring to ensure your website remains fast and performs at its peak."
       }
     ],
     "technologiesTitle": "Optimization",
-    "technologiesHighlight": "Technologies",
-    "technologiesDescription": "We use cutting-edge tools and techniques to maximize your website's performance.",
+    "technologiesHighlight": "Tools & Techniques",
+    "technologiesDescription": "We use a suite of cutting-edge tools and proven techniques to diagnose and solve performance bottlenecks.",
     "technologies": [
-      "Google PageSpeed",
+      "Google PageSpeed Insights",
       "GTmetrix",
-      "WebP Images",
+      "WebPageTest",
+      "Lighthouse",
       "Cloudflare CDN",
-      "Redis Cache",
+      "Redis Caching",
+      "WebP & AVIF Images",
       "Gzip Compression",
       "Lazy Loading",
-      "Critical CSS",
-      "Service Workers",
-      "HTTP/2"
+      "Critical CSS"
     ],
-    "processTitle": "Our Optimization",
-    "processHighlight": "Process",
-    "processDescription": "We follow a systematic approach to identify and fix performance bottlenecks for maximum impact.",
+    "processTitle": "Our Path to a",
+    "processHighlight": "Faster Website",
+    "processDescription": "We follow a meticulous, data-driven process to identify performance issues and implement lasting improvements.",
     "processSteps": [
       {
         "step": 1,
-        "title": "Performance Audit",
-        "description": "We conduct comprehensive performance testing using industry-standard tools to identify all speed bottlenecks and optimization opportunities.",
-        "tags": ["Speed Analysis", "Core Web Vitals", "Performance Testing"]
+        "title": "Comprehensive Audit",
+        "description": "We conduct a deep performance audit using industry-standard tools to benchmark your site and identify every bottleneck.",
+        "tags": ["Performance Analysis", "Core Web Vitals", "Reporting"]
       },
       {
         "step": 2,
         "title": "Optimization Strategy",
-        "description": "Based on audit results, we create a prioritized optimization plan focusing on changes that will have the biggest impact on performance.",
-        "tags": ["Strategy Planning", "Priority Matrix", "Impact Analysis"]
+        "description": "Based on the audit, we create a prioritized action plan, focusing on the optimizations that will deliver the most impactful results.",
+        "tags": ["Strategy", "Prioritization", "Impact Analysis"]
       },
       {
         "step": 3,
         "title": "Implementation",
-        "description": "We implement all optimizations including code minification, image compression, caching setup, and CDN configuration.",
-        "tags": ["Code Optimization", "Asset Compression", "Caching Setup"]
+        "description": "Our team executes the optimization plan, from compressing assets and tuning the backend to configuring caching and CDNs.",
+        "tags": ["Code Optimization", "Asset Compression", "Configuration"]
       },
       {
         "step": 4,
-        "title": "Testing & Monitoring",
-        "description": "Thorough testing to ensure all optimizations work correctly, followed by ongoing monitoring to maintain peak performance.",
-        "tags": ["Performance Testing", "Monitoring Setup", "Maintenance"]
+        "title": "Verify & Monitor",
+        "description": "We conduct post-optimization testing to verify the dramatic improvements and set up monitoring to maintain peak performance.",
+        "tags": ["Verification", "Performance Testing", "Monitoring"]
       }
     ],
     "packagesTitle": "Performance",
     "packagesHighlight": "Packages",
-    "packagesDescription": "Choose the optimization package that matches your website's needs and performance goals.",
+    "packagesDescription": "Choose a one-time optimization package to match your website's needs and performance goals.",
     "packages": [
       {
         "name": "Speed Boost",
-        "description": "Essential optimizations for immediate improvement",
-        "price": "$1,200",
+        "description": "Essential optimizations for an immediate and noticeable improvement in speed.",
+        "price": "From ₦500,000",
         "features": [
-          "Performance audit & report",
-          "Image optimization",
-          "Code minification",
-          "Basic caching setup",
-          "Mobile optimization",
-          "3 months monitoring",
-          "1-2 weeks delivery"
+          "Comprehensive performance audit & report",
+          "Image & asset optimization",
+          "Code minification (CSS/JS)",
+          "Browser caching setup",
+          "30 days of post-launch monitoring",
+          "Typical delivery: 1-2 weeks"
         ],
         "contactParam": "speed-boost",
         "popular": false
       },
       {
         "name": "Performance Pro",
-        "description": "Comprehensive optimization for maximum speed",
-        "price": "$2,800",
+        "description": "A complete performance overhaul for businesses that rely on speed for conversions.",
+        "price": "From ₦1,200,000",
         "features": [
-          "Complete performance overhaul",
+          "Everything in Speed Boost+",
           "CDN setup & configuration",
-          "Advanced caching strategies",
-          "Database optimization",
+          "Advanced caching implementation",
+          "Database query optimization",
           "Core Web Vitals optimization",
-          "6 months monitoring",
-          "3-4 weeks delivery"
+          "90 days of post-launch monitoring",
+          "Typical delivery: 2-3 weeks"
         ],
         "contactParam": "performance-pro",
         "popular": true
       },
       {
         "name": "Enterprise Performance",
-        "description": "Custom optimization for high-traffic websites",
-        "price": "$5,500+",
+        "description": "Custom, in-depth optimization for large-scale, high-traffic websites.",
+        "price": "From ₦2,500,000",
         "features": [
-          "Custom performance solutions",
-          "Server-level optimizations",
-          "Advanced monitoring dashboard",
-          "Performance budget setup",
-          "Team training & documentation",
-          "12 months support",
-          "6-8 weeks delivery"
+          "Everything in Pro+",
+          "Server-level tuning & optimization",
+          "Custom monitoring & alert dashboard",
+          "Third-party script optimization",
+          "Team training & best practices documentation",
+          "180 days of post-launch monitoring",
+          "Timeline varies by project scope"
         ],
         "contactParam": "enterprise-performance",
         "popular": false
@@ -897,399 +1036,204 @@
     ],
     "projectsTitle": "Performance",
     "projectsHighlight": "Success Stories",
-    "projectsDescription": "See how we've dramatically improved website performance for businesses of all sizes.",
+    "projectsDescription": "See how we've helped businesses dramatically improve website performance, resulting in better engagement and higher conversions.",
     "faqTitle": "Performance",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our website performance optimization services.",
     "faqs": [
       {
-        "question": "How much faster will my website be?",
-        "answer": "Results vary by website, but we typically achieve 50-80% improvement in loading times. Most optimized sites load in under 3 seconds, with many achieving sub-2 second load times.",
-        "open": false
+        "question": "How much faster will my website actually be?",
+        "answer": "While results vary depending on the starting point, our clients typically see a 50-80% reduction in loading times. Our goal is to get your site loading in under 3 seconds, with many achieving sub-2 second load times."
       },
       {
-        "question": "Will optimization affect my website's functionality?",
-        "answer": "No, we ensure all functionality remains intact. We thoroughly test every optimization to make sure your website works perfectly while being much faster.",
-        "open": false
+        "question": "Could these changes break my website's functionality?",
+        "answer": "No. Our process is meticulous and includes rigorous testing. We ensure all optimizations are implemented safely, preserving 100% of your website's functionality and appearance while making it significantly faster."
       },
       {
-        "question": "Do you provide ongoing performance monitoring?",
-        "answer": "Yes! All packages include performance monitoring. We'll alert you if performance degrades and provide regular reports on your website's speed metrics.",
-        "open": false
+        "question": "Is this a one-time fix or an ongoing service?",
+        "answer": "This is a project-based, one-time service designed to provide a massive, lasting improvement. While our packages include a period of post-launch monitoring, we also recommend our 'Security & Maintenance' plans for ongoing peak performance."
       },
       {
-        "question": "How does website speed affect SEO?",
-        "answer": "Page speed is a direct Google ranking factor. Faster websites rank higher in search results and provide better user experience, leading to lower bounce rates and higher conversions.",
-        "open": false
+        "question": "How does website speed directly affect my business?",
+        "answer": "Speed has a direct impact on your bottom line. Faster websites have better Google rankings (more traffic), lower bounce rates (more engagement), and higher conversion rates (more sales). It's one of the highest ROI investments you can make in your digital presence."
       }
     ],
-    "ctaTitle": "Ready to Speed Up Your Website?",
-    "ctaDescription": "Let's make your website lightning fast and improve your search rankings.",
-    "ctaButton": "Start Optimization",
-    "ctaPhone": "Call 803-5852-702"
+    "ctaTitle": "Is a Slow Website Costing You Money?",
+    "ctaDescription": "Let's make your website lightning-fast. A faster site means happier users, better rankings, and more conversions. Schedule your free consultation today.",
+    "ctaButton": "I Need a Faster Website"
   },
   {
     "title": "Security & Maintenance",
-    "shortTitle": "Security & Maintenance",
+    "shortTitle": "Maintenance",
     "slug": "security-maintenance",
-    "description": "Keep your website secure and up-to-date with our comprehensive maintenance packages. Protect your business with proactive security measures and regular updates.",
-    "heroTitle": "Security &",
-    "heroHighlight": "Maintenance",
-    "heroDescription": "Keep your website secure and up-to-date with our comprehensive maintenance packages. Protect your business with proactive security measures, regular updates, and 24/7 monitoring.",
+    "description": "Protect your digital investment with our comprehensive Website Care Plans. We handle security, updates, backups, and support, so you can focus on running your business with peace of mind.",
+    "heroTitle": "Protect Your Digital",
+    "heroHighlight": "Investment",
+    "heroDescription": "Your website is a critical business asset. Our proactive Security & Maintenance plans ensure it remains secure, up-to-date, and performing at its peak, 24/7.",
     "keyBenefits": [
-      "24/7 Security Monitoring",
-      "Regular Updates",
-      "Backup Protection",
-      "Malware Prevention"
+      "Proactive Security",
+      "Reliable Daily Backups",
+      "Worry-Free Updates",
+      "Priority Expert Support"
     ],
     "isPopular": false,
     "type": "others",
     "heroIcon": "heroicons:shield-check",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "Security Services",
-    "overviewDescription": "We provide comprehensive security and maintenance services to keep your website safe, updated, and performing optimally at all times.",
+    "overviewTitle": "Your Dedicated",
+    "overviewHighlight": "Technical Partner",
+    "overviewDescription": "Don't let security threats, outdated software, or unexpected downtime derail your business. Our team acts as your dedicated technical partner, providing comprehensive monitoring and support to keep your website safe and running smoothly.",
     "features": [
       {
         "icon": "heroicons:shield-exclamation",
-        "title": "Security Monitoring",
-        "description": "24/7 monitoring for threats, malware, and suspicious activity with instant alerts."
-      },
-      {
-        "icon": "heroicons:arrow-path",
-        "title": "Regular Updates",
-        "description": "Keep your CMS, plugins, and security patches up-to-date automatically."
+        "title": "24/7 Security Monitoring",
+        "description": "We continuously monitor your website for malware, vulnerabilities, and suspicious activity with instant alerts to our team."
       },
       {
         "icon": "heroicons:cloud-arrow-up",
-        "title": "Automated Backups",
-        "description": "Daily automated backups with easy restore options to protect your data."
+        "title": "Daily Cloud Backups",
+        "description": "Your website is backed up daily to a secure, off-site cloud location, ensuring your data can be quickly restored."
+      },
+      {
+        "icon": "heroicons:arrow-path",
+        "title": "Safe Software Updates",
+        "description": "We carefully manage and apply updates to your CMS, plugins, and themes in a safe environment to prevent conflicts."
       },
       {
         "icon": "heroicons:bug-ant",
-        "title": "Malware Removal",
-        "description": "Fast malware detection and removal with website cleaning services."
+        "title": "Malware & Hack Cleanup",
+        "description": "In the unlikely event of a compromise, our team will professionally clean and restore your website."
       },
       {
         "icon": "heroicons:wrench-screwdriver",
-        "title": "Technical Support",
-        "description": "Priority technical support for any issues or maintenance needs."
+        "title": "Priority Technical Support",
+        "description": "Our care plan clients get priority access to our expert team for any technical questions or minor updates."
       },
       {
-        "icon": "heroicons:chart-pie",
-        "title": "Performance Reports",
-        "description": "Monthly reports on security status, uptime, and performance metrics."
+        "icon": "heroicons:presentation-chart-bar",
+        "title": "Monthly Health Reports",
+        "description": "Receive a clear, concise monthly report detailing all updates, security scans, and performance checks performed on your site."
       }
     ],
-    "technologiesTitle": "Security",
-    "technologiesHighlight": "Technologies",
-    "technologiesDescription": "We use enterprise-grade security tools and technologies to protect your website.",
+    "technologiesTitle": "Our Protection",
+    "technologiesHighlight": "Toolkit",
+    "technologiesDescription": "We use enterprise-grade security and maintenance tools to protect your digital assets.",
     "technologies": [
-      "Web Application Firewall",
-      "SSL Certificates",
-      "Malware Scanning",
-      "DDoS Protection",
-      "Two-Factor Auth",
-      "Security Headers",
+      "Web Application Firewall (WAF)",
+      "Cloudflare",
+      "SSL Certificate Management",
+      "Malware Scanning Tools",
+      "DDoS Mitigation",
+      "Automated Backup Solutions",
+      "Uptime Monitoring",
       "Vulnerability Scanning",
-      "Intrusion Detection",
-      "Backup Solutions",
-      "Monitoring Tools"
+      "Git Version Control",
+      "Staging Environments"
     ],
-    "processTitle": "Our Security",
-    "processHighlight": "Process",
-    "processDescription": "We follow industry best practices to establish and maintain comprehensive website security.",
+    "processTitle": "Our Proactive",
+    "processHighlight": "Maintenance Cycle",
+    "processDescription": "We follow a systematic, proactive process to ensure your website is always secure and optimized.",
     "processSteps": [
       {
         "step": 1,
-        "title": "Security Assessment",
-        "description": "We conduct a thorough security audit to identify vulnerabilities, assess current protection levels, and create a security roadmap.",
-        "tags": ["Security Audit", "Vulnerability Scan", "Risk Assessment"]
+        "title": "Initial Onboarding",
+        "description": "We conduct a full site audit, install our security and monitoring tools, and perform an initial full backup.",
+        "tags": ["Security Audit", "Tool Setup", "Initial Backup"]
       },
       {
         "step": 2,
-        "title": "Security Implementation",
-        "description": "We implement firewall protection, SSL certificates, security plugins, and establish monitoring systems for comprehensive protection.",
-        "tags": ["Firewall Setup", "SSL Installation", "Security Configuration"]
+        "title": "Daily & Weekly Checks",
+        "description": "Our automated systems run daily security scans and backups, while our team performs weekly software update checks.",
+        "tags": ["Daily Scans", "Weekly Updates", "Monitoring"]
       },
       {
         "step": 3,
-        "title": "Monitoring Setup",
-        "description": "We configure 24/7 monitoring systems, set up automated backups, and establish alert systems for immediate threat detection.",
-        "tags": ["24/7 Monitoring", "Backup Configuration", "Alert Systems"]
+        "title": "Proactive Response",
+        "description": "If any threat or vulnerability is detected, our team is immediately alerted and takes proactive steps to resolve the issue.",
+        "tags": ["Threat Detection", "Immediate Response", "Resolution"]
       },
       {
         "step": 4,
-        "title": "Ongoing Maintenance",
-        "description": "Regular updates, security patches, performance optimization, and monthly reports to keep your website secure and optimized.",
-        "tags": ["Regular Updates", "Security Patches", "Monthly Reports"]
+        "title": "Monthly Reporting",
+        "description": "At the end of each month, we compile a comprehensive report detailing all actions taken to keep your site safe and secure.",
+        "tags": ["Performance Report", "Security Summary", "Updates Log"]
       }
     ],
-    "packagesTitle": "Security",
-    "packagesHighlight": "Packages",
-    "packagesDescription": "Comprehensive security and maintenance packages to protect and maintain your website.",
+    "packagesTitle": "Website Care",
+    "packagesHighlight": "Plans",
+    "packagesDescription": "Choose a monthly plan that provides the right level of protection and peace of mind for your business.",
     "packages": [
       {
-        "name": "Basic Protection",
-        "description": "Essential security for small websites",
-        "price": "$149/month",
+        "name": "Basic Care",
+        "description": "Essential protection for small business websites and blogs.",
+        "price": "₦75,000 / month",
         "features": [
-          "Basic security monitoring",
-          "Weekly backups",
-          "Plugin updates",
-          "SSL certificate management",
-          "Basic malware scanning",
-          "Monthly security report",
+          "24/7 uptime monitoring",
+          "Weekly software updates",
+          "Daily cloud backups",
+          "Weekly security scans",
+          "Monthly health report",
           "Email support"
         ],
-        "contactParam": "basic-security",
+        "contactParam": "basic-care",
         "popular": false
       },
       {
-        "name": "Professional Security",
-        "description": "Advanced protection for business websites",
-        "price": "$299/month",
+        "name": "Professional Care",
+        "description": "Advanced protection and support for growing businesses and e-commerce stores.",
+        "price": "₦150,000 / month",
         "features": [
-          "24/7 security monitoring",
-          "Daily automated backups",
-          "Real-time malware scanning",
-          "Firewall protection",
-          "Priority support",
-          "Performance optimization",
-          "Monthly detailed reports"
+          "Everything in Basic Care+",
+          "Web Application Firewall (WAF)",
+          "Daily security scans",
+          "Malware cleanup & hack repair",
+          "Performance & database checks",
+          "Priority email & chat support"
         ],
-        "contactParam": "professional-security",
+        "contactParam": "professional-care",
         "popular": true
       },
       {
-        "name": "Enterprise Security",
-        "description": "Maximum security for high-value websites",
-        "price": "$599/month",
+        "name": "Enterprise Care",
+        "description": "The ultimate peace of mind for mission-critical websites and applications.",
+        "price": "₦300,000 / month",
         "features": [
-          "Advanced threat protection",
-          "Multiple backup locations",
-          "Dedicated security expert",
-          "Custom security rules",
-          "Incident response service",
-          "Compliance assistance",
-          "24/7 phone support"
+          "Everything in Professional Care+",
+          "Advanced DDoS mitigation",
+          "Vulnerability scanning",
+          "Dedicated support agent",
+          "Staging environment for updates",
+          "24/7 phone & emergency support"
         ],
-        "contactParam": "enterprise-security",
+        "contactParam": "enterprise-care",
         "popular": false
       }
     ],
-    "projectsTitle": "Security",
-    "projectsHighlight": "Success Stories",
-    "projectsDescription": "See how we've protected businesses from security threats and maintained their online presence.",
-    "faqTitle": "Security",
+    "projectsTitle": "Client",
+    "projectsHighlight": "Partnerships",
+    "projectsDescription": "See how our proactive maintenance plans have protected businesses from threats and provided reliable, long-term support.",
+    "faqTitle": "Maintenance",
     "faqHighlight": "Questions",
-    "faqDescription": "Common questions about our website security and maintenance services.",
+    "faqDescription": "Common questions about our website security and maintenance plans.",
     "faqs": [
       {
-        "question": "What happens if my website gets hacked?",
-        "answer": "We provide immediate incident response, malware removal, and website restoration from clean backups. Our team works quickly to minimize downtime and restore your website to full functionality.",
-        "open": false
+        "question": "Why do I need a maintenance plan after my site is built?",
+        "answer": "A website is a living digital asset. Just like a car, it requires regular maintenance to perform well and stay secure. Our plans protect your investment from hacking, data loss, and becoming obsolete due to outdated software."
       },
       {
-        "question": "How often do you perform backups?",
-        "answer": "Backup frequency depends on your package - from weekly for basic plans to daily for professional plans. All backups are stored securely off-site with easy restoration options.",
-        "open": false
+        "question": "What happens if my website gets hacked while on your plan?",
+        "answer": "Your peace of mind is our priority. If your website is compromised while under our Professional or Enterprise care, we will handle the entire cleanup and restoration process at no additional cost."
       },
       {
-        "question": "Do you provide security certificates?",
-        "answer": "Yes! We manage SSL certificate installation, renewal, and monitoring to ensure your website always has valid security certificates and encrypted connections.",
-        "open": false
+        "question": "Do I have to host my website with you?",
+        "answer": "No, you don't. Our maintenance plans are compatible with most major hosting providers. We can work with your existing setup to provide comprehensive protection and support."
       },
       {
-        "question": "Can you help with compliance requirements?",
-        "answer": "Absolutely! We help with various compliance requirements including GDPR, PCI DSS, and HIPAA depending on your industry needs and provide documentation for audits.",
-        "open": false
+        "question": "Is there a long-term contract?",
+        "answer": "Our plans are billed monthly, and you can cancel anytime with 30 days' notice. We believe in earning your business every month through excellent service, not by locking you into a long-term contract."
       }
     ],
-    "ctaTitle": "Ready to Secure Your Website?",
-    "ctaDescription": "Protect your business with our comprehensive security and maintenance services.",
-    "ctaButton": "Start Protection",
-    "ctaPhone": "Call 803-5852-702"
-  },
-  {
-    "title": "SEO & Analytics",
-    "shortTitle": "SEO & Analytics",
-    "slug": "seo-analytics",
-    "description": "Improve your search rankings and track your website's performance with our comprehensive SEO and analytics services. Drive more organic traffic and measure success.",
-    "heroTitle": "SEO &",
-    "heroHighlight": "Analytics",
-    "heroDescription": "Improve your search rankings and track your website's performance with our comprehensive SEO and analytics services. Drive more organic traffic, increase visibility, and measure success.",
-    "keyBenefits": [
-      "Higher Search Rankings",
-      "ROI Tracking",
-      "Increased Organic Traffic",
-      "Detailed Analytics"
-    ],
-    "isPopular": false,
-    "type": "others",
-    "heroIcon": "heroicons:chart-bar-square",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "SEO Services",
-    "overviewDescription": "We combine proven SEO strategies with advanced analytics to improve your search visibility and provide actionable insights for business growth.",
-    "features": [
-      {
-        "icon": "heroicons:magnifying-glass",
-        "title": "Keyword Research",
-        "description": "Comprehensive keyword research to target the most valuable search terms for your business."
-      },
-      {
-        "icon": "heroicons:document-text",
-        "title": "Content Optimization",
-        "description": "Optimize your content for search engines while maintaining quality and user engagement."
-      },
-      {
-        "icon": "heroicons:link",
-        "title": "Link Building",
-        "description": "Build high-quality backlinks to improve domain authority and search rankings."
-      },
-      {
-        "icon": "heroicons:chart-pie",
-        "title": "Analytics Setup",
-        "description": "Comprehensive analytics setup to track traffic, conversions, and user behavior."
-      },
-      {
-        "icon": "heroicons:device-phone-mobile",
-        "title": "Local SEO",
-        "description": "Optimize for local search to attract customers in your geographic area."
-      },
-      {
-        "icon": "heroicons:document-chart-bar",
-        "title": "Regular Reporting",
-        "description": "Detailed monthly reports showing progress, rankings, and actionable insights."
-      }
-    ],
-    "technologiesTitle": "SEO & Analytics",
-    "technologiesHighlight": "Tools",
-    "technologiesDescription": "We use industry-leading SEO and analytics tools to maximize your online visibility and track performance.",
-    "technologies": [
-      "Google Analytics",
-      "Google Search Console",
-      "SEMrush",
-      "Ahrefs",
-      "Screaming Frog",
-      "GTM",
-      "Schema Markup",
-      "Yoast SEO",
-      "Hotjar",
-      "Google My Business"
-    ],
-    "processTitle": "Our SEO",
-    "processHighlight": "Process",
-    "processDescription": "We follow a data-driven approach to improve your search rankings and track meaningful metrics.",
-    "processSteps": [
-      {
-        "step": 1,
-        "title": "SEO Audit & Strategy",
-        "description": "We conduct comprehensive SEO audit, competitor analysis, and keyword research to develop a customized SEO strategy for your business goals.",
-        "tags": ["SEO Audit", "Keyword Research", "Strategy Development"]
-      },
-      {
-        "step": 2,
-        "title": "Technical Optimization",
-        "description": "We optimize your website's technical foundation including site structure, page speed, mobile-friendliness, and schema markup.",
-        "tags": ["Technical SEO", "Site Structure", "Performance Optimization"]
-      },
-      {
-        "step": 3,
-        "title": "Content & Link Building",
-        "description": "We optimize existing content, create new SEO content, and build high-quality backlinks to improve your search authority.",
-        "tags": ["Content Optimization", "Link Building", "Authority Building"]
-      },
-      {
-        "step": 4,
-        "title": "Monitoring & Reporting",
-        "description": "We set up comprehensive analytics tracking and provide regular reports on rankings, traffic growth, and conversion improvements.",
-        "tags": ["Analytics Setup", "Ranking Monitoring", "Performance Reports"]
-      }
-    ],
-    "packagesTitle": "SEO",
-    "packagesHighlight": "Packages",
-    "packagesDescription": "Comprehensive SEO and analytics packages to improve your search visibility and track performance.",
-    "packages": [
-      {
-        "name": "SEO Starter",
-        "description": "Essential SEO foundation for small businesses",
-        "price": "$899/month",
-        "features": [
-          "SEO audit & strategy",
-          "Keyword research (25 keywords)",
-          "On-page optimization",
-          "Technical SEO basics",
-          "Google Analytics setup",
-          "Monthly progress report",
-          "3-month minimum"
-        ],
-        "contactParam": "seo-starter",
-        "popular": false
-      },
-      {
-        "name": "SEO Professional",
-        "description": "Comprehensive SEO for growing businesses",
-        "price": "$1,899/month",
-        "features": [
-          "Everything in Starter",
-          "Advanced keyword targeting (100 keywords)",
-          "Content creation (4 articles/month)",
-          "Link building campaign",
-          "Local SEO optimization",
-          "Conversion tracking setup",
-          "Bi-weekly reports"
-        ],
-        "contactParam": "seo-professional",
-        "popular": true
-      },
-      {
-        "name": "Enterprise SEO",
-        "description": "Advanced SEO for large websites and companies",
-        "price": "$3,499/month",
-        "features": [
-          "Everything in Professional",
-          "Unlimited keyword targeting",
-          "Advanced technical SEO",
-          "Dedicated SEO specialist",
-          "Custom analytics dashboard",
-          "Competitor monitoring",
-          "Weekly strategy calls"
-        ],
-        "contactParam": "enterprise-seo",
-        "popular": false
-      }
-    ],
-    "projectsTitle": "SEO",
-    "projectsHighlight": "Success Stories",
-    "projectsDescription": "See how we've helped businesses dramatically improve their search rankings and organic traffic.",
-    "faqTitle": "SEO",
-    "faqHighlight": "Questions",
-    "faqDescription": "Common questions about our SEO and analytics services.",
-    "faqs": [
-      {
-        "question": "How long does it take to see SEO results?",
-        "answer": "SEO is a long-term strategy. You'll typically see initial improvements in 3-4 months, with significant results in 6-12 months. Timeline depends on competition and current website status.",
-        "open": false
-      },
-      {
-        "question": "Do you guarantee specific rankings?",
-        "answer": "While we can't guarantee specific rankings due to search engine algorithm changes, we do guarantee improved visibility, increased organic traffic, and better search performance overall.",
-        "open": false
-      },
-      {
-        "question": "What's included in your SEO reports?",
-        "answer": "Our reports include ranking improvements, organic traffic growth, conversion data, competitive analysis, and specific recommendations for continued improvement.",
-        "open": false
-      },
-      {
-        "question": "Do you handle local SEO?",
-        "answer": "Yes! We optimize Google My Business profiles, local citations, review management, and location-based keyword targeting to help you dominate local search results.",
-        "open": false
-      }
-    ],
-    "ctaTitle": "Ready to Dominate Search Results?",
-    "ctaDescription": "Let's improve your search rankings and drive more qualified traffic to your website.",
-    "ctaButton": "Start SEO Campaign",
-    "ctaPhone": "Call 803-5852-702"
+    "ctaTitle": "Need a Partner to Protect Your Website?",
+    "ctaDescription": "Focus on your business and leave the technical worries to us. Choose a care plan for complete peace of mind and expert support.",
+    "ctaButton": "I Need Website Protection"
   }
 ]
