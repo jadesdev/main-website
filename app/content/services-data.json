@@ -1,5 +1,194 @@
 [
   {
+    "title": "Mobile App Development",
+    "shortTitle": "App Development",
+    "slug": "mobile-app-development",
+    "description": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
+    "heroTitle": "Mobile App",
+    "heroHighlight": "Development",
+    "heroDescription": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
+    "keyBenefits": [
+      "Cross-Platform Apps",
+      "Native Performance",
+      "App Store Ready",
+      "Push Notifications"
+    ],
+    "isPopular": false,
+    "type": "main",
+    "heroIcon": "heroicons:device-phone-mobile",
+    "overviewTitle": "Why Choose Our",
+    "overviewHighlight": "Mobile Development",
+    "overviewDescription": "We create mobile apps that deliver exceptional user experiences while seamlessly integrating with your existing web presence and business systems.",
+    "features": [
+      {
+        "icon": "heroicons:device-phone-mobile",
+        "title": "Cross-Platform Development",
+        "description": "Build once, deploy everywhere. Our apps work seamlessly on both iOS and Android."
+      },
+      {
+        "icon": "heroicons:bolt",
+        "title": "Native Performance",
+        "description": "Optimized performance that feels native on each platform with smooth animations."
+      },
+      {
+        "icon": "heroicons:bell",
+        "title": "Push Notifications",
+        "description": "Engage users with targeted push notifications and real-time updates."
+      },
+      {
+        "icon": "heroicons:cloud",
+        "title": "Cloud Integration",
+        "description": "Seamless integration with cloud services and your existing web applications."
+      },
+      {
+        "icon": "heroicons:shield-check",
+        "title": "Secure & Compliant",
+        "description": "Built with security best practices and compliance requirements in mind."
+      },
+      {
+        "icon": "heroicons:chart-bar",
+        "title": "Analytics Integration",
+        "description": "Built-in analytics to track user behavior and app performance metrics."
+      }
+    ],
+    "technologiesTitle": "Mobile Development",
+    "technologiesHighlight": "Technologies",
+    "technologiesDescription": "We use cutting-edge mobile development frameworks and technologies to create high-performance apps.",
+    "technologies": [
+      "React Native",
+      "Flutter",
+      "Swift",
+      "Kotlin",
+      "Firebase",
+      "Redux",
+      "Expo",
+      "GraphQL",
+      "REST APIs",
+      "Push Notifications"
+    ],
+    "processTitle": "Our Mobile App",
+    "processHighlight": "Process",
+    "processDescription": "From concept to app store launch, we follow a proven process to deliver successful mobile applications.",
+    "processSteps": [
+      {
+        "step": 1,
+        "title": "Discovery & Planning",
+        "description": "We analyze your requirements, define app features, create user stories, and plan the technical architecture for your mobile application.",
+        "tags": ["Requirements Analysis", "User Stories", "Technical Planning"]
+      },
+      {
+        "step": 2,
+        "title": "UI/UX Design",
+        "description": "We design intuitive, platform-specific interfaces that provide excellent user experience while following iOS and Android design guidelines.",
+        "tags": ["Mobile UI Design", "UX Optimization", "Platform Guidelines"]
+      },
+      {
+        "step": 3,
+        "title": "Development & Testing",
+        "description": "We develop your app using modern frameworks, implement features, and conduct thorough testing on multiple devices and platforms.",
+        "tags": [
+          "Cross-Platform Development",
+          "Feature Implementation",
+          "Device Testing"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "Deployment & Launch",
+        "description": "We handle app store submission, optimization for app store search, and provide post-launch support and maintenance.",
+        "tags": ["App Store Submission", "ASO Optimization", "Launch Support"]
+      }
+    ],
+    "packagesTitle": "Mobile App",
+    "packagesHighlight": "Packages",
+    "packagesDescription": "Complete mobile app development packages from simple apps to complex enterprise solutions.",
+    "packages": [
+      {
+        "name": "Simple Mobile App",
+        "description": "Basic app with core features",
+        "price": "$8,500",
+        "features": [
+          "Up to 5 core screens",
+          "Basic user authentication",
+          "Simple database integration",
+          "Push notifications",
+          "iOS & Android versions",
+          "App store submission",
+          "3 months support",
+          "8-10 weeks delivery"
+        ],
+        "contactParam": "simple-app",
+        "popular": false
+      },
+      {
+        "name": "Professional Mobile App",
+        "description": "Advanced features and integrations",
+        "price": "$18,500",
+        "features": [
+          "Complex user interface",
+          "Advanced user management",
+          "API integrations",
+          "Offline functionality",
+          "In-app purchases",
+          "Analytics integration",
+          "6 months support",
+          "12-16 weeks delivery"
+        ],
+        "contactParam": "professional-app",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Mobile Solution",
+        "description": "Custom enterprise mobile applications",
+        "price": "$35,000+",
+        "features": [
+          "Custom native features",
+          "Enterprise integrations",
+          "Advanced security",
+          "Multi-platform deployment",
+          "Custom backend development",
+          "Dedicated project team",
+          "12 months support",
+          "20-24 weeks delivery"
+        ],
+        "contactParam": "enterprise-app",
+        "popular": false
+      }
+    ],
+    "projectsTitle": "Mobile App",
+    "projectsHighlight": "Portfolio",
+    "projectsDescription": "See the mobile applications we've developed for businesses across different industries.",
+    "faqTitle": "Mobile App",
+    "faqHighlight": "Questions",
+    "faqDescription": "Common questions about our mobile app development services.",
+    "faqs": [
+      {
+        "question": "How long does it take to build a mobile app?",
+        "answer": "The timeline varies based on complexity. A simple app can take 8-12 weeks, while a more complex enterprise solution can take 20 weeks or more. We'll provide a detailed timeline after the initial discovery phase.",
+        "open": false
+      },
+      {
+        "question": "Do you build for both iOS and Android?",
+        "answer": "Yes! We specialize in cross-platform development using technologies like React Native and Flutter, which allows us to build for both iOS and Android from a single codebase, saving you time and money.",
+        "open": false
+      },
+      {
+        "question": "Will you help me publish the app on the App Store and Google Play?",
+        "answer": "Absolutely. Our service includes the entire deployment process, from preparing the app listings to navigating the submission and review process for both the Apple App Store and Google Play Store.",
+        "open": false
+      },
+      {
+        "question": "What kind of support do you offer after the app is launched?",
+        "answer": "We offer post-launch support and maintenance packages to ensure your app remains up-to-date, secure, and compatible with new OS versions. The duration of included support depends on the package you choose.",
+        "open": false
+      }
+    ],
+    "ctaTitle": "Ready to Build Your App?",
+    "ctaDescription": "Let's turn your vision into a high-performance mobile application that engages your users.",
+    "ctaButton": "Start Your App Project",
+    "ctaPhone": "Call 803-5852-702"
+  },
+  {
     "title": "E-commerce Development Solutions",
     "shortTitle": "Ecommerce",
     "slug": "ecommerce-solutions",
@@ -14,7 +203,7 @@
       "Analytics Ready"
     ],
     "isPopular": false,
-    "type": "main",
+    "type": "others",
     "heroIcon": "heroicons:shopping-bag",
     "overviewTitle": "Why Choose Our",
     "overviewHighlight": "E-commerce Solutions",
@@ -1101,196 +1290,6 @@
     "ctaTitle": "Ready to Dominate Search Results?",
     "ctaDescription": "Let's improve your search rankings and drive more qualified traffic to your website.",
     "ctaButton": "Start SEO Campaign",
-    "ctaPhone": "Call 803-5852-702"
-  },
-
-  {
-    "title": "Mobile App Development",
-    "shortTitle": "App Development",
-    "slug": "mobile-app-development",
-    "description": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
-    "heroTitle": "Mobile App",
-    "heroHighlight": "Development",
-    "heroDescription": "Cross-platform mobile applications that complement your web presence. We build native and hybrid apps for iOS and Android that engage users and drive business growth.",
-    "keyBenefits": [
-      "Cross-Platform Apps",
-      "Native Performance",
-      "App Store Ready",
-      "Push Notifications"
-    ],
-    "isPopular": false,
-    "type": "others",
-    "heroIcon": "heroicons:device-phone-mobile",
-    "overviewTitle": "Why Choose Our",
-    "overviewHighlight": "Mobile Development",
-    "overviewDescription": "We create mobile apps that deliver exceptional user experiences while seamlessly integrating with your existing web presence and business systems.",
-    "features": [
-      {
-        "icon": "heroicons:device-phone-mobile",
-        "title": "Cross-Platform Development",
-        "description": "Build once, deploy everywhere. Our apps work seamlessly on both iOS and Android."
-      },
-      {
-        "icon": "heroicons:bolt",
-        "title": "Native Performance",
-        "description": "Optimized performance that feels native on each platform with smooth animations."
-      },
-      {
-        "icon": "heroicons:bell",
-        "title": "Push Notifications",
-        "description": "Engage users with targeted push notifications and real-time updates."
-      },
-      {
-        "icon": "heroicons:cloud",
-        "title": "Cloud Integration",
-        "description": "Seamless integration with cloud services and your existing web applications."
-      },
-      {
-        "icon": "heroicons:shield-check",
-        "title": "Secure & Compliant",
-        "description": "Built with security best practices and compliance requirements in mind."
-      },
-      {
-        "icon": "heroicons:chart-bar",
-        "title": "Analytics Integration",
-        "description": "Built-in analytics to track user behavior and app performance metrics."
-      }
-    ],
-    "technologiesTitle": "Mobile Development",
-    "technologiesHighlight": "Technologies",
-    "technologiesDescription": "We use cutting-edge mobile development frameworks and technologies to create high-performance apps.",
-    "technologies": [
-      "React Native",
-      "Flutter",
-      "Swift",
-      "Kotlin",
-      "Firebase",
-      "Redux",
-      "Expo",
-      "GraphQL",
-      "REST APIs",
-      "Push Notifications"
-    ],
-    "processTitle": "Our Mobile App",
-    "processHighlight": "Process",
-    "processDescription": "From concept to app store launch, we follow a proven process to deliver successful mobile applications.",
-    "processSteps": [
-      {
-        "step": 1,
-        "title": "Discovery & Planning",
-        "description": "We analyze your requirements, define app features, create user stories, and plan the technical architecture for your mobile application.",
-        "tags": ["Requirements Analysis", "User Stories", "Technical Planning"]
-      },
-      {
-        "step": 2,
-        "title": "UI/UX Design",
-        "description": "We design intuitive, platform-specific interfaces that provide excellent user experience while following iOS and Android design guidelines.",
-        "tags": ["Mobile UI Design", "UX Optimization", "Platform Guidelines"]
-      },
-      {
-        "step": 3,
-        "title": "Development & Testing",
-        "description": "We develop your app using modern frameworks, implement features, and conduct thorough testing on multiple devices and platforms.",
-        "tags": [
-          "Cross-Platform Development",
-          "Feature Implementation",
-          "Device Testing"
-        ]
-      },
-      {
-        "step": 4,
-        "title": "Deployment & Launch",
-        "description": "We handle app store submission, optimization for app store search, and provide post-launch support and maintenance.",
-        "tags": ["App Store Submission", "ASO Optimization", "Launch Support"]
-      }
-    ],
-    "packagesTitle": "Mobile App",
-    "packagesHighlight": "Packages",
-    "packagesDescription": "Complete mobile app development packages from simple apps to complex enterprise solutions.",
-    "packages": [
-      {
-        "name": "Simple Mobile App",
-        "description": "Basic app with core features",
-        "price": "$8,500",
-        "features": [
-          "Up to 5 core screens",
-          "Basic user authentication",
-          "Simple database integration",
-          "Push notifications",
-          "iOS & Android versions",
-          "App store submission",
-          "3 months support",
-          "8-10 weeks delivery"
-        ],
-        "contactParam": "simple-app",
-        "popular": false
-      },
-      {
-        "name": "Professional Mobile App",
-        "description": "Advanced features and integrations",
-        "price": "$18,500",
-        "features": [
-          "Complex user interface",
-          "Advanced user management",
-          "API integrations",
-          "Offline functionality",
-          "In-app purchases",
-          "Analytics integration",
-          "6 months support",
-          "12-16 weeks delivery"
-        ],
-        "contactParam": "professional-app",
-        "popular": true
-      },
-      {
-        "name": "Enterprise Mobile Solution",
-        "description": "Custom enterprise mobile applications",
-        "price": "$35,000+",
-        "features": [
-          "Custom native features",
-          "Enterprise integrations",
-          "Advanced security",
-          "Multi-platform deployment",
-          "Custom backend development",
-          "Dedicated project team",
-          "12 months support",
-          "20-24 weeks delivery"
-        ],
-        "contactParam": "enterprise-app",
-        "popular": false
-      }
-    ],
-    "projectsTitle": "Mobile App",
-    "projectsHighlight": "Portfolio",
-    "projectsDescription": "See the mobile applications we've developed for businesses across different industries.",
-    "faqTitle": "Mobile App",
-    "faqHighlight": "Questions",
-    "faqDescription": "Common questions about our mobile app development services.",
-    "faqs": [
-      {
-        "question": "How long does it take to build a mobile app?",
-        "answer": "The timeline varies based on complexity. A simple app can take 8-12 weeks, while a more complex enterprise solution can take 20 weeks or more. We'll provide a detailed timeline after the initial discovery phase.",
-        "open": false
-      },
-      {
-        "question": "Do you build for both iOS and Android?",
-        "answer": "Yes! We specialize in cross-platform development using technologies like React Native and Flutter, which allows us to build for both iOS and Android from a single codebase, saving you time and money.",
-        "open": false
-      },
-      {
-        "question": "Will you help me publish the app on the App Store and Google Play?",
-        "answer": "Absolutely. Our service includes the entire deployment process, from preparing the app listings to navigating the submission and review process for both the Apple App Store and Google Play Store.",
-        "open": false
-      },
-      {
-        "question": "What kind of support do you offer after the app is launched?",
-        "answer": "We offer post-launch support and maintenance packages to ensure your app remains up-to-date, secure, and compatible with new OS versions. The duration of included support depends on the package you choose.",
-        "open": false
-      }
-    ],
-    "ctaTitle": "Ready to Build Your App?",
-    "ctaDescription": "Let's turn your vision into a high-performance mobile application that engages your users.",
-    "ctaButton": "Start Your App Project",
     "ctaPhone": "Call 803-5852-702"
   }
 ]
