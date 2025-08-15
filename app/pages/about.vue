@@ -5,15 +5,15 @@
       <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto text-center text-white">
           <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-up">
-            About <span class="text-jade-500">{{SITE_NAME}}</span>
+            About <span class="text-jade-500">{{ SITE_NAME }}</span>
           </h1>
           <p class="text-xl md:text-2xl mb-8 opacity-90 animate-fade-up" style="animation-delay: 0.2s">
             We're passionate developers and designers committed to creating exceptional digital experiences that
             drive your business forward.
           </p>
           <div class="animate-fade-up" style="animation-delay: 0.4s">
-            <a href="#team" class="bg-white text-jade-900 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all">
-              Meet Our Team
+            <a href="#journey" class="bg-white text-jade-900 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all">
+              Our Journey
             </a>
           </div>
         </div>
@@ -29,7 +29,7 @@
               <h2 class="text-4xl font-bold mb-6 text-gray-800">Our <span class="text-jade-600">Story</span>
               </h2>
               <p class="text-lg text-gray-600 mb-6">
-                Founded in 2020, {{SITE_NAME}} emerged from a simple belief: every business deserves a powerful
+                Founded in 2020, {{ SITE_NAME }} emerged from a simple belief: every business deserves a powerful
                 digital presence that reflects their unique value and drives real results.
               </p>
               <p class="text-lg text-gray-600 mb-6">
@@ -129,7 +129,7 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="py-20">
+    <section id="team" class="py-20" v-if="team.length > 3">
       <div class="container mx-auto px-6">
         <div class="text-center mb-16">
           <h2 class="text-4xl font-bold mb-4 text-gray-800">Meet Our <span class="text-jade-600">Team</span></h2>
@@ -139,55 +139,17 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <div class="team-member bg-white p-6 rounded-2xl shadow-lg text-center">
-            <div class="w-24 h-24 bg-jade-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-              <svg class="w-12 h-12 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
-              </svg>
+          <div v-for="(member, index) in team" :key="member.name" class="team-member bg-white p-6 rounded-2xl shadow-lg text-center">
+            <div v-if="member.image" class="w-24 h-24 bg-jade-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+              <img :src="`${member.image}`" class="rounded-full w-23 h-23 " :alt="member.name">
             </div>
-            <h3 class="text-xl font-bold mb-2 text-gray-800">Alex Thompson</h3>
-            <p class="text-jade-600 font-semibold mb-3">Lead Developer & Founder</p>
-            <p class="text-gray-600 text-sm mb-4">
-              Full-stack developer with 8+ years of experience. Passionate about creating scalable web
-              solutions and leading technical innovation.
-            </p>
+            <h3 class="text-xl font-bold mb-2 text-gray-800">{{ member.name }}</h3>
+            <p class="text-jade-600 font-semibold mb-3">{{ member.role }}</p>
+            <p class="text-gray-600 text-sm mb-4">{{ member.bio }}</p>
             <div class="flex justify-center space-x-3">
-              <a href="#" class="text-gray-400 hover:text-jade-500 transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
-                  </path>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <div class="team-member bg-white p-6 rounded-2xl shadow-lg text-center">
-            <div class="w-24 h-24 bg-jade-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-              <svg class="w-12 h-12 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold mb-2 text-gray-800">Lisa Wang</h3>
-            <p class="text-jade-600 font-semibold mb-3">Quality Assurance</p>
-            <p class="text-gray-600 text-sm mb-4">
-              QA specialist ensuring every project meets the highest standards. Focuses on testing,
-              performance optimization, and user experience validation.
-            </p>
-            <div class="flex justify-center space-x-3">
-              <a href="#" class="text-gray-400 hover:text-jade-500 transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd"
-                    d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </a>
-              <a href="#" class="text-gray-400 hover:text-jade-500 transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84">
-                  </path>
-                </svg>
+              <a v-for="(social, sIndex) in member.socials" :key="sIndex" :href="social.url"
+                class="text-gray-400 hover:text-jade-500 transition-colors">
+                <Icon :name="`simple-icons:${social.icon || 'facebook'}`" class="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -196,92 +158,26 @@
     </section>
 
     <!-- Company Timeline -->
-    <section class="py-20 bg-gray-100">
+    <section id="journey" class="py-20 bg-gray-100">
       <div class="container mx-auto px-6">
         <div class="text-center mb-16">
           <h2 class="text-4xl font-bold mb-4 text-gray-800">Our <span class="text-jade-600">Journey</span></h2>
           <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-            Key milestones that have shaped {{SITE_NAME}} into the company we are today.
+            Key milestones that have shaped {{ SITE_NAME }} into the company we are today.
           </p>
         </div>
 
         <div class="max-w-4xl mx-auto">
           <div class="space-y-8">
-            <div v-intersect class="timeline-item flex items-center">
+            <div v-for="(item, index) in timeline" :key="index" v-intersect class="timeline-item flex items-center">
               <div class="flex-shrink-0">
                 <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center">
-                  <span class="text-white font-bold text-lg">2020</span>
+                  <span class="text-white font-bold text-lg">{{ item.year }}</span>
                 </div>
               </div>
               <div class="ml-6 bg-white p-6 rounded-xl shadow-md flex-1">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">Company Founded</h3>
-                <p class="text-gray-600">{{SITE_NAME}} was established with a mission to help businesses succeed
-                  online through exceptional web development services.</p>
-              </div>
-            </div>
-
-            <div v-intersect class="timeline-item flex items-center">
-              <div class="flex-shrink-0">
-                <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center">
-                  <span class="text-white font-bold text-lg">2021</span>
-                </div>
-              </div>
-              <div class="ml-6 bg-white p-6 rounded-xl shadow-md flex-1">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">First Major Client</h3>
-                <p class="text-gray-600">Successfully delivered our first enterprise-level e-commerce
-                  solution, establishing our reputation for handling complex projects.</p>
-              </div>
-            </div>
-
-            <div v-intersect class="timeline-item flex items-center">
-              <div class="flex-shrink-0">
-                <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center">
-                  <span class="text-white font-bold text-lg">2022</span>
-                </div>
-              </div>
-              <div class="ml-6 bg-white p-6 rounded-xl shadow-md flex-1">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">Team Expansion</h3>
-                <p class="text-gray-600">Grew our team to include specialized UI/UX designers and backend
-                  developers to better serve our growing client base.</p>
-              </div>
-            </div>
-
-            <div v-intersect class="timeline-item flex items-center">
-              <div class="flex-shrink-0">
-                <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center">
-                  <span class="text-white font-bold text-lg">2023</span>
-                </div>
-              </div>
-              <div class="ml-6 bg-white p-6 rounded-xl shadow-md flex-1">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">100+ Projects</h3>
-                <p class="text-gray-600">Reached the milestone of 100 completed projects, serving clients
-                  across various industries and business sizes.</p>
-              </div>
-            </div>
-
-            <div v-intersect class="timeline-item flex items-center">
-              <div class="flex-shrink-0">
-                <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center">
-                  <span class="text-white font-bold text-lg">2024</span>
-                </div>
-              </div>
-              <div class="ml-6 bg-white p-6 rounded-xl shadow-md flex-1">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">Innovation Focus</h3>
-                <p class="text-gray-600">Launched our mobile app development service and began incorporating
-                  AI-powered solutions into our offerings.</p>
-              </div>
-            </div>
-
-            <div v-intersect class="timeline-item flex items-center">
-              <div class="flex-shrink-0">
-                <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center">
-                  <span class="text-white font-bold text-lg">2025</span>
-                </div>
-              </div>
-              <div class="ml-6 bg-white p-6 rounded-xl shadow-md flex-1">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">Continued Growth</h3>
-                <p class="text-gray-600">Expanding our services and continuing to push the boundaries of
-                  what's possible in web development and digital innovation.</p>
+                <h3 class="text-xl font-bold mb-2 text-gray-800">{{ item.title }}</h3>
+                <p class="text-gray-600">{{ item.description }}</p>
               </div>
             </div>
           </div>
@@ -293,7 +189,7 @@
     <section class="py-20">
       <div class="container mx-auto px-6">
         <div class="text-center mb-16">
-          <h2 class="text-4xl font-bold mb-4 text-gray-800">Why Choose <span class="text-jade-600">{{SITE_NAME}}</span>
+          <h2 class="text-4xl font-bold mb-4 text-gray-800">Why Choose <span class="text-jade-600">{{ SITE_NAME }}</span>
           </h2>
           <p class="text-xl text-gray-600 max-w-2xl mx-auto">
             We're more than just developers – we're your partners in digital success.
@@ -302,125 +198,36 @@
 
         <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div class="space-y-6">
-            <div class="flex items-start space-x-4">
+            <div v-for="(feature, index) in features.slice(0, Math.ceil(features.length / 2))" :key="feature.title"
+              class="flex items-start space-x-4">
               <div class="w-8 h-8 bg-jade-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                 <svg class="w-4 h-4 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd"
                     d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
+                    clip-rule="evenodd">
+                  </path>
                 </svg>
               </div>
               <div>
-                <h3 class="text-lg font-semibold mb-2 text-gray-800">Proven Track Record</h3>
-                <p class="text-gray-600">Over 150 successful projects delivered with 98% client satisfaction
-                  rate.</p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div class="w-8 h-8 bg-jade-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg class="w-4 h-4 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-lg font-semibold mb-2 text-gray-800">Expert Team</h3>
-                <p class="text-gray-600">Skilled professionals with expertise across all modern web
-                  technologies and frameworks.</p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div class="w-8 h-8 bg-jade-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg class="w-4 h-4 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-lg font-semibold mb-2 text-gray-800">Agile Approach</h3>
-                <p class="text-gray-600">Flexible development process that adapts to your needs and ensures
-                  timely delivery.</p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div class="w-8 h-8 bg-jade-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg class="w-4 h-4 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-lg font-semibold mb-2 text-gray-800">Ongoing Support</h3>
-                <p class="text-gray-600">Comprehensive maintenance and support services to keep your website
-                  running smoothly.</p>
+                <h3 class="text-lg font-semibold mb-2 text-gray-800">{{ feature.title }}</h3>
+                <p class="text-gray-600">{{ feature.description }}</p>
               </div>
             </div>
           </div>
 
           <div class="space-y-6">
-            <div class="flex items-start space-x-4">
+            <div v-for="(feature, index) in features.slice(Math.ceil(features.length / 2))" :key="feature.title" class="flex items-start space-x-4">
               <div class="w-8 h-8 bg-jade-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                 <svg class="w-4 h-4 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd"
                     d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
+                    clip-rule="evenodd">
+                  </path>
                 </svg>
               </div>
               <div>
-                <h3 class="text-lg font-semibold mb-2 text-gray-800">Transparent Communication</h3>
-                <p class="text-gray-600">Regular updates and clear communication throughout every phase of
-                  your project.</p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div class="w-8 h-8 bg-jade-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg class="w-4 h-4 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-lg font-semibold mb-2 text-gray-800">Competitive Pricing</h3>
-                <p class="text-gray-600">Fair, transparent pricing with no hidden costs and flexible payment
-                  options.</p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div class="w-8 h-8 bg-jade-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg class="w-4 h-4 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-lg font-semibold mb-2 text-gray-800">Future-Proof Solutions</h3>
-                <p class="text-gray-600">Scalable and maintainable code that grows with your business needs.
-                </p>
-              </div>
-            </div>
-
-            <div class="flex items-start space-x-4">
-              <div class="w-8 h-8 bg-jade-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <svg class="w-4 h-4 text-jade-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-lg font-semibold mb-2 text-gray-800">Results-Driven</h3>
-                <p class="text-gray-600">Focus on delivering measurable business outcomes and return on
-                  investment.</p>
+                <h3 class="text-lg font-semibold mb-2 text-gray-800">{{ feature.title }}</h3>
+                <p class="text-gray-600">{{ feature.description }}</p>
               </div>
             </div>
           </div>
@@ -456,6 +263,9 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import { SITE_URL, SITE_NAME } from '~/constants/site';
+import timeline from '~/content/timeline.json'
+import features from '~/content/features.json'
+import team from '~/content/team.json'
 
 const route = useRoute()
 // --- SEO Metadata ---

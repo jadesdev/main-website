@@ -1,0 +1,19 @@
+[
+  {
+    "image": "/images/members/profile2.png",
+    "name": "Alex Thompson",
+    "role": "Lead Developer & Founder",
+    "bio": "Full-stack developer with 8+ years of experience. Passionate about creating scalable web solutions and leading technical innovation.",
+    "socials": [{ "icon": "twitter", "url": "#" }]
+  },
+  {
+    "image": "/images/members/profile2.png",
+    "name": "Lisa Wang",
+    "role": "Quality Assurance",
+    "bio": "QA specialist ensuring every project meets the highest standards. Focuses on testing, performance optimization, and user experience validation.",
+    "socials": [
+      { "icon": "linkedin", "url": "#" },
+      { "icon": "twitter", "url": "#" }
+    ]
+  }
+]

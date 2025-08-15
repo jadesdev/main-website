@@ -270,7 +270,7 @@
             </svg>
             Send Message
           </a>
-          <a href="tel:+15551234567"
+          <a :href="`${CONTACT_PHONE_TEL}`"
             class="border-2 border-white hover:bg-white hover:text-jade-900 text-white px-8 py-4 rounded-full font-semibold transition-all">
             Call Now
           </a>
