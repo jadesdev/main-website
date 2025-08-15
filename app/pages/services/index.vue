@@ -2,12 +2,12 @@
   <!-- Hero Section -->
   <section class="gradient-bg py-20">
     <div class="container mx-auto px-6">
-      <div class="max-w-4xl mx-auto text-center text-white">
+      <div class="max-w-5xl mx-auto text-center text-white">
         <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-up">
-          Web Development <span class="text-jade-500">Services</span>
+          Digital Experiences That <span class="text-jade-500"> Drive Growth </span>
         </h1>
         <p class="text-xl md:text-2xl mb-8 opacity-90 animate-fade-up" style="animation-delay: 0.2s">
-          Transform your business with custom web solutions that drive results and exceed expectations.
+          Transform your business with our tools, and processes that drive results and exceed expectations.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style="animation-delay: 0.4s">
           <a href="#services" class="bg-white text-jade-900 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all">
@@ -26,9 +26,10 @@
   <section id="services" class="py-20">
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-800">Our <span class="text-jade-600">Services</span></h2>
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-800"> Core Services to <span class="text-jade-600">Power Your Growth</span></h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          We offer comprehensive web development solutions tailored to your business needs. From concept to deployment, we've got you covered.
+          Whether you're launching a new venture, scaling your online store, or optimizing your digital presence, our expert team has a solution
+          designed for your ambition.
         </p>
       </div>
       <div class="grid lg:grid-cols-3 gap-8 mb-16">
@@ -67,10 +68,10 @@
   <section class="py-20">
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold mb-4 text-gray-800">Our <span class="text-jade-600">Process</span></h2>
+        <h2 class="text-4xl font-bold mb-4 text-gray-800">Your Blueprint for <span class="text-jade-600">Success</span></h2>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          We follow a proven methodology to ensure your project is delivered on time, on budget, and exceeds
-          expectations.
+          Success isn't accidental. We follow a transparent, four-step process to ensure your project is a masterpiece, delivered on time and
+          engineered for success.
         </p>
       </div>
 
@@ -80,7 +81,7 @@
             <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <span class="text-white font-bold text-xl">1</span>
             </div>
-            <h3 class="text-xl font-semibold mb-2 text-gray-800">Discovery</h3>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Discovery & Strategy</h3>
             <p class="text-gray-600">Understanding your business goals, target audience, and project requirements.</p>
           </div>
 
@@ -88,7 +89,7 @@
             <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <span class="text-white font-bold text-xl">2</span>
             </div>
-            <h3 class="text-xl font-semibold mb-2 text-gray-800">Design</h3>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">UI/UX Design</h3>
             <p class="text-gray-600">Creating wireframes, mockups, and prototypes that bring your vision to life.</p>
           </div>
 
@@ -96,7 +97,7 @@
             <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <span class="text-white font-bold text-xl">3</span>
             </div>
-            <h3 class="text-xl font-semibold mb-2 text-gray-800">Development</h3>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Development & Integration</h3>
             <p class="text-gray-600">Building your solution using modern technologies and best practices.</p>
           </div>
 
@@ -104,7 +105,7 @@
             <div class="w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <span class="text-white font-bold text-xl">4</span>
             </div>
-            <h3 class="text-xl font-semibold mb-2 text-gray-800">Launch</h3>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Launch & Grow</h3>
             <p class="text-gray-600">Testing, deployment, and ongoing support to ensure your success.</p>
           </div>
         </div>
@@ -117,7 +118,9 @@
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold mb-4 text-gray-800">Frequently Asked <span class="text-jade-600">Questions</span></h2>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Get answers to common questions about our web development services.</p>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Have questions? We have answers. Here are some common queries about our process and how we partner with clients.
+        </p>
       </div>
       <div class="max-w-3xl mx-auto">
         <FaqAccordion :faqs="servicesPageFaqs" />
@@ -129,9 +132,9 @@
   <section class="py-20 gradient-bg">
     <div class="container mx-auto px-6 text-center">
       <div class="max-w-3xl mx-auto text-white">
-        <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Start Your Project?</h2>
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">Have a Vision? Let's Build It.</h2>
         <p class="text-xl mb-8 opacity-90">
-          Let's discuss your vision and create something amazing together. Get a free consultation and project
+          Your vision deserves expert execution. Let's schedule a free consultation to map out your project and provide a clear, no-obligation
           estimate.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">

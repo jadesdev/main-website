@@ -1,42 +1,63 @@
 {
   "contactFaqs": [
     {
-      "question": "How quickly can you start my project?",
-      "answer": "Most projects can begin within 1-2 weeks of signing the contract. Rush projects may be accommodated based on our current workload and project complexity.",
-      "open": false
+      "question": "What happens after I submit the form?",
+      "answer": "Our team will review your message and get back to you within 24 business hours to schedule a free, 30-minute discovery call. During this call, we'll discuss your goals, answer your questions, and determine if we're the right fit for your project. There's no pressure and no obligation."
     },
     {
-      "question": "Do you offer payment plans?",
-      "answer": "Yes! We offer flexible payment plans typically split into 50% upfront and 50% upon completion. For larger projects, we can arrange milestone-based payments.",
-      "open": false
+      "question": "What should I have ready for our first meeting?",
+      "answer": "All you need is your vision! It's helpful to think about your business goals, your target audience, and maybe have a few examples of websites or apps you admire. The more you can share about your objectives, the more productive our first conversation will be."
+    },
+    {
+      "question": "How quickly can you start my project?",
+      "answer": "Most projects can begin within 1-2 weeks of signing the contract and completing the discovery phase. If you have an urgent deadline, please let us know and we can discuss accommodations based on our current schedule."
+    },
+    {
+      "question": "Do you offer flexible payment options?",
+      "answer": "Yes. Our standard payment structure is 50% upfront to begin work and 50% upon final delivery. For larger, multi-month projects, we can arrange milestone-based payments to better suit your budget."
     },
     {
       "question": "Will I own the code and design?",
-      "answer": "Absolutely! Upon final payment, you receive full ownership of all code, designs, and assets created for your project. We also provide complete documentation.",
-      "open": false
+      "answer": "Absolutely. Upon final payment, you receive full ownership of all code, designs, and assets created for your project. We provide all the source files so you have complete control over your new digital asset."
     },
     {
       "question": "What if I need changes after launch?",
-      "answer": "We provide 30 days of free minor adjustments after launch. For larger changes or ongoing support, we offer maintenance packages starting at $200/month.",
-      "open": false
+      "answer": "Every project includes 30 days of complimentary support to fix any bugs or make minor adjustments. For new features or ongoing support, we offer flexible monthly maintenance plans to ensure your website remains secure and up-to-date."
     }
   ],
   "services": [
     {
-      "question": "How long does a typical web development project take?",
-      "answer": "Project timelines vary based on complexity. A simple website typically takes 2-4 weeks, while complex web applications can take 8-16 weeks."
+      "question": "How much does a project typically cost?",
+      "answer": "Every project is unique, so we don't believe in one-size-fits-all pricing. A simple website might start around ₦200,000, while a complex web application or e-commerce platform can be significantly more. The final cost depends on the project's complexity, features, and timeline. The best way to get an accurate number is to schedule a free consultation with us, where we'll provide a detailed, no-obligation estimate based on your specific goals.",
+      "open": true
     },
     {
-      "question": "Do you provide ongoing maintenance and support?",
-      "answer": "Yes! We offer comprehensive maintenance packages that include security updates, performance monitoring, content updates, and technical support."
+      "question": "What is the typical timeline for a project?",
+      "answer": "Timelines depend on the project's scope. A standard marketing website usually takes 4-6 weeks from start to finish. An e-commerce site or mobile app might take 8-16 weeks. During our initial discovery phase, we'll work with you to create a detailed project roadmap with clear milestones and a firm delivery date."
     },
     {
-      "question": "Can you work with our existing hosting provider?",
-      "answer": "Absolutely! We can work with any hosting provider and can also recommend optimal solutions."
+      "question": "How involved will I need to be in the process?",
+      "answer": "We believe in a collaborative partnership. Your involvement is crucial during the initial discovery and design phases to ensure we capture your vision perfectly. After that, we'll have scheduled check-ins to show our progress and get your feedback. Our goal is to handle all the heavy lifting for you while keeping you informed and in control every step of the way."
     },
     {
-      "question": "What technologies do you use for development?",
-      "answer": "We use modern technologies including React, Vue.js, Next.js, and Node.js. We select the best technology stack for your specific project requirements."
+      "question": "Who owns the website and code after the project is finished?",
+      "answer": "You do. 100%. Upon final payment, we transfer all rights, code, and intellectual property to you. We don't hold your project hostage. You will receive all the source files and have the freedom to take your project to any hosting or development team in the future, though we'd love to continue working with you through our maintenance plans."
+    },
+    {
+      "question": "What kind of support do you offer after the launch?",
+      "answer": "Our partnership doesn't end at launch. Every project comes with a 30-day warranty period to fix any bugs that may appear. For long-term peace of mind, we highly recommend our Security & Maintenance plans. These plans include regular updates, security monitoring, backups, and priority support to ensure your digital asset remains protected and performs optimally."
+    },
+    {
+      "question": "What kind of businesses do you typically work with?",
+      "answer": "We partner with a wide range of clients, from ambitious startups and small businesses to established companies looking to enhance their digital presence. Our sweet spot is working with businesses that are serious about growth and see technology as a key part of their success strategy. If you have a clear vision, we have the technical expertise to bring it to life."
+    },
+    {
+      "question": "Do you work with international clients?",
+      "answer": "Absolutely. Our processes are designed to be 100% remote-friendly. We use modern communication tools like Slack, Zoom, and project management software to ensure seamless collaboration, regardless of your time zone. We're proud to have successfully delivered projects for clients across the globe."
+    },
+    {
+      "question": "What do you need from me to get started?",
+      "answer": "The best way to start is by booking a free consultation call. For the call, it's helpful if you have a general idea of your goals (e.g., 'I want to sell more products online' or 'I need a professional site to attract new clients'). If you have any existing brand materials, documents, or websites you admire, those are great to share as well. From there, we'll guide you through the rest of the process."
     }
   ]
 }
