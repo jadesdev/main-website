@@ -188,7 +188,7 @@
                   </div>
                   <div>
                     <p class="font-semibold text-gray-800">Business Hours</p>
-                    <p class="text-gray-600">Mon-Fri: 9AM-6PM GMT+``</p>
+                    <p class="text-gray-600">Mon-Fri: 9AM-6PM GMT+1</p>
                   </div>
                 </div>
 
