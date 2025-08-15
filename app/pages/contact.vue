@@ -284,7 +284,7 @@
 import { useSeoMeta } from '#imports';
 import { ref, reactive } from 'vue';
 import { CONTACT_ADDRESS, CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP, SITE_NAME, SITE_URL } from '~/constants/site';
-import faqsData from '~/content/faqs.json'
+import faqsData from '~/content/faqs.json';
 const route = useRoute()
 
 const contactFaqs = faqsData['contactFaqs']

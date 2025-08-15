@@ -262,7 +262,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
-import { SITE_URL, SITE_NAME } from '~/constants/site';
+import { SITE_URL, SITE_NAME ,SITE_STATS} from '~/constants/site';
 import timeline from '~/content/timeline.json'
 import features from '~/content/features.json'
 import team from '~/content/team.json'
@@ -311,10 +311,10 @@ onMounted(() => {
       if (entry.isIntersecting && !statsContainer.value.classList.contains('animated')) {
         statsContainer.value.classList.add('animated');
 
-        animateCounter(projectsCompleted, 150);
-        animateCounter(clientSatisfaction, 98, '%');
-        animateCounter(yearsExperience, 5);
-        animateCounter(happyClients, 50);
+        animateCounter(projectsCompleted, SITE_STATS.projectCompletd);
+        animateCounter(clientSatisfaction, SITE_STATS.clients, '%');
+        animateCounter(yearsExperience, SITE_STATS.years);
+        animateCounter(happyClients, SITE_STATS.happyclients);
 
         observer.unobserve(statsContainer.value);
       }

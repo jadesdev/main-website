@@ -44,3 +44,11 @@ export const SOCIAL_LINKS = [
     icon: "simple-icons:telegram",
   },
 ];
+
+export const SITE_STATS = {
+  projectCompletd: 50,
+  years: 5,
+  clients: 98,
+  happyclients: 27,
+  countriesServed: 6,
+};

@@ -140,7 +140,7 @@
     </section>
 
     <!-- Packages Section -->
-    <section id="packages" class="py-20 bg-gray-100">
+    <section id="packages" class="py-20 bg-gray-100" v-if="service.packages.length > 0">
       <div class="container mx-auto px-6">
         <div class="text-center mb-16">
           <h2 class="text-4xl font-bold mb-4 text-gray-800">
@@ -169,7 +169,7 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
           <PortfolioCard v-for="project in featuredProjects" :key="project.title" :project="project" class="hover-lift" />
         </div>
 

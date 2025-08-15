@@ -214,7 +214,7 @@
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
-import { SITE_NAME, SITE_URL } from '~/constants/site';
+import { SITE_NAME, SITE_STATS, SITE_URL } from '~/constants/site';
 import projectsData from '~/content/portfolio-data.json'
 import testimonialData from '~/content/testimonials.json';
 
@@ -271,10 +271,11 @@ onMounted(() => {
 	observer = new IntersectionObserver(([entry]) => {
 		if (entry.isIntersecting && !statsContainer.value.classList.contains('visible')) {
 			statsContainer.value.classList.add('visible');
-			animateCounter(projectsCompleted, 150);
-			animateCounter(clientSatisfaction, 98);
-			animateCounter(yearsExperience, 5);
-			animateCounter(countriesServed, 24);
+
+			animateCounter(projectsCompleted, SITE_STATS.projectCompletd);
+			animateCounter(clientSatisfaction, SITE_STATS.clients);
+			animateCounter(yearsExperience, SITE_STATS.years);
+			animateCounter(countriesServed, SITE_STATS.countriesServed);
 			observer.unobserve(statsContainer.value);
 		}
 	}, { threshold: 0.5 });
