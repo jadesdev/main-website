@@ -87,7 +87,9 @@
 
 				<div v-for="testimonial in testimonialData" class="testimonial-card bg-white p-8 rounded-2xl shadow-lg">
 					<div class="flex items-center mb-6">
-						<div class="w-12 h-12 bg-jade-500 rounded-full flex items-center justify-center text-white font-bold mr-4">
+						<img v-if="testimonial.image" :src="testimonial.image" :alt="`Headshot of ${testimonial.name}`"
+							class="w-12 h-12 rounded-full object-cover mr-4">
+						<div v-else class="w-12 h-12 bg-jade-500 rounded-full flex items-center justify-center text-white font-bold mr-4">
 							{{ testimonial.initials }}
 						</div>
 						<div>

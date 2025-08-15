@@ -1,29 +1,92 @@
 [
   {
     "id": 1,
-    "quote": "JadesDev transformed our vision into a stunning e-commerce platform. The attention to detail and user experience is exceptional. Sales increased by 300% in the first quarter!",
-    "name": "Sarah Mitchell",
-    "title": "CEO, LuxeShop",
-    "initials": "SM",
+    "quote": "JadesDev delivered an e-commerce platform that has been absolutely pivotal for our growth. They took the time to understand our brand and translated it into a stunning website that our customers love. The user experience is seamless, and we've seen a significant improvement in our online sales and overall brand presence.",
+    "name": "Adedeji Funmilayo",
+    "title": "CEO, Emerald Hairs",
+    "initials": "AF",
+    "image": null,
     "rating": 5,
     "featured": true
   },
   {
     "id": 2,
-    "quote": "The team delivered exactly what we envisioned and more. Their technical expertise and project management skills are outstanding. The web app they built has streamlined our operations.",
-    "name": "Michael Rodriguez",
-    "title": "Founder, TaskFlow Pro",
-    "initials": "MR",
+    "quote": "We came to JadesDev with a complex vision for an integrated event and voting platform, and they executed it perfectly. They are not just developers; they are true problem-solvers. The platform they built is intuitive for our users and powerful on the back end, handling both event management and voting with ease.",
+    "name": "Olumide Olatunde",
+    "title": "Founder, NicordEvent",
+    "initials": "OO",
+    "image": null,
     "rating": 5,
     "featured": true
   },
   {
     "id": 3,
-    "quote": "Our new website has completely transformed our business. Online orders increased by 400% and customer feedback has been incredible. Thank you JadesDev!",
-    "name": "Jennifer Chen",
-    "title": "Owner, RestaurantPro",
-    "initials": "JC",
+    "quote": "Our project required a very specific and secure payment solution for users to recharge their solar meters, and JadesDev delivered exceptionally. They built a platform that is not only reliable and secure but also incredibly user-friendly for our customers. Their professionalism and technical skill made a complex project feel simple.",
+    "name": "Safiya Aliu",
+    "title": "SOSAI Energies",
+    "initials": "SA",
+    "image": null,
     "rating": 5,
     "featured": true
+  },
+  {
+    "id": 4,
+    "quote": "The technical expertise of the JadesDev team is outstanding. They built a robust and secure platform for our VTU and Giftcard sales that handles transactions flawlessly. Their ability to manage complex requirements and deliver a reliable product has been instrumental in getting our business off the ground.",
+    "name": "Austine",
+    "title": "Founder, A1Points.co",
+    "initials": "A",
+    "image": null,
+    "rating": 5,
+    "featured": false
+  },
+  {
+    "id": 5,
+    "quote": "JadesDev is the team you want for a feature-rich event platform. They successfully developed a system for us that integrates event booking, contest voting, and custom form registrations all in one place. Their work has streamlined our operations and provided an incredible experience for our audience.",
+    "name": "MR Stars",
+    "title": "DEIVENTIVE",
+    "initials": "MS",
+    "image": null,
+    "rating": 5,
+    "featured": false
+  },
+  {
+    "id": 6,
+    "quote": "When we needed a dedicated voting platform for a major contest, we turned to JadesDev. They developed a scalable and tamper-proof system that handled a high volume of traffic without any issues. Their focus on performance and security gave us complete peace of mind. An excellent team for specialized web applications.",
+    "name": "Olivier",
+    "title": "CEO, Dandaol Tech",
+    "initials": "O",
+    "image": null,
+    "rating": 5,
+    "featured": false
+  },
+  {
+    "id": 7,
+    "quote": "Working with JadesDev to customize and add new features to our existing website was a fantastic experience. They quickly understood our complex infrastructure and integrated the new functionalities seamlessly. Their work has significantly improved our platform's capabilities and user experience.",
+    "name": "The MysteryShopper NG Team",
+    "title": "MysteryShopper.ng",
+    "initials": "MS",
+    "image": null,
+    "rating": 5,
+    "featured": false
+  },
+  {
+    "id": 8,
+    "quote": "JadesDev designed a company website for us that is both professional and modern. They perfectly captured the essence of our engineering firm, presenting our services in a clean, clear, and compelling way. The new site has elevated our corporate image and serves as a fantastic digital front door for our clients.",
+    "name": "The Vitech Engineering Team",
+    "title": "Vitech Engineering",
+    "initials": "VE",
+    "image": null,
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 9,
+    "quote": "We needed a specialized SMM website for selling digital products like likes and follows, and JadesDev was the perfect partner. They built a fast, automated, and user-friendly platform that has been central to our business success. Their understanding of e-commerce for digital services is top-notch.",
+    "name": "The Instaking.ng Team",
+    "title": "Instaking.ng",
+    "initials": "I",
+    "image": null,
+    "rating": 5,
+    "featured": false
   }
 ]

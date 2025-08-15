@@ -1,8 +1,8 @@
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.directive("intersect", {
-    mounted(el: any, binding: any) {
+    mounted(el: HTMLElement, binding: any) {
       // Only run on client side
-      if (process.client) {
+      if (import.meta.client) {
         const options = {
           rootMargin: "0px",
           threshold: binding.value?.threshold || 0.2,
@@ -21,6 +21,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     },
     getSSRProps() {
       return {};
-    }
+    },
   });
 });
