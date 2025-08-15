@@ -65,7 +65,7 @@
     "shortDesc": "Electronics marketplace",
     "description": "Multi-vendor marketplace with advanced search, reviews, and comparison features.",
     "date": "Aug 2024",
-    "service": "ecommerce-solution",
+    "service": "ecommerce-solutions",
     "industry": "Electronics",
     "category": "ecommerce",
     "technologies": ["Django", "PostgreSQL", "AWS"],
@@ -155,7 +155,7 @@
     "shortDesc": "StyleHub Online",
     "description": "Complete e-commerce solution for fashion retailer resulting in 200% increase in online sales and improved customer experience.",
     "date": null,
-    "service": "ecommerce-solution",
+    "service": "ecommerce-solutions",
     "industry": "Fashion & Retail",
     "category": "ecommerce",
     "technologies": ["Shopify", "React"],
@@ -170,7 +170,7 @@
     "shortDesc": "TradeConnect Platform",
     "description": "Custom B2B e-commerce platform with advanced pricing, bulk ordering, and integration with existing ERP systems.",
     "date": null,
-    "service": "ecommerce-solution",
+    "service": "ecommerce-solutions",
     "industry": "B2B Wholesale",
     "category": "ecommerce",
     "technologies": ["Magento", "PHP"],
@@ -178,5 +178,31 @@
     "featured": false,
     "demoLink": null,
     "link": "/portfolio/tradeconnect"
+  },
+  {
+    "id": 13,
+    "title": "Local Business SEO Success",
+    "shortdesc": "LocalPro Visibility",
+    "description": "Increased organic traffic by 300% and achieved first page rankings for 85% of target keywords within 6 months.",
+    "technologies": ["Local SEO", "Content"],
+    "link": "/portfolio/localpro",
+    "service": "seo-analytics",
+    "date": null,
+    "image": null,
+    "featured": false,
+    "demoLink": null
+  },
+  {
+    "id": 14,
+    "title": "E-commerce SEO Growth",
+    "shortdesc": "ShopRank Success",
+    "description": "Improved search visibility for 500+ product pages, resulting in 250% increase in organic revenue and better SERP positions.",
+    "technologies": ["Technical SEO", "Analytics"],
+    "link": "/portfolio/shoprank",
+    "service": "seo-analytics",
+    "date": null,
+    "image": null,
+    "featured": false,
+    "demoLink": null
   }
 ]

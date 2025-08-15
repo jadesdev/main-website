@@ -151,34 +151,14 @@
           </p>
         </div>
 
-        <div class="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <div v-for="pkg in service.packages" :key="pkg.name" class="package-card bg-white p-8 rounded-2xl shadow-lg relative"
-            :class="{ 'ring-2 ring-jade-500': pkg.popular }">
-            <div v-if="pkg.popular" class="absolute top-4 right-4">
-              <span class="bg-jade-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                Most Popular
-              </span>
-            </div>
-            <h3 class="text-2xl font-bold mb-2 text-gray-800">{{ pkg.name }}</h3>
-            <p class="text-gray-600 mb-6">{{ pkg.description }}</p>
-            <div class="text-4xl font-bold text-jade-600 mb-6">{{ pkg.price }}</div>
-            <ul class="space-y-3 mb-8">
-              <li v-for="feature in pkg.features" :key="feature" class="flex items-center text-gray-600">
-                <Icon name="heroicons:check" class="w-5 h-5 text-jade-500 mr-3" />
-                {{ feature }}
-              </li>
-            </ul>
-            <NuxtLink :to="`/contact?service=${pkg.contactParam}`"
-              class="block w-full text-center bg-jade-500 hover:bg-jade-600 text-white py-3 rounded-lg font-semibold transition-colors">
-              Get Started
-            </NuxtLink>
-          </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <PackageCard v-for="pkg in service.packages" :key="pkg.name" :pkg="pkg"></PackageCard>
         </div>
       </div>
     </section>
 
-    <!-- Portfolio/Case Studies -->
-    <section class="py-20">
+    <!-- Portfolio -->
+    <section class="py-20" v-if="featuredProjects.length > 0">
       <div class="container mx-auto px-6">
         <div class="text-center mb-16">
           <h2 class="text-4xl font-bold mb-4 text-gray-800">
@@ -190,7 +170,7 @@
         </div>
 
         <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          <PortfolioCard v-for="project in service.featuredProjects" :key="project.title" :project="project" class="hover-lift" />
+          <PortfolioCard v-for="project in featuredProjects" :key="project.title" :project="project" class="hover-lift" />
         </div>
 
         <div class="text-center mt-12">
@@ -233,9 +213,9 @@
               <Icon name="heroicons:chat-bubble-left-ellipsis" class="w-5 h-5 mr-2 text-lg" />
               {{ service.ctaButton }}
             </NuxtLink>
-            <a href="tel:+15551234567"
+            <a :href="`${CONTACT_PHONE_TEL}`"
               class="border-2 border-white hover:bg-white hover:text-jade-900 text-white px-8 py-4 rounded-full font-semibold transition-all">
-              {{ service.ctaPhone }}
+              {{ CONTACT_PHONE }}
             </a>
           </div>
         </div>
@@ -245,38 +225,32 @@
 </template>
 
 <script setup>
-import { SITE_NAME, SITE_URL } from '~/constants/site'
+import { SITE_NAME, SITE_URL, CONTACT_PHONE_TEL, CONTACT_PHONE } from '~/constants/site'
 import servicesData from '~/content/services-data.json'
+import portfolioData from '~/content/portfolio-data.json'
 
 const route = useRoute()
 const slug = route.params.slug
-const service = computed(() => {
-  const serviceData = servicesData.find(s => s.slug === slug);
-  if (!serviceData) {
-    throw createError({
-      statusCode: 404,
-      statusMessage: 'Service not found'
-    })
-  }
-  return serviceData
-})
+const service = servicesData.find(s => s.slug === slug);
 if (!service) {
   throw createError({
     statusCode: 404,
-    statusMessage: 'Service not found'
+    statusMessage: 'Service not found',
+    fatal: true
   })
 }
-
-// SEO Meta
+const featuredProjects = computed(() => {
+  return portfolioData.filter(project => project.service === service.slug)
+})
 useSeoMeta({
-  title: () => `${service.value.title} | ${SITE_NAME} Services`,
-  description: () => service.value.description,
-  ogTitle: () => `${service.value.title} | ${SITE_NAME} Services`,
-  ogDescription: () => service.value.description,
-  ogUrl: () => `${SITE_URL}/services/${service.value.slug}`,
+  title: `${service.title} | ${SITE_NAME} Services`,
+  description: service.description,
+  ogTitle: `${service.title} | ${SITE_NAME} Services`,
+  ogDescription: service.description,
+  ogUrl: `${SITE_URL}/services/${service.slug}`,
   ogType: 'website',
   twitterCard: 'summary_large_image',
-  twitterTitle: () => `${service.value.title} | ${SITE_NAME} Services`,
-  twitterDescription: () => service.value.description,
+  twitterTitle: `${service.title} | ${SITE_NAME} Services`,
+  twitterDescription: service.description,
 })
 </script>

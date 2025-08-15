@@ -156,24 +156,6 @@
     "projectsTitle": "E-commerce",
     "projectsHighlight": "Success Stories",
     "projectsDescription": "See how we've helped businesses increase online sales with powerful e-commerce solutions.",
-    "featuredProjects": [
-      {
-        "title": "Fashion E-commerce Store",
-        "projectName": "StyleHub Online",
-        "description": "Complete e-commerce solution for fashion retailer resulting in 200% increase in online sales and improved customer experience.",
-        "technologies": ["Shopify", "React"],
-        "link": "/portfolio/stylehub",
-        "gradient": "from-pink-400 to-pink-600"
-      },
-      {
-        "title": "B2B Wholesale Platform",
-        "projectName": "TradeConnect Platform",
-        "description": "Custom B2B e-commerce platform with advanced pricing, bulk ordering, and integration with existing ERP systems.",
-        "technologies": ["Magento", "PHP"],
-        "link": "/portfolio/tradeconnect",
-        "gradient": "from-orange-400 to-orange-600"
-      }
-    ],
     "faqTitle": "E-commerce",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our e-commerce development services.",
@@ -362,26 +344,6 @@
     "projectsTitle": "Recent",
     "projectsHighlight": "Projects",
     "projectsDescription": "See how we've helped businesses like yours succeed with custom web development.",
-    "featuredProjects": [
-      {
-        "image": "/images/project1.png",
-        "title": "Corporate Website Redesign",
-        "projectName": "TechCorp Website",
-        "description": "Complete redesign and development of a corporate website with CMS integration and improved user experience.",
-        "technologies": ["React", "Node.js"],
-        "link": "/portfolio/techcorp",
-        "gradient": "from-blue-400 to-blue-600",
-        "demoLink": "https://jadesdev.com.demo"
-      },
-      {
-        "title": "SaaS Platform Development",
-        "projectName": "StartupXYZ Platform",
-        "description": "Full-stack development of a SaaS platform with user management, billing integration, and real-time features.",
-        "technologies": ["Vue.js", "Python"],
-        "link": "/portfolio/startupxyz",
-        "gradient": "from-purple-400 to-purple-600"
-      }
-    ],
     "faqTitle": "Frequently Asked",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our web development services.",
@@ -562,24 +524,6 @@
     "projectsTitle": "Design",
     "projectsHighlight": "Showcase",
     "projectsDescription": "See how our UI/UX design expertise has transformed businesses and user experiences.",
-    "featuredProjects": [
-      {
-        "title": "E-commerce Platform Redesign",
-        "projectName": "ShopFlow Platform",
-        "description": "Complete redesign of an e-commerce platform resulting in 40% increase in conversion rates and improved user satisfaction.",
-        "technologies": ["Figma", "React"],
-        "link": "/portfolio/shopflow",
-        "gradient": "from-green-400 to-green-600"
-      },
-      {
-        "title": "Mobile App Design",
-        "projectName": "FinTech Mobile App",
-        "description": "User-centered design for a fintech mobile app with focus on security, usability, and modern aesthetics.",
-        "technologies": ["Sketch", "Flutter"],
-        "link": "/portfolio/fintech-app",
-        "gradient": "from-indigo-400 to-indigo-600"
-      }
-    ],
     "faqTitle": "Design",
     "faqHighlight": "FAQs",
     "faqDescription": "Common questions about our UI/UX design and development services.",
@@ -762,24 +706,6 @@
     "projectsTitle": "Performance",
     "projectsHighlight": "Success Stories",
     "projectsDescription": "See how we've dramatically improved website performance for businesses of all sizes.",
-    "featuredProjects": [
-      {
-        "title": "E-commerce Speed Optimization",
-        "projectName": "RetailMax Performance",
-        "description": "Reduced loading time from 8 seconds to 2.1 seconds, resulting in 45% increase in conversions and better search rankings.",
-        "technologies": ["CDN", "WebP"],
-        "link": "/portfolio/retailmax",
-        "gradient": "from-yellow-400 to-yellow-600"
-      },
-      {
-        "title": "Corporate Website Optimization",
-        "projectName": "TechCorp Speed Up",
-        "description": "Improved Core Web Vitals scores by 80% and achieved 95+ PageSpeed scores across all pages.",
-        "technologies": ["Caching", "Optimization"],
-        "link": "/portfolio/techcorp-speed",
-        "gradient": "from-red-400 to-red-600"
-      }
-    ],
     "faqTitle": "Performance",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our website performance optimization services.",
@@ -961,24 +887,6 @@
     "projectsTitle": "Security",
     "projectsHighlight": "Success Stories",
     "projectsDescription": "See how we've protected businesses from security threats and maintained their online presence.",
-    "featuredProjects": [
-      {
-        "title": "E-commerce Security Overhaul",
-        "projectName": "ShopSecure Protection",
-        "description": "Implemented comprehensive security measures for an e-commerce site, preventing 99.9% of malicious attacks and ensuring PCI compliance.",
-        "technologies": ["WAF", "SSL"],
-        "link": "/portfolio/shopsecure",
-        "gradient": "from-emerald-400 to-emerald-600"
-      },
-      {
-        "title": "Corporate Website Security",
-        "projectName": "CorpShield Maintenance",
-        "description": "24/7 security monitoring and maintenance for a corporate website with 99.99% uptime and zero security incidents.",
-        "technologies": ["Monitoring", "Backup"],
-        "link": "/portfolio/corpshield",
-        "gradient": "from-cyan-400 to-cyan-600"
-      }
-    ],
     "faqTitle": "Security",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our website security and maintenance services.",
@@ -1160,24 +1068,6 @@
     "projectsTitle": "SEO",
     "projectsHighlight": "Success Stories",
     "projectsDescription": "See how we've helped businesses dramatically improve their search rankings and organic traffic.",
-    "featuredProjects": [
-      {
-        "title": "Local Business SEO Success",
-        "projectName": "LocalPro Visibility",
-        "description": "Increased organic traffic by 300% and achieved first page rankings for 85% of target keywords within 6 months.",
-        "technologies": ["Local SEO", "Content"],
-        "link": "/portfolio/localpro",
-        "gradient": "from-violet-400 to-violet-600"
-      },
-      {
-        "title": "E-commerce SEO Growth",
-        "projectName": "ShopRank Success",
-        "description": "Improved search visibility for 500+ product pages, resulting in 250% increase in organic revenue and better SERP positions.",
-        "technologies": ["Technical SEO", "Analytics"],
-        "link": "/portfolio/shoprank",
-        "gradient": "from-rose-400 to-rose-600"
-      }
-    ],
     "faqTitle": "SEO",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our SEO and analytics services.",
@@ -1367,24 +1257,6 @@
     "projectsTitle": "Mobile App",
     "projectsHighlight": "Portfolio",
     "projectsDescription": "See the mobile applications we've developed for businesses across different industries.",
-    "featuredProjects": [
-      {
-        "title": "Fitness Tracking App",
-        "projectName": "FitTracker Pro",
-        "description": "Cross-platform fitness app with workout tracking, social features, and wearable device integration. Achieved 4.8 star rating.",
-        "technologies": ["React Native", "Firebase"],
-        "link": "/portfolio/fittracker",
-        "gradient": "from-teal-400 to-teal-600"
-      },
-      {
-        "title": "E-commerce Mobile App",
-        "projectName": "ShopMobile App",
-        "description": "Native shopping app with AR product preview, secure payments, and personalized recommendations. 200% increase in mobile conversions.",
-        "technologies": ["Flutter", "AR"],
-        "link": "/portfolio/shopmobile",
-        "gradient": "from-amber-400 to-amber-600"
-      }
-    ],
     "faqTitle": "Mobile App",
     "faqHighlight": "Questions",
     "faqDescription": "Common questions about our mobile app development services.",
