@@ -1,0 +1,85 @@
+<IfModule mod_rewrite.c>
+  # Turn on the rewrite engine
+  RewriteEngine On
+
+  # ----------------------------------------------------------------------
+  # # 1. CUSTOM 404 ERROR PAGE
+  # This tells Apache to use your Nuxt-generated 404.html for all "Not Found" errors.
+  # ----------------------------------------------------------------------
+  ErrorDocument 404 /404.html
+
+
+  # ----------------------------------------------------------------------
+  # # 2. FORCE HTTPS (SSL)
+  # Redirects all http traffic to https for security and SEO.
+  # ----------------------------------------------------------------------
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+  # ----------------------------------------------------------------------
+  # # 3. CANONICAL URL: Force WWW or non-WWW (CHOOSE ONE)
+  # Uncomment ONE of the blocks below to ensure all users see the same URL.
+  # ----------------------------------------------------------------------
+   RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+   RewriteRule ^(.*)$ https://%1%{REQUEST_URI} [L,R=301]
+
+
+  # ----------------------------------------------------------------------
+  # # 4. SPA ROUTING FOR NUUXT
+  # This is the magic part. If a requested URL is not a real file and not a real directory,
+  # it serves the main index.html file, allowing Vue Router to handle the URL.
+  # This also correctly handles direct access to pre-rendered pages.
+  # ----------------------------------------------------------------------
+#   RewriteCond %{REQUEST_FILENAME} !-f
+#   RewriteCond %{REQUEST_FILENAME} !-d
+#   RewriteRule . /index.html [L]
+
+</IfModule>
+
+
+# ----------------------------------------------------------------------
+# # 5. BROWSER CACHING (Performance)
+# Tell browsers to cache static assets for a long time.
+# ----------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access 1 year"
+  ExpiresByType image/jpeg "access 1 year"
+  ExpiresByType image/gif "access 1 year"
+  ExpiresByType image/png "access 1 year"
+  ExpiresByType image/svg+xml "access 1 year"
+  ExpiresByType text/css "access 1 month"
+  ExpiresByType application/javascript "access 1 month"
+  ExpiresByType application/x-javascript "access 1 month"
+  ExpiresByType application/pdf "access 1 month"
+  ExpiresDefault "access 2 days"
+</IfModule>
+
+
+# ----------------------------------------------------------------------
+# # 6. ENABLE COMPRESSION (Performance)
+# Compresses assets before sending them to the browser, making the site faster.
+# ----------------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+</IfModule>
