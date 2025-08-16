@@ -4,10 +4,12 @@
       <div class="grid md:grid-cols-4 gap-8">
         <!-- Brand Section -->
         <div>
-          <div class="text-2xl font-bold mb-2">
+          <div class="font-bold mb-2 flex items-center">
             <img src="/logo.png" class="h-18" alt="">
+            <span class="mb-1 justify-cemter">RC: 8572867</span>
           </div>
           <p class="text-gray-400 mb-4">
+
             Creating exceptional web experiences that drive business growth and user engagement.
           </p>
           <div class="flex space-x-4">

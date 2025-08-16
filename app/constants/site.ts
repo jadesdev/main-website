@@ -4,8 +4,8 @@ export const SITE_TAGLINE =
   "Creating exceptional web experiences that drive business growth and user engagement.";
 
 // --- Contact Information ---
-export const CONTACT_ADDRESS = "123 Main Street, Springfield";
-export const CONTACT_EMAIL = "hello@jadesdev.com";
+export const CONTACT_ADDRESS = "5, Mayfiar Street, Osun State";
+export const CONTACT_EMAIL = "hello@jadesdev.com.ng";
 export const CONTACT_PHONE = "+234 803 852 702";
 export const CONTACT_PHONE_TEL = "tel:+2348035852702";
 export const CONTACT_WHATSAPP = "https://wa.me/2348035852702";
