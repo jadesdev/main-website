@@ -3,6 +3,7 @@
     "title": "Mobile App Development",
     "shortTitle": "Mobile App Dev",
     "slug": "mobile-app-development",
+    "image": "/services/app-development.png",
     "description": "We build engaging and high-performance mobile apps for iOS and Android that connect you with your customers and open new revenue streams for your business.",
     "heroTitle": "Mobile Apps That",
     "heroHighlight": "Engage & Convert",
@@ -102,7 +103,7 @@
       {
         "name": "MVP App",
         "description": "Launch your idea with a Minimum Viable Product that includes core features.",
-        "price": "From ₦6,000,000",
+        "price": "From ₦600,000",
         "features": [
           "Up to 5 core screens",
           "Basic user authentication",
@@ -118,7 +119,7 @@
       {
         "name": "Professional App",
         "description": "A full-featured application with advanced functionality and custom design.",
-        "price": "From ₦12,000,000",
+        "price": "From ₦1,000,000",
         "features": [
           "Up to 12 core screens & flows",
           "Advanced user management",
@@ -134,7 +135,7 @@
       {
         "name": "Enterprise Solution",
         "description": "A complex, custom-built mobile platform for large-scale business operations.",
-        "price": "From ₦25,000,000",
+        "price": "From ₦5,000,000",
         "features": [
           "Custom native feature development",
           "Enterprise system integrations (ERP, CRM)",
@@ -180,6 +181,7 @@
     "title": "Web Design & Software Development",
     "shortTitle": "Web & Software Dev",
     "slug": "software-development",
+    "image": "/services/software-development.png",
     "description": "We design and develop bespoke websites, web applications, and custom software that solve your unique business challenges and create exceptional user experiences.",
     "heroTitle": "Custom Websites &",
     "heroHighlight": "Software Solutions",
@@ -285,9 +287,9 @@
       {
         "name": "Professional Website",
         "description": "A stunning, custom-built website for businesses and brands ready to make an impact.",
-        "price": "From ₦3,500,000",
+        "price": "From ₦300,000",
         "features": [
-          "Up to 15 custom-designed pages",
+          "Up to 5 custom-designed pages",
           "Content Management System (CMS)",
           "Advanced SEO & Performance Setup",
           "Analytics Integration",
@@ -300,9 +302,9 @@
       {
         "name": "Custom Web Application",
         "description": "For complex projects requiring custom functionality, databases, and user accounts.",
-        "price": "From ₦7,500,000",
+        "price": "From ₦600,000",
         "features": [
-          "Unlimited pages & features",
+          "Up to 10 pages & features",
           "Bespoke application development",
           "Secure database integration",
           "Custom API development",
@@ -316,7 +318,7 @@
       {
         "name": "Enterprise Software Solution",
         "description": "A complete software solution designed to automate and scale your business operations.",
-        "price": "From ₦15,000,000",
+        "price": "From ₦1,000,000",
         "features": [
           "Full-scope software engineering",
           "Third-party system integrations",
@@ -362,6 +364,7 @@
     "title": "UI/UX Design",
     "shortTitle": "UI/UX Design",
     "slug": "ui-ux-design",
+    "image": "/services/ui-ux-design.png",
     "description": "We create beautiful, intuitive, and user-centric digital experiences that captivate your audience, improve conversions, and build a strong brand identity.",
     "heroTitle": "Design That Delights",
     "heroHighlight": "& Converts",
@@ -461,7 +464,7 @@
       {
         "name": "UX Audit & Strategy",
         "description": "An expert review of your existing product to identify usability issues and strategic improvements.",
-        "price": "From ₦750,000",
+        "price": "From ₦50,000",
         "features": [
           "Comprehensive UX audit",
           "User journey mapping",
@@ -475,7 +478,7 @@
       {
         "name": "Complete UI/UX Design",
         "description": "A full design service for a new website or mobile app, from concept to final prototype.",
-        "price": "From ₦2,500,000",
+        "price": "From ₦300,000",
         "features": [
           "User research & discovery",
           "Wireframing & user flows",
@@ -490,7 +493,7 @@
       {
         "name": "Enterprise Design System",
         "description": "A comprehensive design system to ensure brand consistency across all your digital products.",
-        "price": "From ₦5,000,000",
+        "price": "From ₦500,000",
         "features": [
           "Complete component library",
           "Style guide & documentation",
@@ -534,6 +537,7 @@
     "title": "E-commerce Solutions",
     "shortTitle": "E-commerce",
     "slug": "ecommerce-solutions",
+    "image": "/services/ecommerce-solutions.png",
     "description": "We build powerful, secure, and scalable e-commerce platforms that convert visitors into loyal customers and drive your online sales growth.",
     "heroTitle": "E-commerce Platforms That",
     "heroHighlight": "Drive Sales",
@@ -634,7 +638,7 @@
       {
         "name": "Starter Store",
         "description": "Perfect for new businesses and brands launching their first online store.",
-        "price": "From ₦2,500,000",
+        "price": "From ₦200,000",
         "features": [
           "Up to 100 products",
           "Secure payment gateway integration",
@@ -650,7 +654,7 @@
       {
         "name": "Professional Store",
         "description": "Advanced features and custom design for growing businesses ready to scale.",
-        "price": "From ₦5,500,000",
+        "price": "From ₦500,000",
         "features": [
           "Unlimited products",
           "Multiple payment options",
@@ -667,7 +671,7 @@
       {
         "name": "Enterprise Platform",
         "description": "For complex solutions like multi-vendor marketplaces, B2B, or custom platforms.",
-        "price": "From ₦15,000,000",
+        "price": "From ₦1,000,000",
         "features": [
           "Multi-vendor marketplace functionality",
           "B2B & wholesale features",
@@ -713,6 +717,7 @@
     "title": "Digital Marketing",
     "shortTitle": "Digital Marketing",
     "slug": "digital-marketing",
+    "image": "/services/digital-marketing.png",
     "description": "We help you connect with your target audience, drive qualified traffic, and increase your revenue with data-driven digital marketing strategies, centered on a powerful SEO foundation.",
     "heroTitle": "Marketing That Delivers",
     "heroHighlight": "Measurable Results",
@@ -812,7 +817,7 @@
       {
         "name": "Growth Starter",
         "description": "The essential SEO foundation for small businesses ready to grow their online presence.",
-        "price": "From ₦350,000 / month",
+        "price": "From ₦150,000 / month",
         "features": [
           "Digital presence audit & strategy",
           "Targeting up to 25 keywords",
@@ -828,7 +833,7 @@
       {
         "name": "Growth Professional",
         "description": "A comprehensive strategy for growing businesses aiming for a competitive edge.",
-        "price": "From ₦750,000 / month",
+        "price": "From ₦350,000 / month",
         "features": [
           "Everything in Starter+",
           "Targeting up to 100 keywords",
@@ -844,7 +849,7 @@
       {
         "name": "Enterprise Dominance",
         "description": "An aggressive, custom strategy for large businesses aiming to dominate their market.",
-        "price": "From ₦1,500,000 / month",
+        "price": "From ₦750,000 / month",
         "features": [
           "Everything in Professional+",
           "Unlimited keyword targeting",
@@ -890,6 +895,7 @@
     "title": "Performance Optimization",
     "shortTitle": "Performance",
     "slug": "performance-optimization",
+    "image": "/services/performance.png",
     "description": "We make your website lightning-fast to improve user experience, boost conversion rates, and achieve higher search engine rankings. Speed is a feature, and we build it in.",
     "heroTitle": "Unlock Your Website's",
     "heroHighlight": "True Speed",
@@ -989,7 +995,7 @@
       {
         "name": "Speed Boost",
         "description": "Essential optimizations for an immediate and noticeable improvement in speed.",
-        "price": "From ₦500,000",
+        "price": "From ₦50,000",
         "features": [
           "Comprehensive performance audit & report",
           "Image & asset optimization",
@@ -1004,7 +1010,7 @@
       {
         "name": "Performance Pro",
         "description": "A complete performance overhaul for businesses that rely on speed for conversions.",
-        "price": "From ₦1,200,000",
+        "price": "From ₦150,000",
         "features": [
           "Everything in Speed Boost+",
           "CDN setup & configuration",
@@ -1020,7 +1026,7 @@
       {
         "name": "Enterprise Performance",
         "description": "Custom, in-depth optimization for large-scale, high-traffic websites.",
-        "price": "From ₦2,500,000",
+        "price": "From ₦250,000",
         "features": [
           "Everything in Pro+",
           "Server-level tuning & optimization",
@@ -1066,6 +1072,7 @@
     "title": "Security & Maintenance",
     "shortTitle": "Maintenance",
     "slug": "security-maintenance",
+    "image": "/services/maintenance.png",
     "description": "Protect your digital investment with our comprehensive Website Care Plans. We handle security, updates, backups, and support, so you can focus on running your business with peace of mind.",
     "heroTitle": "Protect Your Digital",
     "heroHighlight": "Investment",
@@ -1165,7 +1172,7 @@
       {
         "name": "Basic Care",
         "description": "Essential protection for small business websites and blogs.",
-        "price": "₦75,000 / month",
+        "price": "₦50,000 / month",
         "features": [
           "24/7 uptime monitoring",
           "Weekly software updates",
@@ -1180,7 +1187,7 @@
       {
         "name": "Professional Care",
         "description": "Advanced protection and support for growing businesses and e-commerce stores.",
-        "price": "₦150,000 / month",
+        "price": "₦100,000 / month",
         "features": [
           "Everything in Basic Care+",
           "Web Application Firewall (WAF)",
@@ -1195,7 +1202,7 @@
       {
         "name": "Enterprise Care",
         "description": "The ultimate peace of mind for mission-critical websites and applications.",
-        "price": "₦300,000 / month",
+        "price": "₦200,000 / month",
         "features": [
           "Everything in Professional Care+",
           "Advanced DDoS mitigation",

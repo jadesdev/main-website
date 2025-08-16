@@ -40,16 +40,8 @@
             </div>
           </div>
           <div class="relative">
-            <div class="bg-white/10 rounded-2xl p-8 backdrop-blur-sm">
-              <div class="space-y-4">
-                <div class="h-6 bg-white/30 rounded w-3/4"></div>
-                <div class="h-4 bg-white/20 rounded w-full"></div>
-                <div class="h-4 bg-white/20 rounded w-5/6"></div>
-                <div class="grid grid-cols-2 gap-4 mt-6">
-                  <div class="h-20 bg-white/20 rounded"></div>
-                  <div class="h-20 bg-white/20 rounded"></div>
-                </div>
-              </div>
+            <div class="backdrop-blur-sm">
+              <img :src="`${service.image}`" class="rounded-2xl" alt="">
               <div class="absolute -top-4 -right-4 w-16 h-16 bg-jade-500 rounded-full flex items-center justify-center">
                 <Icon :name="`${service.heroIcon}`" class="w-8 h-8 text-white text-3xl" />
               </div>

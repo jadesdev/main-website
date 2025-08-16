@@ -16,6 +16,10 @@ export default defineNuxtConfig({
           content:
             "Professional web development services including custom websites, e-commerce solutions, UI/UX design, and performance optimization.",
         },
+        {
+          name: "google-site-verification",
+          content: "Ae2l_SB5KG6PvPmeWZHtxB0RZ5L_5gxC7wm6J8yzKKg",
+        },
       ],
     },
   },
