@@ -26,6 +26,13 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  runtimeConfig: {
+    public: {
+      apiBase:
+        process.env.NUXT_PUBLIC_API_BASE || "http://localhost/jadesdev-license",
+      apiKey: process.env.NUXT_PUBLIC_API_KEY,
+    },
+  },
 
   modules: ["@nuxt/icon"],
 });

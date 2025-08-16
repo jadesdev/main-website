@@ -104,11 +104,10 @@
             <p class="text-gray-600 mb-8">Fill out the form below and we'll get back to you within 24 hours.
             </p>
 
-            <div v-if="formMessage" :class="{ 'success-message': formStatus === 'success', 'error-message': formStatus === 'error' }"
+            <div v-if="formMessage" :class="{ 'bg-green-500': formStatus === 'success', 'bg-red-400': formStatus === 'error' }"
               class="p-4 mb-4 text-white rounded-lg">
               <p>{{ formMessage }}</p>
             </div>
-
             <form @submit.prevent="handleSubmit" class="space-y-6">
               <div class="form-group grid md:grid-cols-2 gap-6">
                 <div>
@@ -127,6 +126,26 @@
               <div class="form-group">
                 <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
                 <input v-model="form.phone" type="tel" name="phone" class="form-input w-full px-4 py-3 rounded-lg">
+              </div>
+              <div class="form-group">
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Service Needed</label>
+                <select v-model="form.service" name="service" class="form-input w-full px-4 py-3 rounded-lg">
+                  <option value="">Select a service...</option>
+                  <option v-for="service in services" :key="service.slug" :value="service.slug">
+                    {{ service.title }}
+                  </option>
+                  <option value="other">Others</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Project Budget</label>
+                <select v-model="form.budget" name="budget" class="form-input w-full px-4 py-3 rounded-lg">
+                  <option value="">Select budget range...</option>
+                  <option value="under-200k">Under ₦200,000</option>
+                  <option value="200k-500k">₦200,000 - ₦500,000</option>
+                  <option value="500k-1m">₦500,000 - ₦1,000,000</option>
+                  <option value="over-1m">₦1,000,000+</option>
+                </select>
               </div>
               <div class="form-group">
                 <label class="block text-sm font-semibold text-gray-700 mb-2">Project Details *</label>
@@ -285,10 +304,15 @@ import { useSeoMeta } from '#imports';
 import { ref, reactive } from 'vue';
 import { CONTACT_ADDRESS, CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP, SITE_NAME, SITE_URL } from '~/constants/site';
 import faqsData from '~/content/faqs.json';
+import servicesData from '~/content/services-data.json';
 const route = useRoute()
+const config = useRuntimeConfig();
 
 const contactFaqs = faqsData['contactFaqs']
-
+const services = servicesData.map(service => ({
+  title: service.title,
+  slug: service.slug
+}));
 useSeoMeta({
   title: `Contact Us | ${SITE_NAME} - Custom Websites & Applications`,
 
@@ -327,18 +351,34 @@ async function handleSubmit() {
   formStatus.value = '';
   formMessage.value = '';
 
-  await new Promise(resolve => setTimeout(resolve, 2000));
+  const apiUrl = `${config.public.apiBase}/api/send-trojan`;
+  try {
+    await $fetch(apiUrl, {
+      method: 'POST',
+      headers: {
+        'X-API-KEY': config.public.apiKey
+      },
+      body: form,
+    });
 
-  if (Math.random() > 0.1) {
     formStatus.value = 'success';
     formMessage.value = "Thank you for your message! We'll get back to you soon.";
     Object.keys(form).forEach(key => form[key] = '');
-  } else {
+
+  } catch (error) {
     formStatus.value = 'error';
     formMessage.value = 'Sorry, there was an error sending your message. Please try again.';
+  } finally {
+    isLoading.value = false;
   }
-
-  isLoading.value = false;
 }
-
+onMounted(() => {
+  const serviceQuery = route.query.service;
+  if (serviceQuery) {
+    const serviceExists = services.some(s => s.slug === serviceQuery);
+    if (serviceExists) {
+      form.service = serviceQuery;
+    }
+  }
+});
 </script>
