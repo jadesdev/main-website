@@ -26,7 +26,6 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   css: ["~/assets/css/main.css", "~/assets/css/styles.css"],
-
   vite: {
     plugins: [tailwindcss()],
   },
@@ -37,6 +36,12 @@ export default defineNuxtConfig({
       apiKey: process.env.NUXT_PUBLIC_API_KEY,
     },
   },
-
-  modules: ["@nuxt/icon"],
+  site: {
+    url: process.env.NUXT_SITE_URL || "https://jadesdev.com.ng",
+    name: "Jades Dev",
+  },
+  sitemap: {
+    sources: ["/api/__sitemap__/urls"],
+  },
+  modules: ["@nuxt/icon", "@nuxtjs/sitemap"],
 });
