@@ -1,4 +1,4 @@
-export const SITE_NAME = "Jades Dev";
+export const SITE_NAME = "JadesDev";
 export const SITE_URL = "https://jadesdev.com.ng";
 export const SITE_TAGLINE =
   "Creating exceptional web experiences that drive business growth and user engagement.";
@@ -6,9 +6,9 @@ export const SITE_TAGLINE =
 // --- Contact Information ---
 export const CONTACT_ADDRESS = "5, Mayfiar Street, Osun State";
 export const CONTACT_EMAIL = "hello@jadesdev.com.ng";
-export const CONTACT_PHONE = "+234 803 852 702";
-export const CONTACT_PHONE_TEL = "tel:+2348035852702";
-export const CONTACT_WHATSAPP = "https://wa.me/2348035852702";
+export const CONTACT_PHONE = "+234 708 253 9023";
+export const CONTACT_PHONE_TEL = "tel:+2347082539023";
+export const CONTACT_WHATSAPP = "https://wa.me/2347082539023";
 
 export const FOOTER_CONTACT = [CONTACT_EMAIL, CONTACT_PHONE, CONTACT_ADDRESS];
 
@@ -35,7 +35,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "WhatsApp",
-    url: "https://wa.me/2348035852702",
+    url: "https://wa.me/2347082539023",
     icon: "simple-icons:whatsapp",
   },
   {
@@ -49,6 +49,6 @@ export const SITE_STATS = {
   projectCompletd: 50,
   years: 5,
   clients: 98,
-  happyclients: 27,
+  happyclients: 87,
   countriesServed: 6,
 };

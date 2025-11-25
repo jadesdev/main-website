@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# Jadesdev website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is [Jadesdev](https://jadesdev.com.ng) official website.
 
 ## Setup
 
