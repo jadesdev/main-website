@@ -30,7 +30,7 @@
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+      <div class="grid md:grid-cols-2 gap-6 mb-16" :class="isLocal ? 'lg:grid-cols-4' : 'lg:grid-cols-2 max-w-3xl mx-auto'">
         <div class="contact-card bg-white p-6 rounded-xl shadow-lg text-center">
           <div class="w-16 h-16 bg-jade-100 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg class="w-8 h-8 text-jade-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -46,7 +46,7 @@
           </a>
         </div>
 
-        <div class="contact-card bg-white p-6 rounded-xl shadow-lg text-center">
+        <div v-if="isLocal" class="contact-card bg-white p-6 rounded-xl shadow-lg text-center">
           <div class="w-16 h-16 bg-jade-100 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg class="w-8 h-8 text-jade-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -55,13 +55,13 @@
             </svg>
           </div>
           <h3 class="text-xl font-bold mb-2 text-gray-800">Call Us</h3>
-          <p class="text-gray-600 mb-3">Mon-Fri 9AM-6PM EST</p>
+          <p class="text-gray-600 mb-3">Mon-Fri 9AM-6PM GMT+1</p>
           <a :href="`${CONTACT_PHONE_TEL}`" class="text-jade-600 hover:text-jade-700 font-semibold">
             {{ CONTACT_PHONE }}
           </a>
         </div>
 
-        <div class="contact-card bg-white p-6 rounded-xl shadow-lg text-center">
+        <div v-if="isLocal" class="contact-card bg-white p-6 rounded-xl shadow-lg text-center">
           <div class="w-16 h-16 bg-jade-100 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg class="w-8 h-8 text-jade-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -76,7 +76,22 @@
           </a>
         </div>
 
-        <div class="contact-card bg-white p-6 rounded-xl shadow-lg text-center">
+        <div v-if="!isLocal" class="contact-card bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-jade-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-jade-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 text-gray-800">Book a Call</h3>
+          <p class="text-gray-600 mb-3">Schedule a free consultation</p>
+          <a :href="CALENDLY_URL" target="_blank" rel="noopener noreferrer" class="text-jade-600 hover:text-jade-700 font-semibold">
+            Open Calendly
+          </a>
+        </div>
+
+        <div v-if="isLocal" class="contact-card bg-white p-6 rounded-xl shadow-lg text-center">
           <div class="w-16 h-16 bg-jade-100 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg class="w-8 h-8 text-jade-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -141,10 +156,9 @@
                 <label class="block text-sm font-semibold text-gray-700 mb-2">Project Budget</label>
                 <select v-model="form.budget" name="budget" class="form-input w-full px-4 py-3 rounded-lg">
                   <option value="">Select budget range...</option>
-                  <option value="under-200k">Under ₦200,000</option>
-                  <option value="200k-500k">₦200,000 - ₦500,000</option>
-                  <option value="500k-1m">₦500,000 - ₦1,000,000</option>
-                  <option value="over-1m">₦1,000,000+</option>
+                  <option v-for="option in budgetOptions" :key="option.value" :value="option.value">
+                    {{ option.label }}
+                  </option>
                 </select>
               </div>
               <div class="form-group">
@@ -184,7 +198,7 @@
                   </div>
                 </div>
 
-                <div class="contact-info-item flex items-center">
+                <div v-if="isLocal" class="contact-info-item flex items-center">
                   <div class="w-10 h-10 bg-jade-100 rounded-full flex items-center justify-center mr-4">
                     <svg class="w-5 h-5 text-jade-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -196,6 +210,22 @@
                     <p class="font-semibold text-gray-800">Phone</p>
                     <a :href="`${CONTACT_PHONE_TEL}`" class="text-jade-600 hover:text-jade-700">
                       {{ CONTACT_PHONE }}</a>
+                  </div>
+                </div>
+
+                <div v-else class="contact-info-item flex items-center">
+                  <div class="w-10 h-10 bg-jade-100 rounded-full flex items-center justify-center mr-4">
+                    <svg class="w-5 h-5 text-jade-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                      </path>
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="font-semibold text-gray-800">Book a Call</p>
+                    <a :href="CALENDLY_URL" target="_blank" rel="noopener noreferrer" class="text-jade-600 hover:text-jade-700">
+                      Schedule on Calendly
+                    </a>
                   </div>
                 </div>
 
@@ -234,7 +264,7 @@
                   <path
                     d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                 </svg>
-                <h3 class="text-2xl font-bold mb-2">{{ CONTACT_ADDRESS }}</h3>
+                <h3 v-if="isLocal" class="text-2xl font-bold mb-2">{{ CONTACT_ADDRESS }}</h3>
                 <h3 class="text-2xl font-bold mb-4">We Work Globally</h3>
                 <p class="text-lg opacity-90 mb-4">
                   Our remote team serves clients worldwide, providing the same high-quality service
@@ -289,9 +319,13 @@
             </svg>
             Send Message
           </a>
-          <a :href="`${CONTACT_PHONE_TEL}`"
+          <a v-if="isLocal" :href="`${CONTACT_PHONE_TEL}`"
             class="border-2 border-white hover:bg-white hover:text-jade-900 text-white px-8 py-4 rounded-full font-semibold transition-all">
             Call Now
+          </a>
+          <a v-else :href="CALENDLY_URL" target="_blank" rel="noopener noreferrer"
+            class="border-2 border-white hover:bg-white hover:text-jade-900 text-white px-8 py-4 rounded-full font-semibold transition-all">
+            Book a Call
           </a>
         </div>
       </div>
@@ -301,14 +335,18 @@
 
 <script setup>
 import { useSeoMeta } from '#imports';
-import { ref, reactive } from 'vue';
-import { CONTACT_ADDRESS, CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP, SITE_NAME, SITE_URL } from '~/constants/site';
+import { computed, ref, reactive } from 'vue';
+import { CONTACT_ADDRESS, CONTACT_EMAIL, CONTACT_PHONE, CONTACT_PHONE_TEL, CONTACT_WHATSAPP, CALENDLY_URL, SITE_NAME, SITE_URL, BUDGET_OPTIONS_LOCAL, BUDGET_OPTIONS_INTERNATIONAL } from '~/constants/site';
 import faqsData from '~/content/faqs.json';
 import servicesData from '~/content/services-data.json';
 const route = useRoute()
 const config = useRuntimeConfig();
+const { isLocal } = useRegion()
 
-const contactFaqs = faqsData['contactFaqs']
+const contactFaqs = useRegionalFaqs(faqsData['contactFaqs'])
+const budgetOptions = computed(() =>
+  isLocal.value ? BUDGET_OPTIONS_LOCAL : BUDGET_OPTIONS_INTERNATIONAL,
+)
 const services = servicesData.map(service => ({
   title: service.title,
   slug: service.slug

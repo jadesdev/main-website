@@ -29,11 +29,12 @@
     {
       "question": "How much does a project typically cost?",
       "answer": "Every project is unique, so we don't believe in one-size-fits-all pricing. A simple website might start around ₦200,000, while a complex web application or e-commerce platform can be significantly more. The final cost depends on the project's complexity, features, and timeline. The best way to get an accurate number is to schedule a free consultation with us, where we'll provide a detailed, no-obligation estimate based on your specific goals.",
+      "answerInternational": "Every project is unique, so we don't believe in one-size-fits-all pricing. A simple website might start around $1,500, while a complex web application or e-commerce platform can be significantly more. The final cost depends on the project's complexity, features, and timeline. The best way to get an accurate number is to book a free consultation, where we'll provide a detailed, no-obligation estimate based on your specific goals.",
       "open": true
     },
     {
       "question": "What is the typical timeline for a project?",
-      "answer": "Timelines depend on the project's scope. A standard marketing website usually takes 4-6 weeks from start to finish. An e-commerce site or mobile app might take 8-16 weeks. During our initial discovery phase, we'll work with you to create a detailed project roadmap with clear milestones and a firm delivery date."
+      "answer": "Every project moves at a different pace. As a rough guide, a standard marketing website is often ready in 2-4 weeks, while e-commerce sites and mobile apps commonly take 5-8 weeks depending on scope and feedback cycles. During discovery, we'll agree on a clear roadmap with milestones and a delivery date that works for you."
     },
     {
       "question": "How involved will I need to be in the process?",
@@ -46,7 +47,7 @@
     {
       "question": "What kind of support do you offer after the launch?",
       "answer": "Our partnership doesn't end at launch. Every project comes with a 30-day warranty period to fix any bugs that may appear. For long-term peace of mind, we highly recommend our Security & Maintenance plans. These plans include regular updates, security monitoring, backups, and priority support to ensure your digital asset remains protected and performs optimally."
-    },
+    },  
     {
       "question": "What kind of businesses do you typically work with?",
       "answer": "We partner with a wide range of clients, from ambitious startups and small businesses to established companies looking to enhance their digital presence. Our sweet spot is working with businesses that are serious about growth and see technology as a key part of their success strategy. If you have a clear vision, we have the technical expertise to bring it to life."

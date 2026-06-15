@@ -6,15 +6,21 @@
         <div>
           <div class="font-bold mb-2 flex items-center">
             <img src="/logo.png" class="h-18" alt="">
-            <span class="mb-1 justify-cemter">RC: 8572867</span>
+            <span v-if="isLocal" class="mb-1 justify-cemter">RC: {{ COMPANY_RC }}</span>
           </div>
           <p class="text-gray-400 mb-4">
-
-            Creating exceptional web experiences that drive business growth and user engagement.
+            {{ SITE_TAGLINE }}
           </p>
           <div class="flex space-x-4">
-            <a v-for="social in SOCIAL_LINKS" :key="social.name" :href="social.url" class="text-gray-400 hover:text-jade-500 transition-colors"
-              :aria-label="social.name" target="_blank" rel="noopener noreferrer">
+            <a
+              v-for="social in socialLinks"
+              :key="social.name"
+              :href="social.url"
+              class="text-gray-400 hover:text-jade-500 transition-colors"
+              :aria-label="social.name"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Icon :name="social.icon" class="w-6 h-6" />
             </a>
           </div>
@@ -48,15 +54,30 @@
         <div>
           <h3 class="text-lg font-semibold mb-4">Contact</h3>
           <ul class="space-y-2 text-gray-400">
-            <li v-for="contact in FOOTER_CONTACT" :key="contact">
+            <li v-for="contact in footerContact" :key="contact">
               {{ contact }}
+            </li>
+            <li v-if="!isLocal">
+              <a
+                :href="CALENDLY_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-jade-500 transition-colors"
+              >
+                Book a call
+              </a>
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-        <p>&copy; {{ currentYear }} {{ SITE_NAME }}. All rights reserved.</p>
+      <div class="border-t border-gray-800 mt-8 pt-8">
+        <div class="flex flex-col items-center gap-6 lg:flex-row lg:justify-between lg:items-end">
+          <RegionSwitcher />
+          <p class="text-gray-400 text-sm text-center lg:text-right">
+            &copy; {{ currentYear }} {{ SITE_NAME }}. All rights reserved.
+          </p>
+        </div>
       </div>
     </div>
   </footer>
@@ -64,18 +85,26 @@
 
 <script setup>
 import { computed } from 'vue'
-import { SITE_NAME, FOOTER_CONTACT, SOCIAL_LINKS } from '~/constants/site'
+import {
+  SITE_NAME,
+  SITE_TAGLINE,
+  COMPANY_RC,
+  CALENDLY_URL,
+  getFooterContact,
+  getSocialLinks,
+} from '~/constants/site'
 import servicesData from '~/content/services-data.json'
 
-const currentYear = computed(() => new Date().getFullYear())
-const services = (servicesData.filter(service => service.type == "main"))
+const { isLocal } = useRegion()
 
-// Company links data
+const currentYear = computed(() => new Date().getFullYear())
+const services = servicesData.filter(service => service.type == "main")
+const footerContact = computed(() => getFooterContact(isLocal.value))
+const socialLinks = computed(() => getSocialLinks(isLocal.value))
+
 const companyLinks = [
   { name: 'About Us', path: '/about' },
   { name: 'Portfolio', path: '/portfolio' },
-  // { name: 'Blog', path: '#' },
   { name: 'Careers', path: '/careers' }
 ]
-
 </script>
