@@ -175,5 +175,5 @@ useSeoMeta({
 const services = ref(servicesData.filter(service => service.type === 'main'))
 const additionalServices = ref(servicesData.filter(service => service.type === 'others'))
 
-const servicesPageFaqs = ref(faqsData.services);
+const servicesPageFaqs = useRegionalFaqs(faqsData.services);
 </script>

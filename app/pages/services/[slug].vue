@@ -144,7 +144,7 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <PackageCard v-for="pkg in service.packages" :key="pkg.name" :pkg="pkg"></PackageCard>
+          <PackageCard v-for="pkg in service.packages" :key="pkg.name" :pkg="pkg" :service-slug="service.slug" />
         </div>
       </div>
     </section>
@@ -186,7 +186,7 @@
         </div>
 
         <div class="max-w-3xl mx-auto">
-          <FaqAccordion :faqs="service.faqs" />
+          <FaqAccordion :faqs="serviceFaqs" />
         </div>
       </div>
     </section>
@@ -200,15 +200,25 @@
             {{ service.ctaDescription }}
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <NuxtLink :to="`/contact?service=${service.slug}`"
+            <NuxtLink v-if="isLocal" :to="`/contact?service=${service.slug}`"
               class="bg-white text-jade-900 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all inline-flex items-center justify-center">
               <Icon name="heroicons:chat-bubble-left-ellipsis" class="w-5 h-5 mr-2 text-lg" />
               {{ service.ctaButton }}
             </NuxtLink>
-            <a :href="`${CONTACT_PHONE_TEL}`"
+            <a v-if="isLocal" :href="`${CONTACT_PHONE_TEL}`"
               class="border-2 border-white hover:bg-white hover:text-jade-900 text-white px-8 py-4 rounded-full font-semibold transition-all">
               {{ CONTACT_PHONE }}
             </a>
+            <a v-else :href="CALENDLY_URL" target="_blank" rel="noopener noreferrer"
+              class="bg-white text-jade-900 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all inline-flex items-center justify-center">
+              <Icon name="heroicons:calendar-days" class="w-5 h-5 mr-2 text-lg" />
+              Book a Call
+            </a>
+            <NuxtLink v-if="!isLocal" :to="`/contact?service=${service.slug}`"
+              class="border-2 border-white hover:bg-white hover:text-jade-900 text-white px-8 py-4 rounded-full font-semibold transition-all inline-flex items-center justify-center">
+              <Icon name="heroicons:chat-bubble-left-ellipsis" class="w-5 h-5 mr-2 text-lg" />
+              Get a Quote
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -217,7 +227,7 @@
 </template>
 
 <script setup>
-import { SITE_NAME, SITE_URL, CONTACT_PHONE_TEL, CONTACT_PHONE } from '~/constants/site'
+import { SITE_NAME, SITE_URL, CONTACT_PHONE_TEL, CONTACT_PHONE, CALENDLY_URL } from '~/constants/site'
 import servicesData from '~/content/services-data.json'
 import portfolioData from '~/content/portfolio-data.json'
 
@@ -234,6 +244,8 @@ if (!service) {
 const featuredProjects = computed(() => {
   return portfolioData.filter(project => project.service === service.slug)
 })
+const { isLocal } = useRegion()
+const serviceFaqs = useRegionalFaqs(service.faqs)
 useSeoMeta({
   title: `${service.title} | ${SITE_NAME} Services`,
   description: service.description,

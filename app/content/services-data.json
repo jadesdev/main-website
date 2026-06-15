@@ -111,7 +111,7 @@
           "iOS & Android versions",
           "App store submission assistance",
           "3 months of post-launch support",
-          "Typical delivery: 8-10 weeks"
+          "Often ready in 5-7 weeks"
         ],
         "contactParam": "mvp-app",
         "popular": false
@@ -127,7 +127,7 @@
           "Push notifications & in-app messaging",
           "Analytics dashboard",
           "6 months of post-launch support",
-          "Typical delivery: 12-16 weeks"
+          "Often ready in 8-10 weeks"
         ],
         "contactParam": "professional-app",
         "popular": true
@@ -143,7 +143,7 @@
           "Offline functionality and data sync",
           "Dedicated project team",
           "12 months of dedicated support",
-          "Timeline varies by project scope"
+          "Final timeline confirmed after discovery"
         ],
         "contactParam": "enterprise-app",
         "popular": false
@@ -158,7 +158,7 @@
     "faqs": [
       {
         "question": "How long does it take to build a mobile app?",
-        "answer": "The timeline varies based on complexity. A simple MVP app can take 8-12 weeks, while a more complex enterprise solution can take 20 weeks or more. We'll provide a detailed timeline after our initial discovery phase."
+        "answer": "It depends on complexity. A focused MVP is often ready in 6-9 weeks; larger enterprise builds commonly take 15 weeks or more. We'll share a realistic timeline after discovery, once we understand your features, integrations, and approval process."
       },
       {
         "question": "Do you build for both iOS and Android?",
@@ -294,7 +294,7 @@
           "Advanced SEO & Performance Setup",
           "Analytics Integration",
           "3 months of post-launch support",
-          "Typical delivery: 4-6 weeks"
+          "Often ready in 3-5 weeks"
         ],
         "contactParam": "professional-website",
         "popular": true
@@ -310,7 +310,7 @@
           "Custom API development",
           "Advanced security protocols",
           "6 months of post-launch support",
-          "Typical delivery: 8-12 weeks"
+          "Often ready in 6-9 weeks"
         ],
         "contactParam": "web-application",
         "popular": false
@@ -326,7 +326,7 @@
           "Dedicated project team & manager",
           "Ongoing technical partnership",
           "12 months of dedicated support",
-          "Timeline varies by project scope"
+          "Final timeline confirmed after discovery"
         ],
         "contactParam": "enterprise-solution",
         "popular": false
@@ -470,7 +470,7 @@
           "User journey mapping",
           "Competitor analysis report",
           "Actionable recommendations",
-          "Typical delivery: 1-2 weeks"
+          "Often ready in about 1 week"
         ],
         "contactParam": "ux-audit",
         "popular": false
@@ -485,7 +485,7 @@
           "High-fidelity visual design",
           "Interactive prototyping",
           "Design assets for development",
-          "Typical delivery: 3-5 weeks"
+          "Often ready in 2-4 weeks"
         ],
         "contactParam": "complete-design",
         "popular": true
@@ -499,7 +499,7 @@
           "Style guide & documentation",
           "Designs for multiple platforms",
           "Team training & implementation support",
-          "Typical delivery: 6-8 weeks"
+          "Often ready in 4-6 weeks"
         ],
         "contactParam": "enterprise-design-system",
         "popular": false
@@ -646,7 +646,7 @@
           "Mobile-responsive design",
           "Basic SEO setup",
           "3 months of post-launch support",
-          "Typical delivery: 3-5 weeks"
+          "Often ready in 2-4 weeks"
         ],
         "contactParam": "starter-store",
         "popular": false
@@ -663,7 +663,7 @@
           "Email marketing integration",
           "Detailed analytics & reporting",
           "6 months of post-launch support",
-          "Typical delivery: 6-8 weeks"
+          "Often ready in 4-6 weeks"
         ],
         "contactParam": "professional-store",
         "popular": true
@@ -679,7 +679,7 @@
           "Advanced multi-currency support",
           "Bespoke feature development",
           "12 months of dedicated support",
-          "Timeline varies by project scope"
+          "Final timeline confirmed after discovery"
         ],
         "contactParam": "enterprise-store",
         "popular": false
@@ -702,7 +702,8 @@
       },
       {
         "question": "Are the payment systems secure?",
-        "answer": "Absolutely. Security is our top priority. We integrate with trusted, PCI-compliant payment gateways like Paystack, Flutterwave, and Stripe to ensure every transaction is encrypted and secure."
+        "answer": "Absolutely. Security is our top priority. We integrate with trusted, PCI-compliant payment gateways like Paystack, Flutterwave, and Stripe to ensure every transaction is encrypted and secure.",
+        "answerInternational": "Absolutely. Security is our top priority. We integrate with trusted, PCI-compliant payment gateways like Stripe, PayPal, and other regional providers to ensure every transaction is encrypted and secure."
       },
       {
         "question": "Can the platform grow with my business?",
@@ -1002,7 +1003,7 @@
           "Code minification (CSS/JS)",
           "Browser caching setup",
           "30 days of post-launch monitoring",
-          "Typical delivery: 1-2 weeks"
+          "Often ready in about 1 week"
         ],
         "contactParam": "speed-boost",
         "popular": false
@@ -1018,7 +1019,7 @@
           "Database query optimization",
           "Core Web Vitals optimization",
           "90 days of post-launch monitoring",
-          "Typical delivery: 2-3 weeks"
+          "Often ready in 1-2 weeks"
         ],
         "contactParam": "performance-pro",
         "popular": true
@@ -1034,7 +1035,7 @@
           "Third-party script optimization",
           "Team training & best practices documentation",
           "180 days of post-launch monitoring",
-          "Timeline varies by project scope"
+          "Final timeline confirmed after discovery"
         ],
         "contactParam": "enterprise-performance",
         "popular": false
@@ -1173,6 +1174,7 @@
         "name": "Basic Care",
         "description": "Essential protection for small business websites and blogs.",
         "price": "₦50,000 / month",
+        "priceUsd": "From $99 / month",
         "features": [
           "24/7 uptime monitoring",
           "Weekly software updates",
@@ -1188,6 +1190,7 @@
         "name": "Professional Care",
         "description": "Advanced protection and support for growing businesses and e-commerce stores.",
         "price": "₦100,000 / month",
+        "priceUsd": "From $199 / month",
         "features": [
           "Everything in Basic Care+",
           "Web Application Firewall (WAF)",
@@ -1203,6 +1206,7 @@
         "name": "Enterprise Care",
         "description": "The ultimate peace of mind for mission-critical websites and applications.",
         "price": "₦200,000 / month",
+        "priceUsd": "From $399 / month",
         "features": [
           "Everything in Professional Care+",
           "Advanced DDoS mitigation",

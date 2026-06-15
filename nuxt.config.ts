@@ -37,11 +37,12 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: process.env.NUXT_SITE_URL || "https://jadesdev.com.ng",
+    url: process.env.NUXT_SITE_URL || "https://jadesdev.com",
     name: "Jades Dev",
   },
   sitemap: {
     sources: ["/api/__sitemap__/urls"],
   },
+  ssr:false,
   modules: ["@nuxt/icon", "@nuxtjs/sitemap"],
 });
